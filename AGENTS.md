@@ -17,3 +17,10 @@ This repo is a public, client-friendly progress feed for Studio Prime dashboards
 - Use these board sections and statuses: `backlog`, `next`, `needs_client`, `in_review`, `done`. In Spanish, label `needs_client` as "Necesita tu ayuda".
 - Start every client-facing progress item `title` with one friendly, relevant emoji.
 - Keep files valid against `schema.json`.
+
+## Email-Derived Progress
+
+- Only publish email-derived tasks after the full email/thread and all relevant attachments have been read and understood.
+- If any source content, link, or attachment could not be fully read, do not present the task as confidently ready in public progress; keep the missing context in `client-docs` and use `needs_client` only when the client-facing next step is clear and safe.
+- Never expose sender details, private email text, internal reasoning, private attachments, or technical uncertainty in this public repo.
+- If a client request appears contradictory, impossible, or inconsistent with the product/code, keep the concern in `client-docs` for David instead of publishing a polished but misleading public task.
