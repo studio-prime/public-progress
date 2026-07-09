@@ -18,9 +18,10 @@ This repo is a public, client-friendly progress feed for Studio Prime dashboards
 - Client-safe attachments can be included with an `attachments` array. Use `type: "pdf"`, `"image"`, `"doc"`, `"sheet"`, or `"link"` plus a short `label` and `url`. Store public files under `assets/<client-slug>/...` and reference that relative path. Use external `https://` links only when the linked resource is safe for clients. Attachments should open in browser preview where possible; avoid raw download URLs for PDFs, images, Word, and Excel files.
 - Internal rendered PDF/page review captures belong in `../client-docs/assets/`, not this public repo, unless David explicitly approves them as client-safe and useful for the dashboard.
 - After editing a JSON feed, verify every local attachment URL exists in this repo and that the number of public attachments is the intended client-safe subset from `../client-docs/`. Do not publish screenshots/files containing private notes, PII, credentials, or sensitive client context. If an expected attachment cannot be copied, read, or safely published, record the gap in `../client-docs/` and tell David.
-- Every progress item must include `createdAt` and `doneAt` as `YYYY-MM-DD` dates. Use `doneAt: null` until the item is done.
-- When Codex completed and confidently verified an item, set `status: "done"` and fill `doneAt` so dashboards can hide done items older than one month.
-- When Codex implemented and pushed an item but could not fully test, see, or ensure it, set `status: "in_review"` and keep `doneAt: null`.
+- Every progress item must include `createdAt` and `doneAt` as `YYYY-MM-DD` dates. Use `doneAt: null` until the item is publicly closed after client/David acceptance.
+- Public `in_review` means the work has been internally verified by Codex or David and is ready for the client to review.
+- Public `done` means the work has been accepted/closed after client or David review. Only then fill `doneAt` so dashboards can hide done items older than one month.
+- Internal `client-docs` `👀 To Review Manually` is not client review. Do not publish those items as `in_review`; keep/move them to `next` with client-safe copy such as "Estamos haciendo una revisión final interna."
 - Use these board sections and statuses: `backlog`, `next`, `needs_client`, `in_review`, `done`. In Spanish, label `needs_client` as "Necesita tu ayuda".
 - Internal `Blocked` work should only appear publicly as `needs_client` when the client-facing ask is safe, clear, and useful. Otherwise keep it internal in `../client-docs/`.
 - Use emojis only to identify the app/project. The first emoji in each item `title` must be exactly the same as that item's `app.emoji`; do not use different task-specific emojis.
