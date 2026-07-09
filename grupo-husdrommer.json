@@ -9,12 +9,12 @@
   "sections": [
     {
       "key": "backlog",
-      "label": "Backlog",
+      "label": "Pendiente",
       "items": []
     },
     {
       "key": "next",
-      "label": "En curso",
+      "label": "En progreso",
       "items": [
         {
           "id": "atelia-structure-content",
@@ -178,17 +178,17 @@
     },
     {
       "key": "needs_client",
-      "label": "Necesita tu ayuda",
+      "label": "Necesita ayuda",
       "items": []
     },
     {
       "key": "in_review",
-      "label": "Listo para vuestra revisión",
+      "label": "Listo para revisión",
       "items": []
     },
     {
       "key": "done",
-      "label": "Cerrado",
+      "label": "Hecho",
       "items": []
     }
   ]

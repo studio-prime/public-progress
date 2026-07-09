@@ -22,7 +22,7 @@ This repo is a public, client-friendly progress feed for Studio Prime dashboards
 - Public `in_review` means the work has been internally verified by Codex or David and is ready for the client to review.
 - Public `done` means the work has been accepted/closed after client or David review. Only then fill `doneAt` so dashboards can hide done items older than one month.
 - Internal `client-docs` `👀 To Review Manually` is not client review. Do not publish those items as `in_review`; keep/move them to `next` with client-safe copy such as "Estamos haciendo una revisión final interna."
-- Use these board sections and statuses: `backlog`, `next`, `needs_client`, `in_review`, `done`. In Spanish, label `needs_client` as "Necesita tu ayuda".
+- Use these board sections and statuses: `backlog`, `next`, `needs_client`, `in_review`, `done`. In Spanish, use these labels: `backlog` = "Pendiente", `next` = "En progreso", `needs_client` = "Necesita ayuda", `in_review` = "Listo para revisión", `done` = "Hecho".
 - Internal `Blocked` work should only appear publicly as `needs_client` when the client-facing ask is safe, clear, and useful. Otherwise keep it internal in `../client-docs/`.
 - Use emojis only to identify the app/project. The first emoji in each item `title` must be exactly the same as that item's `app.emoji`; do not use different task-specific emojis.
 - Do not repeat the client/app name in client-facing item titles when the `app` badge already shows it. Prefer `🏡 Actualización de estructura y contenidos` over `🏡 Atelia · Actualización de estructura y contenidos`.
