@@ -17,6 +17,7 @@ This repo is a public, client-friendly progress feed for Studio Prime dashboards
 - When an item is complete, set `status: "done"` and fill `doneAt` so dashboards can hide done items older than one month.
 - Use these board sections and statuses: `backlog`, `next`, `needs_client`, `in_review`, `done`. In Spanish, label `needs_client` as "Necesita tu ayuda".
 - Start every client-facing progress item `title` with one friendly, relevant emoji.
+- Do not repeat the client/app name in client-facing item titles when the `app` badge already shows it. Prefer `🧭 Actualización de estructura y contenidos` over `🧭 Atelia · Actualización de estructura y contenidos`.
 - Prefer short client-facing items with a `checklist` over long descriptions. The dashboard should make it easy for clients to see what will happen, not expose internal reasoning.
 - Keep `summary` and `nextStep` short and client-safe when present. They are supporting copy, not a place for uncertainty, implementation notes, or messages to David.
 - Do not store hidden/internal context in this public repo. Anything "for Codex only" or "for David" belongs in `../client-docs/`, even if the Studio Prime dashboard would not render that field.
