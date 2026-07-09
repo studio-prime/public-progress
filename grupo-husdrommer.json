@@ -17,7 +17,7 @@
       "items": [
         {
           "id": "atelia-brand-kit",
-          "title": "Actualizar Atelia con su kit de marca y contenido",
+          "title": "🎨 Actualizar Atelia con su kit de marca y contenido",
           "status": "next",
           "createdAt": "2026-07-09",
           "doneAt": null,
@@ -26,7 +26,7 @@
         },
         {
           "id": "atelia-servicios-heading",
-          "title": "Ajustar el estilo del título de Servicios en Atelia",
+          "title": "🧩 Ajustar el estilo del título de Servicios en Atelia",
           "status": "next",
           "createdAt": "2026-07-09",
           "doneAt": null,
