@@ -13,6 +13,8 @@
           "id": "atelia-brand-kit",
           "title": "Atelia brand kit and content update",
           "status": "ready",
+          "createdAt": "2026-07-09",
+          "doneAt": null,
           "summary": "Review the Atelia brand materials and update the website so the visual style, content, and assets match the supplied brand direction.",
           "nextStep": "Apply the brand kit and check the result on mobile and desktop."
         },
@@ -20,6 +22,8 @@
           "id": "atelia-servicios-heading",
           "title": "Atelia services heading polish",
           "status": "ready",
+          "createdAt": "2026-07-09",
+          "doneAt": null,
           "summary": "Update the Services section so it visually matches the Projects heading style.",
           "nextStep": "Reuse the existing Projects treatment for the Services heading."
         }
