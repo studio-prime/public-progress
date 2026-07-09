@@ -99,6 +99,10 @@
           "type": "string",
           "minLength": 1
         },
+        "kind": {
+          "type": "string",
+          "enum": ["request", "bug", "question"]
+        },
         "status": {
           "type": "string",
           "enum": ["backlog", "next", "needs_client", "in_review", "done"]

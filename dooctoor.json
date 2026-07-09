@@ -18,6 +18,7 @@
         {
           "id": "login-mode-switch-links",
           "number": 4,
+          "kind": "request",
           "app": {
             "key": "personal",
             "label": "Personal",
@@ -47,6 +48,7 @@
         {
           "id": "signup-username-password-cleanup",
           "number": 5,
+          "kind": "request",
           "app": {
             "key": "personal",
             "label": "Personal",
@@ -83,6 +85,7 @@
         {
           "id": "identity-validation-screen",
           "number": 6,
+          "kind": "request",
           "app": {
             "key": "personal",
             "label": "Personal",
@@ -119,17 +122,18 @@
         {
           "id": "didit-document-data-review",
           "number": 8,
+          "kind": "question",
           "app": {
             "key": "personal",
             "label": "Personal",
             "emoji": "👤"
           },
-          "title": "🧪 Revisar documentos y datos de validación",
+          "title": "🧪 Revisar documentos permitidos y comportamiento en iPad",
           "status": "next",
           "createdAt": "2026-07-09",
           "doneAt": null,
-          "summary": "Revisar el comportamiento de validación de identidad y la captura de los datos del documento.",
-          "nextStep": "Analizar la integración de Didit y corregir la captura si procede.",
+          "summary": "Revisar qué documentos permite la validación de identidad y cómo se comporta en tablet/iPad.",
+          "nextStep": "Analizar si depende del código o de la configuración del proveedor.",
           "checklist": [
             {
               "label": "Revisar qué documentos admite la validación para España.",
@@ -140,11 +144,37 @@
               "done": false
             },
             {
-              "label": "Revisar cómo se guardan tipo y número de documento.",
+              "label": "Escalarlo si depende de configuración del proveedor.",
+              "done": false
+            }
+          ]
+        },
+        {
+          "id": "didit-document-data-bug",
+          "number": 9,
+          "kind": "bug",
+          "app": {
+            "key": "personal",
+            "label": "Personal",
+            "emoji": "👤"
+          },
+          "title": "🐞 Revisar datos del documento tras validación",
+          "status": "next",
+          "createdAt": "2026-07-09",
+          "doneAt": null,
+          "summary": "Verificar el bug reportado sobre tipo y número de documento tras la validación.",
+          "nextStep": "Reproducir o revisar el flujo antes de confirmar la causa.",
+          "checklist": [
+            {
+              "label": "Reproducir o revisar el caso donde el tipo de documento queda vacío/incorrecto.",
               "done": false
             },
             {
-              "label": "Corregir el mapeo o escalarlo si depende del proveedor.",
+              "label": "Revisar el mapeo de tipo y número de documento desde la validación.",
+              "done": false
+            },
+            {
+              "label": "Corregir el mapeo o dejar evidencia si el dato llega mal desde el proveedor.",
               "done": false
             }
           ]
@@ -158,6 +188,7 @@
         {
           "id": "identity-cancel-destination",
           "number": 7,
+          "kind": "question",
           "app": {
             "key": "personal",
             "label": "Personal",
