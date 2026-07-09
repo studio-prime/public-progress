@@ -178,6 +178,36 @@
               "done": false
             }
           ]
+        },
+        {
+          "id": "residencias-pwa-installable",
+          "number": 10,
+          "kind": "request",
+          "app": {
+            "key": "residencias",
+            "label": "Residencias",
+            "emoji": "🏠"
+          },
+          "title": "📲 Activar instalación como PWA",
+          "status": "next",
+          "createdAt": "2026-07-09",
+          "doneAt": null,
+          "summary": "Hacer que el enlace de la app se pueda instalar como PWA desde el navegador.",
+          "nextStep": "Revisar qué requisito de instalación falta y aplicar la corrección mínima.",
+          "checklist": [
+            {
+              "label": "Verificar por qué el navegador no ofrece instalar la app.",
+              "done": false
+            },
+            {
+              "label": "Corregir el requisito PWA que falte para la app.",
+              "done": false
+            },
+            {
+              "label": "Comprobar el comportamiento de instalación cuando sea posible.",
+              "done": false
+            }
+          ]
         }
       ]
     },
