@@ -26,7 +26,7 @@
             "label": "Personal",
             "emoji": "👤"
           },
-          "title": "🔐 Mejorar los enlaces entre formas de acceso",
+          "title": "👤 Mejorar los enlaces entre formas de acceso",
           "status": "next",
           "createdAt": "2026-07-09",
           "doneAt": null,
@@ -57,7 +57,7 @@
             "label": "Personal",
             "emoji": "👤"
           },
-          "title": "🧼 Simplificar registro con usuario y contraseña",
+          "title": "👤 Simplificar registro con usuario y contraseña",
           "status": "next",
           "createdAt": "2026-07-09",
           "doneAt": null,
@@ -95,7 +95,7 @@
             "label": "Personal",
             "emoji": "👤"
           },
-          "title": "🪪 Ajustar pantalla de validación de identidad",
+          "title": "👤 Ajustar pantalla de validación de identidad",
           "status": "next",
           "createdAt": "2026-07-09",
           "doneAt": null,
@@ -133,7 +133,7 @@
             "label": "Personal",
             "emoji": "👤"
           },
-          "title": "🧪 Revisar documentos permitidos y comportamiento en iPad",
+          "title": "👤 Revisar documentos permitidos y comportamiento en iPad",
           "status": "next",
           "createdAt": "2026-07-09",
           "doneAt": null,
@@ -164,7 +164,7 @@
             "label": "Personal",
             "emoji": "👤"
           },
-          "title": "🐞 Revisar datos del documento tras validación",
+          "title": "👤 Revisar datos del documento tras validación",
           "status": "next",
           "createdAt": "2026-07-09",
           "doneAt": null,
@@ -195,7 +195,7 @@
             "label": "Residencias",
             "emoji": "🏠"
           },
-          "title": "📲 Activar instalación como PWA",
+          "title": "🏠 Activar instalación como PWA",
           "status": "next",
           "createdAt": "2026-07-09",
           "doneAt": null,
@@ -232,7 +232,7 @@
             "label": "Personal",
             "emoji": "👤"
           },
-          "title": "🚦 Confirmar destino de cancelar validación",
+          "title": "👤 Confirmar destino de cancelar validación",
           "status": "needs_client",
           "createdAt": "2026-07-09",
           "doneAt": null,
