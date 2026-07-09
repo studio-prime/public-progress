@@ -74,6 +74,7 @@
       "required": [
         "id",
         "number",
+        "app",
         "title",
         "status",
         "createdAt",
@@ -89,6 +90,9 @@
         "number": {
           "type": "integer",
           "minimum": 0
+        },
+        "app": {
+          "$ref": "#/$defs/app"
         },
         "title": {
           "type": "string",
@@ -116,6 +120,25 @@
         },
         "nextStep": {
           "type": "string"
+        }
+      }
+    },
+    "app": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["key", "label", "emoji"],
+      "properties": {
+        "key": {
+          "type": "string",
+          "pattern": "^[a-z0-9-]+$"
+        },
+        "label": {
+          "type": "string",
+          "minLength": 1
+        },
+        "emoji": {
+          "type": "string",
+          "minLength": 1
         }
       }
     }
