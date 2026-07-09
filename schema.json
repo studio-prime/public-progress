@@ -73,6 +73,7 @@
       "additionalProperties": false,
       "required": [
         "id",
+        "number",
         "title",
         "status",
         "createdAt",
@@ -84,6 +85,10 @@
         "id": {
           "type": "string",
           "pattern": "^[a-z0-9-]+$"
+        },
+        "number": {
+          "type": "integer",
+          "minimum": 0
         },
         "title": {
           "type": "string",
