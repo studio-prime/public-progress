@@ -1,0 +1,106 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/studio-prime/public-progress/schema.json",
+  "title": "Studio Prime Public Client Progress",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["slug", "name", "status", "summary", "updatedAt", "sections"],
+  "properties": {
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "status": {
+      "type": "string",
+      "enum": ["active", "idle", "paused"]
+    },
+    "summary": {
+      "type": "string"
+    },
+    "updatedAt": {
+      "$ref": "#/$defs/date"
+    },
+    "sections": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/section"
+      }
+    }
+  },
+  "$defs": {
+    "date": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "section": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["key", "label", "items"],
+      "properties": {
+        "key": {
+          "type": "string",
+          "enum": ["in_progress", "waiting_review", "blocked"]
+        },
+        "label": {
+          "type": "string"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/item"
+          }
+        }
+      }
+    },
+    "item": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "title",
+        "status",
+        "createdAt",
+        "doneAt",
+        "summary",
+        "nextStep"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9-]+$"
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "status": {
+          "type": "string",
+          "enum": ["ready", "in_progress", "waiting_review", "blocked", "done"]
+        },
+        "createdAt": {
+          "$ref": "#/$defs/date"
+        },
+        "doneAt": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/date"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "summary": {
+          "type": "string"
+        },
+        "nextStep": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}
