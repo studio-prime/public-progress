@@ -19,7 +19,8 @@ This repo is a public, client-friendly progress feed for Studio Prime dashboards
 - Internal rendered PDF/page review captures belong in `../client-docs/assets/`, not this public repo, unless David explicitly approves them as client-safe and useful for the dashboard.
 - After editing a JSON feed, verify every local attachment URL exists in this repo and that the number of public attachments is the intended client-safe subset from `../client-docs/`. Do not publish screenshots/files containing private notes, PII, credentials, or sensitive client context. If an expected attachment cannot be copied, read, or safely published, record the gap in `../client-docs/` and tell David.
 - Every progress item must include `createdAt` and `doneAt` as `YYYY-MM-DD` dates. Use `doneAt: null` until the item is done.
-- When an item is complete, set `status: "done"` and fill `doneAt` so dashboards can hide done items older than one month.
+- When Codex completed and confidently verified an item, set `status: "done"` and fill `doneAt` so dashboards can hide done items older than one month.
+- When Codex implemented and pushed an item but could not fully test, see, or ensure it, set `status: "in_review"` and keep `doneAt: null`.
 - Use these board sections and statuses: `backlog`, `next`, `needs_client`, `in_review`, `done`. In Spanish, label `needs_client` as "Necesita tu ayuda".
 - Use emojis only to identify the app/project. The first emoji in each item `title` must be exactly the same as that item's `app.emoji`; do not use different task-specific emojis.
 - Do not repeat the client/app name in client-facing item titles when the `app` badge already shows it. Prefer `🏡 Actualización de estructura y contenidos` over `🏡 Atelia · Actualización de estructura y contenidos`.
