@@ -1,0 +1,24 @@
+{
+  "slug": "dooctoor",
+  "name": "Dooctoor",
+  "status": "idle",
+  "summary": "No active public progress items right now.",
+  "updatedAt": "2026-07-09",
+  "sections": [
+    {
+      "key": "in_progress",
+      "label": "In progress",
+      "items": []
+    },
+    {
+      "key": "waiting_review",
+      "label": "Waiting review",
+      "items": []
+    },
+    {
+      "key": "blocked",
+      "label": "Blocked",
+      "items": []
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "grupo-husdrommer",
+  "name": "Grupo HusDrommer",
+  "status": "active",
+  "summary": "Atelia brand and section styling updates are queued for implementation.",
+  "updatedAt": "2026-07-09",
+  "sections": [
+    {
+      "key": "in_progress",
+      "label": "In progress",
+      "items": [
+        {
+          "id": "atelia-brand-kit",
+          "title": "Atelia brand kit and content update",
+          "status": "ready",
+          "summary": "Review the Atelia brand materials and update the website so the visual style, content, and assets match the supplied brand direction.",
+          "nextStep": "Apply the brand kit and check the result on mobile and desktop."
+        },
+        {
+          "id": "atelia-servicios-heading",
+          "title": "Atelia services heading polish",
+          "status": "ready",
+          "summary": "Update the Services section so it visually matches the Projects heading style.",
+          "nextStep": "Reuse the existing Projects treatment for the Services heading."
+        }
+      ]
+    },
+    {
+      "key": "waiting_review",
+      "label": "Waiting review",
+      "items": []
+    },
+    {
+      "key": "blocked",
+      "label": "Blocked",
+      "items": []
+    }
+  ]
+}
