@@ -107,6 +107,13 @@
               "label": "Añadir la acción de cancelar cuando se confirme el destino.",
               "done": false
             }
+          ],
+          "attachments": [
+            {
+              "type": "image",
+              "label": "Referencia validación de identidad",
+              "url": "assets/dooctoor/20260709-didit-identity-required.png"
+            }
           ]
         },
         {
