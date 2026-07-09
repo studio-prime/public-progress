@@ -11,7 +11,7 @@ This repo is a public, client-friendly progress feed for Studio Prime dashboards
 - Keep all content safe for clients to read.
 - Do not include private notes, credentials, raw internal blockers, technical implementation details, or private attachments.
 - Do not publish a client task from raw material by assumption alone. The matching internal task in `../client-docs/` must first be contrasted against the relevant code/product state or confirmed by David.
-- Do not publish ambiguous cross-client or cross-app mentions. If a source document appears to belong to one client/app but contains lines that may refer to another, keep that interpretation in `../client-docs/` as blocked `Need From David` until David confirms it.
+- Do not publish ambiguous cross-client or cross-app mentions. If a source document appears to belong to one client/app but contains lines that may refer to another, keep that interpretation in `../client-docs/` as `Need From David` when David can decide or approve Codex's recommendation, or as `Blocked` when only the client/external source can unblock it and Codex has no safe recommendation.
 - Every progress item must include a stable integer `number` plus a `reference` built as `<PREFIX>-<number>`, for example `DOO-23`. Clients and David should use the `reference` when discussing work. Numbers are per client and should increase from the highest existing number; imported GitHub tasks keep their original GitHub issue/task number.
 - Mark task type with optional `kind`: use `"request"` for normal requests, `"bug"` for client-reported broken behavior, and `"question"` for explicit doubts/decision items. `kind: "bug"` means reported bug until Codex reproduces or verifies it; do not write as if confirmed unless evidence/code/testing confirms it. Bug checklists should include reproduction or verification before fix work.
 - Every progress item must include an `app` object with `key`, `label`, and `emoji`. Identify the concrete client app/product the task belongs to before creating it, for example Dooctoor apps like `colegios`, `farmacias`, `personal`, `backoffice`, or `marketing`. Use `key: "core"` only for tasks that affect the whole client workspace or multiple apps.
@@ -22,6 +22,7 @@ This repo is a public, client-friendly progress feed for Studio Prime dashboards
 - When Codex completed and confidently verified an item, set `status: "done"` and fill `doneAt` so dashboards can hide done items older than one month.
 - When Codex implemented and pushed an item but could not fully test, see, or ensure it, set `status: "in_review"` and keep `doneAt: null`.
 - Use these board sections and statuses: `backlog`, `next`, `needs_client`, `in_review`, `done`. In Spanish, label `needs_client` as "Necesita tu ayuda".
+- Internal `Blocked` work should only appear publicly as `needs_client` when the client-facing ask is safe, clear, and useful. Otherwise keep it internal in `../client-docs/`.
 - Use emojis only to identify the app/project. The first emoji in each item `title` must be exactly the same as that item's `app.emoji`; do not use different task-specific emojis.
 - Do not repeat the client/app name in client-facing item titles when the `app` badge already shows it. Prefer `🏡 Actualización de estructura y contenidos` over `🏡 Atelia · Actualización de estructura y contenidos`.
 - Prefer short client-facing items with a `checklist` over long descriptions. The dashboard should make it easy for clients to see what will happen, not expose internal reasoning.
@@ -32,7 +33,7 @@ This repo is a public, client-friendly progress feed for Studio Prime dashboards
 ## Email-Derived Progress
 
 - Only publish email-derived tasks after the full email/thread and all relevant attachments have been read and understood.
-- If any source content, link, or attachment could not be fully read, do not present the task as confidently ready in public progress; keep the missing context in `client-docs` and use `needs_client` only when the client-facing next step is clear and safe.
+- If any source content, link, or attachment could not be fully read, do not present the task as confidently ready in public progress; keep the missing context in `client-docs` as `Need From David` or `Blocked` and use public `needs_client` only when the client-facing next step is clear and safe.
 - Never expose sender details, private email text, internal reasoning, private attachments, or technical uncertainty in this public repo.
 - If a client request appears contradictory, impossible, or inconsistent with the product/code, keep the concern in `client-docs` for David instead of publishing a polished but misleading public task.
-- If an attachment contains confusing mentions outside the apparent client/app, do not smooth it into a public task. Keep it internal/blocked until David clarifies.
+- If an attachment contains confusing mentions outside the apparent client/app, do not smooth it into a public task. Keep it internal as `Need From David` or `Blocked` until clarified.
