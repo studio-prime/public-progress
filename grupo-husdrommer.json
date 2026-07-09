@@ -1,42 +1,43 @@
 {
   "slug": "grupo-husdrommer",
   "name": "Grupo HusDrommer",
+  "lang": "es",
   "status": "active",
-  "summary": "Atelia brand and section styling updates are queued for implementation.",
+  "summary": "Las mejoras de marca y estilo de Atelia están preparadas para implementarse.",
   "updatedAt": "2026-07-09",
   "sections": [
     {
       "key": "in_progress",
-      "label": "In progress",
+      "label": "En curso",
       "items": [
         {
           "id": "atelia-brand-kit",
-          "title": "Atelia brand kit and content update",
+          "title": "Actualizar Atelia con su kit de marca y contenido",
           "status": "ready",
           "createdAt": "2026-07-09",
           "doneAt": null,
-          "summary": "Review the Atelia brand materials and update the website so the visual style, content, and assets match the supplied brand direction.",
-          "nextStep": "Apply the brand kit and check the result on mobile and desktop."
+          "summary": "Revisar los materiales de marca de Atelia y actualizar la web para que el estilo visual, el contenido y los recursos encajen con la dirección de marca enviada.",
+          "nextStep": "Aplicar el kit de marca y comprobar el resultado en móvil y escritorio."
         },
         {
           "id": "atelia-servicios-heading",
-          "title": "Atelia services heading polish",
+          "title": "Ajustar el estilo del título de Servicios en Atelia",
           "status": "ready",
           "createdAt": "2026-07-09",
           "doneAt": null,
-          "summary": "Update the Services section so it visually matches the Projects heading style.",
-          "nextStep": "Reuse the existing Projects treatment for the Services heading."
+          "summary": "Actualizar la sección Servicios para que visualmente siga el mismo estilo que el título de Proyectos.",
+          "nextStep": "Reutilizar el tratamiento visual de Proyectos en el título de Servicios."
         }
       ]
     },
     {
       "key": "waiting_review",
-      "label": "Waiting review",
+      "label": "Pendiente de revisión",
       "items": []
     },
     {
       "key": "blocked",
-      "label": "Blocked",
+      "label": "Bloqueado",
       "items": []
     }
   ]

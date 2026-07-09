@@ -4,7 +4,15 @@
   "title": "Studio Prime Public Client Progress",
   "type": "object",
   "additionalProperties": false,
-  "required": ["slug", "name", "status", "summary", "updatedAt", "sections"],
+  "required": [
+    "slug",
+    "name",
+    "lang",
+    "status",
+    "summary",
+    "updatedAt",
+    "sections"
+  ],
   "properties": {
     "slug": {
       "type": "string",
@@ -13,6 +21,10 @@
     "name": {
       "type": "string",
       "minLength": 1
+    },
+    "lang": {
+      "type": "string",
+      "enum": ["en", "es"]
     },
     "status": {
       "type": "string",

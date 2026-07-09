@@ -1,23 +1,24 @@
 {
   "slug": "dooctoor",
   "name": "Dooctoor",
+  "lang": "es",
   "status": "idle",
-  "summary": "No active public progress items right now.",
+  "summary": "No hay tareas activas de progreso ahora mismo.",
   "updatedAt": "2026-07-09",
   "sections": [
     {
       "key": "in_progress",
-      "label": "In progress",
+      "label": "En curso",
       "items": []
     },
     {
       "key": "waiting_review",
-      "label": "Waiting review",
+      "label": "Pendiente de revisión",
       "items": []
     },
     {
       "key": "blocked",
-      "label": "Blocked",
+      "label": "Bloqueado",
       "items": []
     }
   ]
