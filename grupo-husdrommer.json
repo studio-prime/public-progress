@@ -28,7 +28,24 @@
           "createdAt": "2026-07-09",
           "doneAt": null,
           "summary": "Revisar los materiales de marca de Atelia y actualizar la web para que el estilo visual, el contenido y los recursos encajen con la dirección de marca enviada.",
-          "nextStep": "Aplicar el kit de marca y comprobar el resultado en móvil y escritorio."
+          "nextStep": "Aplicar el kit de marca y comprobar el resultado en móvil y escritorio.",
+          "attachments": [
+            {
+              "type": "pdf",
+              "label": "Manual de marca Atelia",
+              "url": "assets/grupo-husdrommer/atelia.pdf"
+            },
+            {
+              "type": "link",
+              "label": "Kit Atelia en Dropbox",
+              "url": "https://www.dropbox.com/scl/fi/wn2yl1h05xednftqc6sci/manual-marca-Atelia.pdf?rlkey=jqbabh1zutphyf8oz8gvzy3so&st=l8eagdc5&dl=0"
+            },
+            {
+              "type": "link",
+              "label": "Branding Atelia en Dropbox",
+              "url": "https://www.dropbox.com/scl/fo/aagchrsq7ga4ntctdgu5d/APsnLOLesMKrMukNnDeJF6g?rlkey=l2ym506xjn6wnaivkqkk0ediy&st=tnrwbjpa&dl=0"
+            }
+          ]
         },
         {
           "id": "atelia-servicios-heading",
@@ -43,7 +60,19 @@
           "createdAt": "2026-07-09",
           "doneAt": null,
           "summary": "Actualizar la sección Servicios para que visualmente siga el mismo estilo que el título de Proyectos.",
-          "nextStep": "Reutilizar el tratamiento visual de Proyectos en el título de Servicios."
+          "nextStep": "Reutilizar el tratamiento visual de Proyectos en el título de Servicios.",
+          "attachments": [
+            {
+              "type": "image",
+              "label": "Referencia Servicios",
+              "url": "assets/grupo-husdrommer/atelia-servicios-reference.png"
+            },
+            {
+              "type": "image",
+              "label": "Referencia Proyectos",
+              "url": "assets/grupo-husdrommer/atelia-proyectos-reference.png"
+            }
+          ]
         }
       ]
     },

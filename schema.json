@@ -120,6 +120,31 @@
         },
         "nextStep": {
           "type": "string"
+        },
+        "attachments": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/attachment"
+          }
+        }
+      }
+    },
+    "attachment": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "label", "url"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["pdf", "image", "link"]
+        },
+        "label": {
+          "type": "string",
+          "minLength": 1
+        },
+        "url": {
+          "type": "string",
+          "minLength": 1
         }
       }
     },
