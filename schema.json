@@ -136,7 +136,7 @@
       "properties": {
         "type": {
           "type": "string",
-          "enum": ["pdf", "image", "link"]
+          "enum": ["pdf", "image", "doc", "sheet", "link"]
         },
         "label": {
           "type": "string",
