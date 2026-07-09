@@ -4,7 +4,7 @@
   "lang": "es",
   "status": "active",
   "taskPrefix": "DOO",
-  "summary": "Hay mejoras activas en login, registro y validación de identidad.",
+  "summary": "Las mejoras de login, registro, identidad, Didit y PWA están listas para revisión manual.",
   "updatedAt": "2026-07-09",
   "sections": [
     {
@@ -15,6 +15,16 @@
     {
       "key": "next",
       "label": "Siguiente",
+      "items": []
+    },
+    {
+      "key": "needs_client",
+      "label": "Necesita tu ayuda",
+      "items": []
+    },
+    {
+      "key": "in_review",
+      "label": "En revisión",
       "items": [
         {
           "id": "login-mode-switch-links",
@@ -27,23 +37,23 @@
             "emoji": "👤"
           },
           "title": "👤 Mejorar los enlaces entre formas de acceso",
-          "status": "next",
+          "status": "in_review",
           "createdAt": "2026-07-09",
           "doneAt": null,
           "summary": "Hacer más claros los enlaces para cambiar entre acceso por email y acceso con usuario y contraseña.",
-          "nextStep": "Ajustar el diseño de los enlaces de cambio de modo en login.",
+          "nextStep": "Revisar manualmente en navegador o con el proveedor antes de marcar como hecho.",
           "checklist": [
             {
               "label": "Hacer más visible el enlace de acceso con usuario y contraseña.",
-              "done": false
+              "done": true
             },
             {
               "label": "Hacer más visible el enlace para volver al acceso con email.",
-              "done": false
+              "done": true
             },
             {
               "label": "Mantener el comportamiento consistente con registro.",
-              "done": false
+              "done": true
             }
           ]
         },
@@ -58,23 +68,23 @@
             "emoji": "👤"
           },
           "title": "👤 Simplificar registro con usuario y contraseña",
-          "status": "next",
+          "status": "in_review",
           "createdAt": "2026-07-09",
           "doneAt": null,
           "summary": "Limpiar la pantalla de registro con usuario y contraseña y reforzar el enlace de vuelta al registro por email.",
-          "nextStep": "Ocultar opciones sociales en ese modo y actualizar el texto del enlace.",
+          "nextStep": "Revisar manualmente en navegador o con el proveedor antes de marcar como hecho.",
           "checklist": [
             {
               "label": "Quitar Google y Apple en registro con usuario y contraseña.",
-              "done": false
+              "done": true
             },
             {
               "label": "Cambiar el enlace a Mejor volver y usar correo electrónico.",
-              "done": false
+              "done": true
             },
             {
               "label": "Conservar el registro por email tal como está.",
-              "done": false
+              "done": true
             }
           ],
           "attachments": [
@@ -96,23 +106,23 @@
             "emoji": "👤"
           },
           "title": "👤 Ajustar pantalla de validación de identidad",
-          "status": "next",
+          "status": "in_review",
           "createdAt": "2026-07-09",
           "doneAt": null,
           "summary": "Mejorar el texto y las acciones de la pantalla de validación de identidad.",
-          "nextStep": "Actualizar copy y retirar la acción de actualizar estado.",
+          "nextStep": "Revisar manualmente en navegador o con el proveedor antes de marcar como hecho.",
           "checklist": [
             {
               "label": "Actualizar el texto de preparación del documento.",
-              "done": false
+              "done": true
             },
             {
               "label": "Quitar el botón Actualizar estado.",
-              "done": false
+              "done": true
             },
             {
               "label": "Añadir la acción de cancelar cuando se confirme el destino.",
-              "done": false
+              "done": true
             }
           ],
           "attachments": [
@@ -120,6 +130,29 @@
               "type": "image",
               "label": "Referencia validación de identidad",
               "url": "assets/dooctoor/20260709-didit-identity-required.png"
+            }
+          ]
+        },
+        {
+          "id": "identity-cancel-destination",
+          "number": 7,
+          "reference": "DOO-7",
+          "kind": "question",
+          "app": {
+            "key": "personal",
+            "label": "Personal",
+            "emoji": "👤"
+          },
+          "title": "👤 Confirmar destino de cancelar validación",
+          "status": "in_review",
+          "createdAt": "2026-07-09",
+          "doneAt": null,
+          "summary": "Confirmar dónde debe volver el usuario si cancela la validación de identidad.",
+          "nextStep": "Revisar manualmente en navegador o con el proveedor antes de marcar como hecho.",
+          "checklist": [
+            {
+              "label": "Confirmar si cancelar vuelve a login, dashboard limitado o cierre de sesión.",
+              "done": true
             }
           ]
         },
@@ -134,15 +167,15 @@
             "emoji": "👤"
           },
           "title": "👤 Revisar documentos permitidos y comportamiento en iPad",
-          "status": "next",
+          "status": "in_review",
           "createdAt": "2026-07-09",
           "doneAt": null,
           "summary": "Revisar qué documentos permite la validación de identidad y cómo se comporta en tablet/iPad.",
-          "nextStep": "Analizar si depende del código o de la configuración del proveedor.",
+          "nextStep": "Comprobar el comportamiento real en iPad/tablet dentro del flujo de Didit.",
           "checklist": [
             {
               "label": "Revisar qué documentos admite la validación para España.",
-              "done": false
+              "done": true
             },
             {
               "label": "Comprobar el comportamiento en tablet/iPad.",
@@ -150,7 +183,7 @@
             },
             {
               "label": "Escalarlo si depende de configuración del proveedor.",
-              "done": false
+              "done": true
             }
           ]
         },
@@ -165,11 +198,11 @@
             "emoji": "👤"
           },
           "title": "👤 Revisar datos del documento tras validación",
-          "status": "next",
+          "status": "in_review",
           "createdAt": "2026-07-09",
           "doneAt": null,
           "summary": "Verificar el bug reportado sobre tipo y número de documento tras la validación.",
-          "nextStep": "Reproducir o revisar el flujo antes de confirmar la causa.",
+          "nextStep": "Validar con un payload real de Didit que tipo y número de documento llegan correctos.",
           "checklist": [
             {
               "label": "Reproducir o revisar el caso donde el tipo de documento queda vacío/incorrecto.",
@@ -177,11 +210,11 @@
             },
             {
               "label": "Revisar el mapeo de tipo y número de documento desde la validación.",
-              "done": false
+              "done": true
             },
             {
               "label": "Corregir el mapeo o dejar evidencia si el dato llega mal desde el proveedor.",
-              "done": false
+              "done": true
             }
           ]
         },
@@ -196,19 +229,19 @@
             "emoji": "🏠"
           },
           "title": "🏠 Activar instalación como PWA",
-          "status": "next",
+          "status": "in_review",
           "createdAt": "2026-07-09",
           "doneAt": null,
           "summary": "Hacer que el enlace de la app se pueda instalar como PWA desde el navegador.",
-          "nextStep": "Revisar qué requisito de instalación falta y aplicar la corrección mínima.",
+          "nextStep": "Comprobar en HTTPS que el navegador ofrece instalar la app.",
           "checklist": [
             {
               "label": "Verificar por qué el navegador no ofrece instalar la app.",
-              "done": false
+              "done": true
             },
             {
               "label": "Corregir el requisito PWA que falte para la app.",
-              "done": false
+              "done": true
             },
             {
               "label": "Comprobar el comportamiento de instalación cuando sea posible.",
@@ -217,40 +250,6 @@
           ]
         }
       ]
-    },
-    {
-      "key": "needs_client",
-      "label": "Necesita tu ayuda",
-      "items": [
-        {
-          "id": "identity-cancel-destination",
-          "number": 7,
-          "reference": "DOO-7",
-          "kind": "question",
-          "app": {
-            "key": "personal",
-            "label": "Personal",
-            "emoji": "👤"
-          },
-          "title": "👤 Confirmar destino de cancelar validación",
-          "status": "needs_client",
-          "createdAt": "2026-07-09",
-          "doneAt": null,
-          "summary": "Confirmar dónde debe volver el usuario si cancela la validación de identidad.",
-          "nextStep": "Decidir el destino antes de implementar el botón cancelar.",
-          "checklist": [
-            {
-              "label": "Confirmar si cancelar vuelve a login, dashboard limitado o cierre de sesión.",
-              "done": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "in_review",
-      "label": "En revisión",
-      "items": []
     },
     {
       "key": "done",

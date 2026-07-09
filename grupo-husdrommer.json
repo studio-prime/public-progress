@@ -4,7 +4,7 @@
   "lang": "es",
   "status": "active",
   "taskPrefix": "HUS",
-  "summary": "Las mejoras del grupo y de Atelia están organizadas en tareas claras de contenido, estilo y contacto.",
+  "summary": "Las mejoras de Atelia y del grupo están listas para revisión manual.",
   "updatedAt": "2026-07-09",
   "sections": [
     {
@@ -15,6 +15,16 @@
     {
       "key": "next",
       "label": "Siguiente",
+      "items": []
+    },
+    {
+      "key": "needs_client",
+      "label": "Necesita tu ayuda",
+      "items": []
+    },
+    {
+      "key": "in_review",
+      "label": "En revisión",
       "items": [
         {
           "id": "atelia-structure-content",
@@ -26,27 +36,27 @@
             "emoji": "🏡"
           },
           "title": "🏡 Actualización de estructura y contenidos",
-          "status": "next",
+          "status": "in_review",
           "createdAt": "2026-07-09",
           "doneAt": null,
           "summary": "Actualizar la estructura principal de Atelia y los contenidos indicados en el material compartido.",
-          "nextStep": "Aplicar los cambios de navegación, servicios y bloque de grupo.",
+          "nextStep": "Revisar visualmente en escritorio y móvil antes de marcar como hecho.",
           "checklist": [
             {
               "label": "Dejar el menú superior solo con Servicios y Proyectos.",
-              "done": false
+              "done": true
             },
             {
               "label": "Quitar el bloque inicial de tres claims.",
-              "done": false
+              "done": true
             },
             {
               "label": "Cambiar el servicio 04 a Central de compras.",
-              "done": false
+              "done": true
             },
             {
               "label": "Añadir el bloque de Grupo HusDrommer bajo contacto.",
-              "done": false
+              "done": true
             }
           ],
           "attachments": [
@@ -67,23 +77,23 @@
             "emoji": "🏡"
           },
           "title": "🏡 Ajustes visuales de secciones",
-          "status": "next",
+          "status": "in_review",
           "createdAt": "2026-07-09",
           "doneAt": null,
           "summary": "Alinear el tratamiento visual de las secciones principales con las referencias compartidas.",
-          "nextStep": "Ajustar títulos, composición y colores de sección.",
+          "nextStep": "Revisar visualmente en escritorio y móvil antes de marcar como hecho.",
           "checklist": [
             {
               "label": "Igualar el título de Servicios al estilo de Proyectos.",
-              "done": false
+              "done": true
             },
             {
               "label": "Aplicar la paleta arena y chocolate del manual de marca.",
-              "done": false
+              "done": true
             },
             {
               "label": "Mantener coherencia visual entre secciones principales.",
-              "done": false
+              "done": true
             }
           ],
           "attachments": [
@@ -109,31 +119,31 @@
             "emoji": "🏡"
           },
           "title": "🏡 Textos de proyectos, proceso y contacto",
-          "status": "next",
+          "status": "in_review",
           "createdAt": "2026-07-09",
           "doneAt": null,
           "summary": "Actualizar los textos y bloques de Proyectos, proceso y contacto según el material compartido.",
-          "nextStep": "Sustituir textos y simplificar las secciones indicadas.",
+          "nextStep": "Revisar visualmente en escritorio y móvil antes de marcar como hecho.",
           "checklist": [
             {
               "label": "Actualizar el bloque principal de Proyectos.",
-              "done": false
+              "done": true
             },
             {
               "label": "Dejar el proceso en cuatro fases: Escuchar, Proyectar, Coordinar y Materializar.",
-              "done": false
+              "done": true
             },
             {
               "label": "Quitar la sección ¿Qué nos define?",
-              "done": false
+              "done": true
             },
             {
               "label": "Actualizar la dirección en toda la web.",
-              "done": false
+              "done": true
             },
             {
               "label": "Simplificar el bloque de contacto y Hablemos.",
-              "done": false
+              "done": true
             }
           ],
           "attachments": [
@@ -143,18 +153,7 @@
               "url": "assets/grupo-husdrommer/atelia.pdf"
             }
           ]
-        }
-      ]
-    },
-    {
-      "key": "needs_client",
-      "label": "Necesita tu ayuda",
-      "items": []
-    },
-    {
-      "key": "in_review",
-      "label": "En revisión",
-      "items": [
+        },
         {
           "id": "grupo-brand-divider",
           "number": 11,
