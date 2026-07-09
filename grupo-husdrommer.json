@@ -4,7 +4,7 @@
   "lang": "es",
   "status": "active",
   "taskPrefix": "HUS",
-  "summary": "Las mejoras de Atelia y del grupo están en revisión final interna antes de pasarlas a revisión.",
+  "summary": "Las mejoras de Atelia y del grupo están listas para vuestra revisión.",
   "updatedAt": "2026-07-09",
   "sections": [
     {
@@ -15,6 +15,16 @@
     {
       "key": "next",
       "label": "En progreso",
+      "items": []
+    },
+    {
+      "key": "needs_client",
+      "label": "Necesita ayuda",
+      "items": []
+    },
+    {
+      "key": "in_review",
+      "label": "Listo para revisión",
       "items": [
         {
           "id": "atelia-structure-content",
@@ -26,11 +36,11 @@
             "emoji": "🏡"
           },
           "title": "🏡 Actualización de estructura y contenidos",
-          "status": "next",
+          "status": "in_review",
           "createdAt": "2026-07-09",
           "doneAt": null,
           "summary": "Actualizar la estructura principal de Atelia y los contenidos indicados en el material compartido.",
-          "nextStep": "Estamos haciendo una revisión final interna antes de pasarlo a vuestra revisión.",
+          "nextStep": "Listo para vuestra revisión.",
           "checklist": [
             {
               "label": "Dejar el menú superior solo con Servicios y Proyectos.",
@@ -67,11 +77,11 @@
             "emoji": "🏡"
           },
           "title": "🏡 Ajustes visuales de secciones",
-          "status": "next",
+          "status": "in_review",
           "createdAt": "2026-07-09",
           "doneAt": null,
           "summary": "Alinear el tratamiento visual de las secciones principales con las referencias compartidas.",
-          "nextStep": "Estamos haciendo una revisión final interna antes de pasarlo a vuestra revisión.",
+          "nextStep": "Listo para vuestra revisión.",
           "checklist": [
             {
               "label": "Igualar el título de Servicios al estilo de Proyectos.",
@@ -109,11 +119,11 @@
             "emoji": "🏡"
           },
           "title": "🏡 Textos de proyectos, proceso y contacto",
-          "status": "next",
+          "status": "in_review",
           "createdAt": "2026-07-09",
           "doneAt": null,
           "summary": "Actualizar los textos y bloques de Proyectos, proceso y contacto según el material compartido.",
-          "nextStep": "Estamos haciendo una revisión final interna antes de pasarlo a vuestra revisión.",
+          "nextStep": "Listo para vuestra revisión.",
           "checklist": [
             {
               "label": "Actualizar el bloque principal de Proyectos.",
@@ -154,11 +164,11 @@
             "emoji": "🏢"
           },
           "title": "🏢 Separador entre marcas",
-          "status": "next",
+          "status": "in_review",
           "createdAt": "2026-07-09",
           "doneAt": null,
           "summary": "Añadir un separador visual en la página del grupo entre KüchenHouse y Atelia.",
-          "nextStep": "Estamos haciendo una revisión final interna antes de pasarlo a vuestra revisión.",
+          "nextStep": "Listo para vuestra revisión.",
           "checklist": [
             {
               "label": "Ubicar el ajuste en la página del grupo.",
@@ -170,21 +180,11 @@
             },
             {
               "label": "Revisar visualmente el resultado final.",
-              "done": false
+              "done": true
             }
           ]
         }
       ]
-    },
-    {
-      "key": "needs_client",
-      "label": "Necesita ayuda",
-      "items": []
-    },
-    {
-      "key": "in_review",
-      "label": "Listo para revisión",
-      "items": []
     },
     {
       "key": "done",
