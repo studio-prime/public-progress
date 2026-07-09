@@ -2,8 +2,8 @@
   "slug": "dooctoor",
   "name": "Dooctoor",
   "lang": "es",
-  "status": "idle",
-  "summary": "No hay tareas activas de progreso ahora mismo.",
+  "status": "active",
+  "summary": "Hay mejoras activas en login, registro y validación de identidad.",
   "updatedAt": "2026-07-09",
   "sections": [
     {
@@ -14,12 +14,162 @@
     {
       "key": "next",
       "label": "Siguiente",
-      "items": []
+      "items": [
+        {
+          "id": "login-mode-switch-links",
+          "number": 4,
+          "app": {
+            "key": "personal",
+            "label": "Personal",
+            "emoji": "👤"
+          },
+          "title": "🔐 Mejorar los enlaces entre formas de acceso",
+          "status": "next",
+          "createdAt": "2026-07-09",
+          "doneAt": null,
+          "summary": "Hacer más claros los enlaces para cambiar entre acceso por email y acceso con usuario y contraseña.",
+          "nextStep": "Ajustar el diseño de los enlaces de cambio de modo en login.",
+          "checklist": [
+            {
+              "label": "Hacer más visible el enlace de acceso con usuario y contraseña.",
+              "done": false
+            },
+            {
+              "label": "Hacer más visible el enlace para volver al acceso con email.",
+              "done": false
+            },
+            {
+              "label": "Mantener el comportamiento consistente con registro.",
+              "done": false
+            }
+          ]
+        },
+        {
+          "id": "signup-username-password-cleanup",
+          "number": 5,
+          "app": {
+            "key": "personal",
+            "label": "Personal",
+            "emoji": "👤"
+          },
+          "title": "🧼 Simplificar registro con usuario y contraseña",
+          "status": "next",
+          "createdAt": "2026-07-09",
+          "doneAt": null,
+          "summary": "Limpiar la pantalla de registro con usuario y contraseña y reforzar el enlace de vuelta al registro por email.",
+          "nextStep": "Ocultar opciones sociales en ese modo y actualizar el texto del enlace.",
+          "checklist": [
+            {
+              "label": "Quitar Google y Apple en registro con usuario y contraseña.",
+              "done": false
+            },
+            {
+              "label": "Cambiar el enlace a Mejor volver y usar correo electrónico.",
+              "done": false
+            },
+            {
+              "label": "Conservar el registro por email tal como está.",
+              "done": false
+            }
+          ],
+          "attachments": [
+            {
+              "type": "image",
+              "label": "Referencia registro",
+              "url": "assets/dooctoor/20260709-registro-usuario-password.png"
+            }
+          ]
+        },
+        {
+          "id": "identity-validation-screen",
+          "number": 6,
+          "app": {
+            "key": "personal",
+            "label": "Personal",
+            "emoji": "👤"
+          },
+          "title": "🪪 Ajustar pantalla de validación de identidad",
+          "status": "next",
+          "createdAt": "2026-07-09",
+          "doneAt": null,
+          "summary": "Mejorar el texto y las acciones de la pantalla de validación de identidad.",
+          "nextStep": "Actualizar copy y retirar la acción de actualizar estado.",
+          "checklist": [
+            {
+              "label": "Actualizar el texto de preparación del documento.",
+              "done": false
+            },
+            {
+              "label": "Quitar el botón Actualizar estado.",
+              "done": false
+            },
+            {
+              "label": "Añadir la acción de cancelar cuando se confirme el destino.",
+              "done": false
+            }
+          ]
+        },
+        {
+          "id": "didit-document-data-review",
+          "number": 8,
+          "app": {
+            "key": "personal",
+            "label": "Personal",
+            "emoji": "👤"
+          },
+          "title": "🧪 Revisar documentos y datos de validación",
+          "status": "next",
+          "createdAt": "2026-07-09",
+          "doneAt": null,
+          "summary": "Revisar el comportamiento de validación de identidad y la captura de los datos del documento.",
+          "nextStep": "Analizar la integración de Didit y corregir la captura si procede.",
+          "checklist": [
+            {
+              "label": "Revisar qué documentos admite la validación para España.",
+              "done": false
+            },
+            {
+              "label": "Comprobar el comportamiento en tablet/iPad.",
+              "done": false
+            },
+            {
+              "label": "Revisar cómo se guardan tipo y número de documento.",
+              "done": false
+            },
+            {
+              "label": "Corregir el mapeo o escalarlo si depende del proveedor.",
+              "done": false
+            }
+          ]
+        }
+      ]
     },
     {
       "key": "needs_client",
       "label": "Necesita tu ayuda",
-      "items": []
+      "items": [
+        {
+          "id": "identity-cancel-destination",
+          "number": 7,
+          "app": {
+            "key": "personal",
+            "label": "Personal",
+            "emoji": "👤"
+          },
+          "title": "🚦 Confirmar destino de cancelar validación",
+          "status": "needs_client",
+          "createdAt": "2026-07-09",
+          "doneAt": null,
+          "summary": "Confirmar dónde debe volver el usuario si cancela la validación de identidad.",
+          "nextStep": "Decidir el destino antes de implementar el botón cancelar.",
+          "checklist": [
+            {
+              "label": "Confirmar si cancelar vuelve a login, dashboard limitado o cierre de sesión.",
+              "done": false
+            }
+          ]
+        }
+      ]
     },
     {
       "key": "in_review",
