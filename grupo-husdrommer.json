@@ -3,7 +3,7 @@
   "name": "Grupo HusDrommer",
   "lang": "es",
   "status": "active",
-  "summary": "Las mejoras de marca y estilo de Atelia están preparadas para implementarse.",
+  "summary": "Las mejoras de Atelia están organizadas en tareas claras de contenido, estilo y contacto.",
   "updatedAt": "2026-07-09",
   "sections": [
     {
@@ -16,51 +16,77 @@
       "label": "Siguiente",
       "items": [
         {
-          "id": "atelia-brand-kit",
+          "id": "atelia-structure-content",
           "number": 1,
           "app": {
             "key": "atelia",
             "label": "Atelia",
             "emoji": "🏡"
           },
-          "title": "🎨 Actualizar Atelia con su kit de marca y contenido",
+          "title": "🧭 Atelia · Actualización de estructura y contenidos",
           "status": "next",
           "createdAt": "2026-07-09",
           "doneAt": null,
-          "summary": "Revisar los materiales de marca de Atelia y actualizar la web para que el estilo visual, el contenido y los recursos encajen con la dirección de marca enviada.",
-          "nextStep": "Aplicar el kit de marca y comprobar el resultado en móvil y escritorio.",
+          "summary": "Actualizar la estructura principal de Atelia y los contenidos indicados en el material compartido.",
+          "nextStep": "Aplicar los cambios de navegación, servicios y bloque de grupo.",
+          "checklist": [
+            {
+              "label": "Dejar el menú superior solo con Servicios y Proyectos.",
+              "done": false
+            },
+            {
+              "label": "Añadir la raya divisoria entre Kütchen y Atelia.",
+              "done": false
+            },
+            {
+              "label": "Quitar el bloque inicial de tres claims.",
+              "done": false
+            },
+            {
+              "label": "Cambiar el servicio 04 a Central de compras.",
+              "done": false
+            },
+            {
+              "label": "Añadir el bloque de Grupo HusDrommer bajo contacto.",
+              "done": false
+            }
+          ],
           "attachments": [
             {
               "type": "pdf",
-              "label": "Manual de marca Atelia",
+              "label": "PDF Atelia",
               "url": "assets/grupo-husdrommer/atelia.pdf"
-            },
-            {
-              "type": "link",
-              "label": "Kit Atelia en Dropbox",
-              "url": "https://www.dropbox.com/scl/fi/wn2yl1h05xednftqc6sci/manual-marca-Atelia.pdf?rlkey=jqbabh1zutphyf8oz8gvzy3so&st=l8eagdc5&dl=0"
-            },
-            {
-              "type": "link",
-              "label": "Branding Atelia en Dropbox",
-              "url": "https://www.dropbox.com/scl/fo/aagchrsq7ga4ntctdgu5d/APsnLOLesMKrMukNnDeJF6g?rlkey=l2ym506xjn6wnaivkqkk0ediy&st=tnrwbjpa&dl=0"
             }
           ]
         },
         {
-          "id": "atelia-servicios-heading",
+          "id": "atelia-visual-sections",
           "number": 2,
           "app": {
             "key": "atelia",
             "label": "Atelia",
             "emoji": "🏡"
           },
-          "title": "🧩 Ajustar el estilo del título de Servicios en Atelia",
+          "title": "🧱 Atelia · Ajustes visuales de secciones",
           "status": "next",
           "createdAt": "2026-07-09",
           "doneAt": null,
-          "summary": "Actualizar la sección Servicios para que visualmente siga el mismo estilo que el título de Proyectos.",
-          "nextStep": "Reutilizar el tratamiento visual de Proyectos en el título de Servicios.",
+          "summary": "Alinear el tratamiento visual de las secciones principales con las referencias compartidas.",
+          "nextStep": "Ajustar títulos, composición y colores de sección.",
+          "checklist": [
+            {
+              "label": "Igualar el título de Servicios al estilo de Proyectos.",
+              "done": false
+            },
+            {
+              "label": "Aplicar colores arena y chocolate según marca.",
+              "done": false
+            },
+            {
+              "label": "Mantener coherencia visual entre secciones principales.",
+              "done": false
+            }
+          ],
           "attachments": [
             {
               "type": "image",
@@ -71,6 +97,50 @@
               "type": "image",
               "label": "Referencia Proyectos",
               "url": "assets/grupo-husdrommer/atelia-proyectos-reference.png"
+            }
+          ]
+        },
+        {
+          "id": "atelia-projects-process-contact",
+          "number": 3,
+          "app": {
+            "key": "atelia",
+            "label": "Atelia",
+            "emoji": "🏡"
+          },
+          "title": "📝 Atelia · Textos de proyectos, proceso y contacto",
+          "status": "next",
+          "createdAt": "2026-07-09",
+          "doneAt": null,
+          "summary": "Actualizar los textos y bloques de Proyectos, proceso y contacto según el material compartido.",
+          "nextStep": "Sustituir textos y simplificar las secciones indicadas.",
+          "checklist": [
+            {
+              "label": "Actualizar el bloque principal de Proyectos.",
+              "done": false
+            },
+            {
+              "label": "Dejar el proceso en cuatro fases: Escuchar, Proyectar, Coordinar y Materializar.",
+              "done": false
+            },
+            {
+              "label": "Quitar la sección ¿Qué nos define?",
+              "done": false
+            },
+            {
+              "label": "Actualizar la dirección en toda la web.",
+              "done": false
+            },
+            {
+              "label": "Simplificar el bloque de contacto y Hablemos.",
+              "done": false
+            }
+          ],
+          "attachments": [
+            {
+              "type": "pdf",
+              "label": "PDF Atelia",
+              "url": "assets/grupo-husdrommer/atelia.pdf"
             }
           ]
         }

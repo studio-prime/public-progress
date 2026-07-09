@@ -9,6 +9,7 @@ This repo is a public, client-friendly progress feed for Studio Prime dashboards
 - Current client feeds `dooctoor.json` and `grupo-husdrommer.json` must be Spanish-only (`"lang": "es"`).
 - Keep all content safe for clients to read.
 - Do not include private notes, credentials, raw internal blockers, technical implementation details, or private attachments.
+- Do not publish a client task from raw material by assumption alone. The matching internal task in `../client-docs/` must first be contrasted against the relevant code/product state or confirmed by David.
 - Every progress item must include a stable integer `number` that clients and David can use as a shared reference. Numbers are per client and should increase from the highest existing number; imported GitHub tasks keep their original GitHub issue/task number.
 - Every progress item must include an `app` object with `key`, `label`, and `emoji`. Identify the concrete client app/product the task belongs to before creating it, for example Dooctoor apps like `colegios`, `farmacias`, `personal`, `backoffice`, or `marketing`. Use `key: "core"` only for tasks that affect the whole client workspace or multiple apps.
 - Client-safe attachments can be included with an `attachments` array. Use `type: "pdf"`, `"image"`, `"doc"`, `"sheet"`, or `"link"` plus a short `label` and `url`. Store public files under `assets/<client-slug>/...` and reference that relative path. Use external `https://` links only when the linked resource is safe for clients. Attachments should open in browser preview where possible; avoid raw download URLs for PDFs, images, Word, and Excel files.
@@ -16,6 +17,9 @@ This repo is a public, client-friendly progress feed for Studio Prime dashboards
 - When an item is complete, set `status: "done"` and fill `doneAt` so dashboards can hide done items older than one month.
 - Use these board sections and statuses: `backlog`, `next`, `needs_client`, `in_review`, `done`. In Spanish, label `needs_client` as "Necesita tu ayuda".
 - Start every client-facing progress item `title` with one friendly, relevant emoji.
+- Prefer short client-facing items with a `checklist` over long descriptions. The dashboard should make it easy for clients to see what will happen, not expose internal reasoning.
+- Keep `summary` and `nextStep` short and client-safe when present. They are supporting copy, not a place for uncertainty, implementation notes, or messages to David.
+- Do not store hidden/internal context in this public repo. Anything "for Codex only" or "for David" belongs in `../client-docs/`, even if the Studio Prime dashboard would not render that field.
 - Keep files valid against `schema.json`.
 
 ## Email-Derived Progress
