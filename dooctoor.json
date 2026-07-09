@@ -3,6 +3,7 @@
   "name": "Dooctoor",
   "lang": "es",
   "status": "active",
+  "taskPrefix": "DOO",
   "summary": "Hay mejoras activas en login, registro y validación de identidad.",
   "updatedAt": "2026-07-09",
   "sections": [
@@ -18,6 +19,7 @@
         {
           "id": "login-mode-switch-links",
           "number": 4,
+          "reference": "DOO-4",
           "kind": "request",
           "app": {
             "key": "personal",
@@ -48,6 +50,7 @@
         {
           "id": "signup-username-password-cleanup",
           "number": 5,
+          "reference": "DOO-5",
           "kind": "request",
           "app": {
             "key": "personal",
@@ -85,6 +88,7 @@
         {
           "id": "identity-validation-screen",
           "number": 6,
+          "reference": "DOO-6",
           "kind": "request",
           "app": {
             "key": "personal",
@@ -122,6 +126,7 @@
         {
           "id": "didit-document-data-review",
           "number": 8,
+          "reference": "DOO-8",
           "kind": "question",
           "app": {
             "key": "personal",
@@ -152,6 +157,7 @@
         {
           "id": "didit-document-data-bug",
           "number": 9,
+          "reference": "DOO-9",
           "kind": "bug",
           "app": {
             "key": "personal",
@@ -182,6 +188,7 @@
         {
           "id": "residencias-pwa-installable",
           "number": 10,
+          "reference": "DOO-10",
           "kind": "request",
           "app": {
             "key": "residencias",
@@ -218,6 +225,7 @@
         {
           "id": "identity-cancel-destination",
           "number": 7,
+          "reference": "DOO-7",
           "kind": "question",
           "app": {
             "key": "personal",
