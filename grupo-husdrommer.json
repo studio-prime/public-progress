@@ -4,7 +4,7 @@
   "lang": "es",
   "status": "active",
   "taskPrefix": "HUS",
-  "summary": "Las mejoras de Atelia están organizadas en tareas claras de contenido, estilo y contacto.",
+  "summary": "Las mejoras del grupo y de Atelia están organizadas en tareas claras de contenido, estilo y contacto.",
   "updatedAt": "2026-07-09",
   "sections": [
     {
@@ -154,7 +154,38 @@
     {
       "key": "in_review",
       "label": "En revisión",
-      "items": []
+      "items": [
+        {
+          "id": "grupo-brand-divider",
+          "number": 11,
+          "reference": "HUS-11",
+          "app": {
+            "key": "core",
+            "label": "Grupo",
+            "emoji": "🏢"
+          },
+          "title": "🏢 Separador entre marcas",
+          "status": "in_review",
+          "createdAt": "2026-07-09",
+          "doneAt": null,
+          "summary": "Añadir un separador visual en la página del grupo entre KüchenHouse y Atelia.",
+          "nextStep": "Revisar el resultado visual en escritorio y móvil.",
+          "checklist": [
+            {
+              "label": "Ubicar el ajuste en la página del grupo.",
+              "done": true
+            },
+            {
+              "label": "Añadir el separador entre KüchenHouse y Atelia.",
+              "done": true
+            },
+            {
+              "label": "Revisar visualmente el resultado final.",
+              "done": false
+            }
+          ]
+        }
+      ]
     },
     {
       "key": "done",
