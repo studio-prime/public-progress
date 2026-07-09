@@ -59,6 +59,10 @@
               "done": true
             }
           ],
+          "clientContext": {
+            "label": "Pedido original",
+            "body": "Del material compartido: dejar el menú superior solo con Servicios y Proyectos, quitar el bloque inicial, cambiar el servicio 04 a Central de compras y añadir el bloque de Grupo HusDrommer bajo contacto."
+          },
           "attachments": [
             {
               "type": "pdf",
@@ -96,6 +100,10 @@
               "done": true
             }
           ],
+          "clientContext": {
+            "label": "Pedido original",
+            "body": "Poner Servicios como se muestra en Proyectos, usando las referencias visuales compartidas, e intercalar la paleta arena y chocolate del kit de marca."
+          },
           "attachments": [
             {
               "type": "image",
@@ -146,6 +154,10 @@
               "done": true
             }
           ],
+          "clientContext": {
+            "label": "Pedido original",
+            "body": "Actualizar Proyectos, dejar el proceso en cuatro fases, quitar la sección ¿Qué nos define?, actualizar la dirección y simplificar los textos de contacto y Hablemos según el PDF compartido."
+          },
           "attachments": [
             {
               "type": "pdf",
@@ -182,7 +194,11 @@
               "label": "Revisar visualmente el resultado final.",
               "done": true
             }
-          ]
+          ],
+          "clientContext": {
+            "label": "Pedido original",
+            "body": "En el PDF de Atelia se indica que falta poner la raya divisoria entre KüchenHouse y Atelia en la página del grupo."
+          }
         }
       ]
     },

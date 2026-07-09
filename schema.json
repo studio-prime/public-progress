@@ -143,6 +143,9 @@
           },
           "minItems": 1
         },
+        "clientContext": {
+          "$ref": "#/$defs/clientContext"
+        },
         "attachments": {
           "type": "array",
           "items": {
@@ -162,6 +165,21 @@
         },
         "done": {
           "type": "boolean"
+        }
+      }
+    },
+    "clientContext": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["label", "body"],
+      "properties": {
+        "label": {
+          "type": "string",
+          "minLength": 1
+        },
+        "body": {
+          "type": "string",
+          "minLength": 1
         }
       }
     },

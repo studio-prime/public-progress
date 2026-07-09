@@ -45,7 +45,11 @@
               "label": "Mantener el comportamiento consistente con registro.",
               "done": true
             }
-          ]
+          ],
+          "clientContext": {
+            "label": "Pedido original",
+            "body": "Mejorar el cambio entre acceso por email y acceso con usuario y contraseña para que los enlaces sean más claros."
+          }
         },
         {
           "id": "signup-username-password-cleanup",
@@ -77,6 +81,10 @@
               "done": true
             }
           ],
+          "clientContext": {
+            "label": "Pedido original",
+            "body": "En registro con usuario y contraseña, quitar las opciones de Google y Apple y dejar una forma clara de volver al registro por email."
+          },
           "attachments": [
             {
               "type": "image",
@@ -115,6 +123,10 @@
               "done": true
             }
           ],
+          "clientContext": {
+            "label": "Pedido original",
+            "body": "REQ1: cambiar el texto bajo “Prepara tu documento de identidad” por: 1. Necesitarás DNI, NIE o pasaporte en vigor. 2. Te redirigiremos a un proveedor externo de validación de identidad. 3. Necesitarás hacerlo con un dispositivo móvil.\n\nREQ2: eliminar el botón “Actualizar estado”.\n\nREQ3: añadir botón de cancelar y confirmar dónde debería volver."
+          },
           "attachments": [
             {
               "type": "image",
@@ -144,7 +156,11 @@
               "label": "Confirmar si cancelar vuelve a login, dashboard limitado o cierre de sesión.",
               "done": true
             }
-          ]
+          ],
+          "clientContext": {
+            "label": "Pedido original",
+            "body": "REQ3: añadir botón de cancelar en la validación de identidad y definir dónde debe volver el usuario."
+          }
         },
         {
           "id": "didit-document-data-review",
@@ -175,7 +191,11 @@
               "label": "Escalarlo si depende de configuración del proveedor.",
               "done": true
             }
-          ]
+          ],
+          "clientContext": {
+            "label": "Pedido original",
+            "body": "REQ4: revisar si se puede restringir la validación en España a DNI, NIE o pasaporte.\n\nDUDA1: comprobar si en iPad también pide escanear un QR."
+          }
         },
         {
           "id": "didit-document-data-bug",
@@ -206,7 +226,11 @@
               "label": "Corregir el mapeo o dejar evidencia si el dato llega mal desde el proveedor.",
               "done": true
             }
-          ]
+          ],
+          "clientContext": {
+            "label": "Pedido original",
+            "body": "BUG1: tras la validación, no se ha cogido bien ni el tipo de documento ni el número."
+          }
         },
         {
           "id": "residencias-pwa-installable",
@@ -237,7 +261,11 @@
               "label": "Comprobar el comportamiento de instalación cuando sea posible.",
               "done": false
             }
-          ]
+          ],
+          "clientContext": {
+            "label": "Pedido original",
+            "body": "Hacer que el enlace de la app se pueda instalar como PWA desde el navegador."
+          }
         }
       ]
     },
