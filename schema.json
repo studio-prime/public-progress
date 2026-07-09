@@ -55,7 +55,7 @@
       "properties": {
         "key": {
           "type": "string",
-          "enum": ["in_progress", "waiting_review", "blocked"]
+          "enum": ["backlog", "next", "needs_client", "in_review", "done"]
         },
         "label": {
           "type": "string"
@@ -91,7 +91,7 @@
         },
         "status": {
           "type": "string",
-          "enum": ["ready", "in_progress", "waiting_review", "blocked", "done"]
+          "enum": ["backlog", "next", "needs_client", "in_review", "done"]
         },
         "createdAt": {
           "$ref": "#/$defs/date"

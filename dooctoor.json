@@ -7,18 +7,28 @@
   "updatedAt": "2026-07-09",
   "sections": [
     {
-      "key": "in_progress",
-      "label": "En curso",
+      "key": "backlog",
+      "label": "Backlog",
       "items": []
     },
     {
-      "key": "waiting_review",
-      "label": "Pendiente de revisión",
+      "key": "next",
+      "label": "Siguiente",
       "items": []
     },
     {
-      "key": "blocked",
-      "label": "Bloqueado",
+      "key": "needs_client",
+      "label": "Necesita tu ayuda",
+      "items": []
+    },
+    {
+      "key": "in_review",
+      "label": "En revisión",
+      "items": []
+    },
+    {
+      "key": "done",
+      "label": "Hecho",
       "items": []
     }
   ]

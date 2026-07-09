@@ -7,13 +7,18 @@
   "updatedAt": "2026-07-09",
   "sections": [
     {
-      "key": "in_progress",
-      "label": "En curso",
+      "key": "backlog",
+      "label": "Backlog",
+      "items": []
+    },
+    {
+      "key": "next",
+      "label": "Siguiente",
       "items": [
         {
           "id": "atelia-brand-kit",
           "title": "Actualizar Atelia con su kit de marca y contenido",
-          "status": "ready",
+          "status": "next",
           "createdAt": "2026-07-09",
           "doneAt": null,
           "summary": "Revisar los materiales de marca de Atelia y actualizar la web para que el estilo visual, el contenido y los recursos encajen con la dirección de marca enviada.",
@@ -22,7 +27,7 @@
         {
           "id": "atelia-servicios-heading",
           "title": "Ajustar el estilo del título de Servicios en Atelia",
-          "status": "ready",
+          "status": "next",
           "createdAt": "2026-07-09",
           "doneAt": null,
           "summary": "Actualizar la sección Servicios para que visualmente siga el mismo estilo que el título de Proyectos.",
@@ -31,13 +36,18 @@
       ]
     },
     {
-      "key": "waiting_review",
-      "label": "Pendiente de revisión",
+      "key": "needs_client",
+      "label": "Necesita tu ayuda",
       "items": []
     },
     {
-      "key": "blocked",
-      "label": "Bloqueado",
+      "key": "in_review",
+      "label": "En revisión",
+      "items": []
+    },
+    {
+      "key": "done",
+      "label": "Hecho",
       "items": []
     }
   ]
