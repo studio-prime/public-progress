@@ -5,7 +5,7 @@
   "status": "active",
   "taskPrefix": "HUS",
   "summary": "Las mejoras de Atelia y del grupo están listas para vuestra revisión.",
-  "updatedAt": "2026-07-09",
+  "updatedAt": "2026-07-10",
   "sections": [
     {
       "key": "backlog",
@@ -198,6 +198,142 @@
           "clientContext": {
             "label": "Pedido original",
             "body": "En el PDF de Atelia se indica que falta poner la raya divisoria entre KüchenHouse y Atelia en la página del grupo."
+          }
+        },
+        {
+          "id": "atelia-contact-block-refinement",
+          "number": 12,
+          "reference": "HUS-12",
+          "app": {
+            "key": "atelia",
+            "label": "Atelia",
+            "emoji": "🏡"
+          },
+          "title": "🏡 Ajuste del bloque de contacto",
+          "status": "in_review",
+          "createdAt": "2026-07-10",
+          "doneAt": null,
+          "summary": "Ajustar la dirección y el tamaño visual del bloque de contacto.",
+          "nextStep": "Listo para vuestra revisión.",
+          "checklist": [
+            {
+              "label": "Separar la dirección en dos líneas.",
+              "done": true
+            },
+            {
+              "label": "Reducir el tamaño general del bloque de contacto.",
+              "done": true
+            },
+            {
+              "label": "Revisar el resultado en desktop y móvil.",
+              "done": true
+            }
+          ],
+          "clientContext": {
+            "label": "Pedido original",
+            "body": "Ajustar el bloque de contacto para que la ubicación quede en una línea inferior y el bloque se vea más pequeño."
+          }
+        },
+        {
+          "id": "atelia-group-band-contact",
+          "number": 13,
+          "reference": "HUS-13",
+          "app": {
+            "key": "atelia",
+            "label": "Atelia",
+            "emoji": "🏡"
+          },
+          "title": "🏡 Mover bloque de grupo a Contacto",
+          "status": "in_review",
+          "createdAt": "2026-07-10",
+          "doneAt": null,
+          "summary": "Mover el bloque Grupo HusDrommer desde la home a Contacto.",
+          "nextStep": "Listo para vuestra revisión.",
+          "checklist": [
+            {
+              "label": "Quitar el bloque de Grupo HusDrommer de la home.",
+              "done": true
+            },
+            {
+              "label": "Añadir el bloque en Contacto.",
+              "done": true
+            },
+            {
+              "label": "Revisar home y Contacto en desktop y móvil.",
+              "done": true
+            }
+          ],
+          "clientContext": {
+            "label": "Pedido original",
+            "body": "El bloque de grupo debe estar en Contacto y no en la home."
+          }
+        },
+        {
+          "id": "atelia-services-label-style",
+          "number": 14,
+          "reference": "HUS-14",
+          "app": {
+            "key": "atelia",
+            "label": "Atelia",
+            "emoji": "🏡"
+          },
+          "title": "🏡 Rótulo de Servicios",
+          "status": "in_review",
+          "createdAt": "2026-07-10",
+          "doneAt": null,
+          "summary": "Igualar el rótulo de Servicios al tratamiento visual de Proyectos.",
+          "nextStep": "Listo para vuestra revisión.",
+          "checklist": [
+            {
+              "label": "Aplicar el rótulo con línea en Servicios.",
+              "done": true
+            },
+            {
+              "label": "Mantener el resto de la página sin cambios de contenido.",
+              "done": true
+            },
+            {
+              "label": "Revisar Servicios en desktop y móvil.",
+              "done": true
+            }
+          ],
+          "clientContext": {
+            "label": "Pedido original",
+            "body": "Servicios debe tener el mismo tratamiento visual de rótulo que Proyectos."
+          }
+        },
+        {
+          "id": "grupo-brand-divider-reinforcement",
+          "number": 15,
+          "reference": "HUS-15",
+          "app": {
+            "key": "core",
+            "label": "Grupo",
+            "emoji": "🏢"
+          },
+          "title": "🏢 Reforzar separador entre marcas",
+          "status": "in_review",
+          "createdAt": "2026-07-10",
+          "doneAt": null,
+          "summary": "Hacer más visible el separador entre KüchenHouse y Atelia en la página del grupo.",
+          "nextStep": "Listo para vuestra revisión.",
+          "checklist": [
+            {
+              "label": "Aplicar el ajuste en la app de HusDrommer.",
+              "done": true
+            },
+            {
+              "label": "Reforzar el separador entre KüchenHouse y Atelia.",
+              "done": true
+            },
+            {
+              "label": "Revisar el resultado en desktop y móvil.",
+              "done": true
+            }
+          ],
+          "clientContext": {
+            "label": "Pedido original",
+            "body": "El separador entre KüchenHouse y Atelia todavía no se veía con claridad en la página del grupo."
           }
         }
       ]
