@@ -25,6 +25,11 @@
     {
       "key": "in_review",
       "label": "Listo para revisión",
+      "items": []
+    },
+    {
+      "key": "done",
+      "label": "Completado",
       "items": [
         {
           "id": "atelia-structure-content",
@@ -36,11 +41,11 @@
             "emoji": "🏡"
           },
           "title": "🏡 Actualización de estructura y contenidos",
-          "status": "in_review",
+          "status": "done",
           "createdAt": "2026-07-09",
-          "doneAt": null,
+          "doneAt": "2026-07-14",
           "summary": "Actualizar la estructura principal de Atelia y los contenidos indicados en el material compartido.",
-          "nextStep": "Listo para vuestra revisión.",
+          "nextStep": "Completado.",
           "checklist": [
             {
               "label": "Dejar el menú superior solo con Servicios y Proyectos.",
@@ -81,11 +86,11 @@
             "emoji": "🏡"
           },
           "title": "🏡 Ajustes visuales de secciones",
-          "status": "in_review",
+          "status": "done",
           "createdAt": "2026-07-09",
-          "doneAt": null,
+          "doneAt": "2026-07-14",
           "summary": "Ajustar los bloques CTA con fondo crema y botón chocolate, siguiendo el kit de marca.",
-          "nextStep": "Listo para vuestra revisión.",
+          "nextStep": "Completado.",
           "checklist": [
             {
               "label": "Igualar el título de Servicios al estilo de Proyectos.",
@@ -127,11 +132,11 @@
             "emoji": "🏡"
           },
           "title": "🏡 Textos de proyectos, proceso y contacto",
-          "status": "in_review",
+          "status": "done",
           "createdAt": "2026-07-09",
-          "doneAt": null,
+          "doneAt": "2026-07-14",
           "summary": "Actualizar los textos y bloques de Proyectos, proceso y contacto según el material compartido.",
-          "nextStep": "Listo para vuestra revisión.",
+          "nextStep": "Completado.",
           "checklist": [
             {
               "label": "Actualizar el bloque principal de Proyectos.",
@@ -176,11 +181,11 @@
             "emoji": "🏢"
           },
           "title": "🏢 Separador entre marcas",
-          "status": "in_review",
+          "status": "done",
           "createdAt": "2026-07-09",
-          "doneAt": null,
+          "doneAt": "2026-07-14",
           "summary": "Añadir un separador visual en la página del grupo entre KüchenHouse y Atelia.",
-          "nextStep": "Listo para vuestra revisión.",
+          "nextStep": "Completado.",
           "checklist": [
             {
               "label": "Ubicar el ajuste en la página del grupo.",
@@ -210,11 +215,11 @@
             "emoji": "🏡"
           },
           "title": "🏡 Ajuste del bloque de contacto",
-          "status": "in_review",
+          "status": "done",
           "createdAt": "2026-07-10",
-          "doneAt": null,
+          "doneAt": "2026-07-14",
           "summary": "Ajustar la dirección y el tamaño visual del bloque de contacto.",
-          "nextStep": "Listo para vuestra revisión.",
+          "nextStep": "Completado.",
           "checklist": [
             {
               "label": "Separar la dirección en dos líneas.",
@@ -244,11 +249,11 @@
             "emoji": "🏡"
           },
           "title": "🏡 Mover bloque de grupo a Contacto",
-          "status": "in_review",
+          "status": "done",
           "createdAt": "2026-07-10",
-          "doneAt": null,
+          "doneAt": "2026-07-14",
           "summary": "Mover el bloque Grupo HusDrommer desde la home a Contacto.",
-          "nextStep": "Listo para vuestra revisión.",
+          "nextStep": "Completado.",
           "checklist": [
             {
               "label": "Quitar el bloque de Grupo HusDrommer de la home.",
@@ -278,11 +283,11 @@
             "emoji": "🏡"
           },
           "title": "🏡 Rótulo de Servicios",
-          "status": "in_review",
+          "status": "done",
           "createdAt": "2026-07-10",
-          "doneAt": null,
+          "doneAt": "2026-07-14",
           "summary": "Igualar el rótulo de Servicios al tratamiento visual de Proyectos.",
-          "nextStep": "Listo para vuestra revisión.",
+          "nextStep": "Completado.",
           "checklist": [
             {
               "label": "Aplicar el rótulo con línea en Servicios.",
@@ -312,11 +317,11 @@
             "emoji": "🏢"
           },
           "title": "🏢 Reforzar separador entre marcas",
-          "status": "in_review",
+          "status": "done",
           "createdAt": "2026-07-10",
-          "doneAt": null,
+          "doneAt": "2026-07-14",
           "summary": "Hacer más visible el separador entre KüchenHouse y Atelia en la página del grupo.",
-          "nextStep": "Listo para vuestra revisión.",
+          "nextStep": "Completado.",
           "checklist": [
             {
               "label": "Aplicar el ajuste en la app de HusDrommer.",
@@ -337,11 +342,6 @@
           }
         }
       ]
-    },
-    {
-      "key": "done",
-      "label": "Hecho",
-      "items": []
     }
   ]
 }
