@@ -8,8 +8,9 @@ This repo is a public, client-friendly generated progress feed for Studio Prime 
 
 Do not edit JSON feeds, `schema.json`, or copied assets in this repository by hand. The private `../client-docs/` repository is the single source of truth:
 
-- Edit `../client-docs/clients/<client-slug>/client.json` and `tasks/<REFERENCE>.md`.
+- Edit `../client-docs/clients/<client-slug>/client.json` and private task sources named `tasks/<REFERENCE>-<descriptive-slug>.md`.
 - Keep client-safe content inside the task's explicit `public` frontmatter object.
+- Never copy the task's private `internal` object or Markdown body into this repository.
 - Run `node scripts/generate.mjs` from `../client-docs/` to rebuild this repository.
 - Run `node scripts/generate.mjs --check` before committing.
 - `changelog/<client-slug>.json` is generated from completed public tasks; do not edit it directly.
