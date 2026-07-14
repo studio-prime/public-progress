@@ -15,6 +15,16 @@
     {
       "key": "next",
       "label": "En progreso",
+      "items": []
+    },
+    {
+      "key": "needs_client",
+      "label": "Necesita ayuda",
+      "items": []
+    },
+    {
+      "key": "in_review",
+      "label": "Listo para revisión",
       "items": [
         {
           "id": "login-mode-switch-links",
@@ -27,11 +37,11 @@
             "emoji": "👤"
           },
           "title": "👤 Mejorar los enlaces entre formas de acceso",
-          "status": "next",
+          "status": "in_review",
           "createdAt": "2026-07-09",
           "doneAt": null,
           "summary": "Hacer más claros los enlaces para cambiar entre acceso por email y acceso con usuario y contraseña.",
-          "nextStep": "Estamos haciendo una revisión final interna antes de pasarlo a vuestra revisión.",
+          "nextStep": "Listo para vuestra revisión.",
           "checklist": [
             {
               "label": "Hacer más visible el enlace de acceso con usuario y contraseña.",
@@ -62,11 +72,11 @@
             "emoji": "👤"
           },
           "title": "👤 Simplificar registro con usuario y contraseña",
-          "status": "next",
+          "status": "in_review",
           "createdAt": "2026-07-09",
           "doneAt": null,
           "summary": "Limpiar la pantalla de registro con usuario y contraseña y reforzar el enlace de vuelta al registro por email.",
-          "nextStep": "Estamos haciendo una revisión final interna antes de pasarlo a vuestra revisión.",
+          "nextStep": "Listo para vuestra revisión.",
           "checklist": [
             {
               "label": "Quitar Google y Apple en registro con usuario y contraseña.",
@@ -104,11 +114,11 @@
             "emoji": "👤"
           },
           "title": "👤 Ajustar pantalla de validación de identidad",
-          "status": "next",
+          "status": "in_review",
           "createdAt": "2026-07-09",
           "doneAt": null,
           "summary": "Mejorar el texto y las acciones de la pantalla de validación de identidad.",
-          "nextStep": "Estamos haciendo una revisión final interna antes de pasarlo a vuestra revisión.",
+          "nextStep": "Listo para vuestra revisión.",
           "checklist": [
             {
               "label": "Actualizar el texto de preparación del documento.",
@@ -146,11 +156,11 @@
             "emoji": "👤"
           },
           "title": "👤 Confirmar destino de cancelar validación",
-          "status": "next",
+          "status": "in_review",
           "createdAt": "2026-07-09",
           "doneAt": null,
           "summary": "Confirmar dónde debe volver el usuario si cancela la validación de identidad.",
-          "nextStep": "Estamos haciendo una revisión final interna antes de pasarlo a vuestra revisión.",
+          "nextStep": "Listo para vuestra revisión.",
           "checklist": [
             {
               "label": "Confirmar si cancelar vuelve a login, dashboard limitado o cierre de sesión.",
@@ -173,11 +183,11 @@
             "emoji": "👤"
           },
           "title": "👤 Revisar documentos permitidos y comportamiento en iPad",
-          "status": "next",
+          "status": "in_review",
           "createdAt": "2026-07-09",
           "doneAt": null,
           "summary": "Revisar qué documentos permite la validación de identidad y cómo se comporta en tablet/iPad.",
-          "nextStep": "Estamos haciendo una revisión final interna antes de pasarlo a vuestra revisión.",
+          "nextStep": "Listo para vuestra revisión.",
           "checklist": [
             {
               "label": "Revisar qué documentos admite la validación para España.",
@@ -208,11 +218,11 @@
             "emoji": "👤"
           },
           "title": "👤 Revisar datos del documento tras validación",
-          "status": "next",
+          "status": "in_review",
           "createdAt": "2026-07-09",
           "doneAt": null,
           "summary": "Verificar el bug reportado sobre tipo y número de documento tras la validación.",
-          "nextStep": "Estamos haciendo una revisión final interna antes de pasarlo a vuestra revisión.",
+          "nextStep": "Listo para vuestra revisión.",
           "checklist": [
             {
               "label": "Reproducir o revisar el caso donde el tipo de documento queda vacío/incorrecto.",
@@ -243,11 +253,11 @@
             "emoji": "🏠"
           },
           "title": "🏠 Activar instalación como PWA",
-          "status": "next",
+          "status": "in_review",
           "createdAt": "2026-07-09",
           "doneAt": null,
           "summary": "Hacer que el enlace de la app se pueda instalar como PWA desde el navegador.",
-          "nextStep": "Estamos haciendo una revisión final interna antes de pasarlo a vuestra revisión.",
+          "nextStep": "Listo para vuestra revisión.",
           "checklist": [
             {
               "label": "Verificar por qué el navegador no ofrece instalar la app.",
@@ -268,16 +278,6 @@
           }
         }
       ]
-    },
-    {
-      "key": "needs_client",
-      "label": "Necesita ayuda",
-      "items": []
-    },
-    {
-      "key": "in_review",
-      "label": "Listo para revisión",
-      "items": []
     },
     {
       "key": "done",
