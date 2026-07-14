@@ -7,8 +7,15 @@
       "id": "residencias-pwa-installable",
       "number": 10,
       "reference": "DOO-10",
+      "projects": [
+        {
+          "key": "residences",
+          "label": "Residencias",
+          "emoji": "🏠"
+        }
+      ],
       "app": {
-        "key": "residencias",
+        "key": "residences",
         "label": "Residencias",
         "emoji": "🏠"
       },
@@ -20,6 +27,13 @@
       "id": "didit-document-data-bug",
       "number": 9,
       "reference": "DOO-9",
+      "projects": [
+        {
+          "key": "personal",
+          "label": "Personal",
+          "emoji": "👤"
+        }
+      ],
       "app": {
         "key": "personal",
         "label": "Personal",
@@ -33,6 +47,13 @@
       "id": "didit-document-data-review",
       "number": 8,
       "reference": "DOO-8",
+      "projects": [
+        {
+          "key": "personal",
+          "label": "Personal",
+          "emoji": "👤"
+        }
+      ],
       "app": {
         "key": "personal",
         "label": "Personal",
@@ -46,6 +67,13 @@
       "id": "identity-cancel-destination",
       "number": 7,
       "reference": "DOO-7",
+      "projects": [
+        {
+          "key": "personal",
+          "label": "Personal",
+          "emoji": "👤"
+        }
+      ],
       "app": {
         "key": "personal",
         "label": "Personal",
@@ -59,6 +87,13 @@
       "id": "identity-validation-screen",
       "number": 6,
       "reference": "DOO-6",
+      "projects": [
+        {
+          "key": "personal",
+          "label": "Personal",
+          "emoji": "👤"
+        }
+      ],
       "app": {
         "key": "personal",
         "label": "Personal",
@@ -72,6 +107,13 @@
       "id": "signup-username-password-cleanup",
       "number": 5,
       "reference": "DOO-5",
+      "projects": [
+        {
+          "key": "personal",
+          "label": "Personal",
+          "emoji": "👤"
+        }
+      ],
       "app": {
         "key": "personal",
         "label": "Personal",
@@ -85,6 +127,13 @@
       "id": "login-mode-switch-links",
       "number": 4,
       "reference": "DOO-4",
+      "projects": [
+        {
+          "key": "personal",
+          "label": "Personal",
+          "emoji": "👤"
+        }
+      ],
       "app": {
         "key": "personal",
         "label": "Personal",

@@ -1,0 +1,52 @@
+{
+  "slug": "grupo-husdrommer",
+  "name": "Grupo HusDrommer",
+  "lang": "es",
+  "projects": [
+    {
+      "key": "husdrommer",
+      "label": "HusDrommer",
+      "emoji": "🏢"
+    },
+    {
+      "key": "atelia",
+      "label": "Atelia",
+      "emoji": "🏡"
+    },
+    {
+      "key": "husliving",
+      "label": "HusLiving",
+      "emoji": "🏠"
+    },
+    {
+      "key": "klarventanas",
+      "label": "Klar Ventanas",
+      "emoji": "🪟"
+    },
+    {
+      "key": "jodidagloria",
+      "label": "Jodida Gloria",
+      "emoji": "🎤"
+    },
+    {
+      "key": "lafreska",
+      "label": "La Freska",
+      "emoji": "🎵"
+    },
+    {
+      "key": "pascualet",
+      "label": "Licor Pascualet",
+      "emoji": "🥃"
+    },
+    {
+      "key": "tomasalbiol",
+      "label": "Tomás Albiol",
+      "emoji": "🏛️"
+    },
+    {
+      "key": "unitedformusic",
+      "label": "United for Music",
+      "emoji": "🎶"
+    }
+  ]
+}

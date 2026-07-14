@@ -12,6 +12,7 @@
     "taskPrefix",
     "summary",
     "updatedAt",
+    "projects",
     "sections"
   ],
   "properties": {
@@ -40,6 +41,13 @@
     },
     "updatedAt": {
       "$ref": "#/$defs/date"
+    },
+    "projects": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/project"
+      },
+      "minItems": 1
     },
     "sections": {
       "type": "array",
@@ -80,6 +88,7 @@
         "id",
         "number",
         "reference",
+        "projects",
         "app",
         "title",
         "status",
@@ -101,6 +110,13 @@
         "reference": {
           "type": "string",
           "pattern": "^[A-Z]{3}-\\d+$"
+        },
+        "projects": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/project"
+          },
+          "minItems": 1
         },
         "app": {
           "$ref": "#/$defs/app"
@@ -202,7 +218,7 @@
         }
       }
     },
-    "app": {
+    "project": {
       "type": "object",
       "additionalProperties": false,
       "required": ["key", "label", "emoji"],
@@ -220,6 +236,9 @@
           "minLength": 1
         }
       }
+    },
+    "app": {
+      "$ref": "#/$defs/project"
     }
   }
 }

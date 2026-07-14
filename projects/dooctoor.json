@@ -1,0 +1,37 @@
+{
+  "slug": "dooctoor",
+  "name": "Dooctoor",
+  "lang": "es",
+  "projects": [
+    {
+      "key": "personal",
+      "label": "Personal",
+      "emoji": "👤"
+    },
+    {
+      "key": "residences",
+      "label": "Residencias",
+      "emoji": "🏠"
+    },
+    {
+      "key": "schools",
+      "label": "Colegios",
+      "emoji": "🏫"
+    },
+    {
+      "key": "farmacias",
+      "label": "Farmacias",
+      "emoji": "💊"
+    },
+    {
+      "key": "backoffice",
+      "label": "Backoffice",
+      "emoji": "🛠️"
+    },
+    {
+      "key": "marketing",
+      "label": "Web",
+      "emoji": "🌐"
+    }
+  ]
+}

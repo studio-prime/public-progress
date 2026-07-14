@@ -8,12 +8,13 @@ This repo is a public, client-friendly generated progress feed for Studio Prime 
 
 Do not edit JSON feeds, `schema.json`, or copied assets in this repository by hand. The private `../client-docs/` repository is the single source of truth:
 
-- Edit `../client-docs/clients/<client-slug>/client.json` and private task sources named `tasks/<REFERENCE>-<descriptive-slug>.md`.
+- Edit `../client-docs/clients/<client-slug>/client.json`, the canonical `projects.json`, and private task sources named `tasks/<REFERENCE>-<descriptive-slug>.md`.
 - Keep client-safe content inside the task's explicit `public` frontmatter object.
 - Never copy the task's private `internal` object or Markdown body into this repository.
 - Run `node scripts/generate.mjs` from `../client-docs/` to rebuild this repository.
 - Run `node scripts/generate.mjs --check` before committing.
 - `changelog/<client-slug>.json` is generated from completed public tasks; do not edit it directly.
+- `projects/<client-slug>.json` is the generated client-safe project catalog; do not edit it directly.
 
 The rules below define the generated public contract and still apply to source frontmatter.
 
@@ -29,7 +30,7 @@ The rules below define the generated public contract and still apply to source f
 - Do not publish ambiguous cross-client or cross-app mentions. If a source document appears to belong to one client/app but contains lines that may refer to another, keep that interpretation in `../client-docs/` as `Need From David` when David can decide or approve Codex's recommendation, or as `Blocked` when only the client/external source can unblock it and Codex has no safe recommendation.
 - Every progress item must include a stable integer `number` plus a `reference` built as `<PREFIX>-<number>`, for example `DOO-23`. Clients and David should use the `reference` when discussing work. Numbers are per client and should increase from the highest existing number; imported GitHub tasks keep their original GitHub issue/task number.
 - Mark task type with optional `kind`: use `"request"` for normal requests, `"bug"` for client-reported broken behavior, and `"question"` for explicit doubts/decision items. `kind: "bug"` means reported bug until Codex reproduces or verifies it; do not write as if confirmed unless evidence/code/testing confirms it. Bug checklists should include reproduction or verification before fix work.
-- Every progress item must include an `app` object with `key`, `label`, and `emoji`. Identify the concrete client app/product the task belongs to before creating it, for example Dooctoor apps like `colegios`, `farmacias`, `personal`, `backoffice`, or `marketing`. Use `key: "core"` only for tasks that affect the whole client workspace or multiple apps.
+- Every feed includes its registered client-safe `projects` catalog, and every progress item includes its resolved `projects`. Project identity comes only from private `client-docs` catalogs. Never invent `core`, `grupo`, or a client-level pseudo-project. The generated `app` field is a temporary StudioPrime compatibility field; do not author or edit it here.
 - Client-safe attachments can be included with an `attachments` array. Use `type: "pdf"`, `"image"`, `"doc"`, `"sheet"`, or `"link"` plus a short `label` and `url`. Store public files under `assets/<client-slug>/...` and reference that relative path. Use external `https://` links only when the linked resource is safe for clients. Attachments should open in browser preview where possible; avoid raw download URLs for PDFs, images, Word, and Excel files.
 - Internal rendered PDF/page review captures belong in `../client-docs/assets/`, not this public repo, unless David explicitly approves them as client-safe and useful for the dashboard.
 - After editing task source frontmatter, run the generator and verify every local attachment URL exists in this repo and that the number of public attachments is the intended client-safe subset from `../client-docs/`. Do not publish screenshots/files containing private notes, PII, credentials, or sensitive client context. If an expected attachment cannot be copied, read, or safely published, record the gap in `../client-docs/` and tell David.
@@ -39,8 +40,8 @@ The rules below define the generated public contract and still apply to source f
 - Internal `client-docs` `👀 To Review Manually` is not client review. Do not publish those items as `in_review`; keep/move them to `next` with client-safe copy such as "Estamos haciendo una revisión final interna."
 - Use these board sections and statuses: `backlog`, `next`, `needs_client`, `in_review`, `done`. In Spanish, use these labels: `backlog` = "Pendiente", `next` = "En progreso", `needs_client` = "Necesita ayuda", `in_review` = "Listo para revisión", `done` = "Completado".
 - Internal `Blocked` work should only appear publicly as `needs_client` when the client-facing ask is safe, clear, and useful. Otherwise keep it internal in `../client-docs/`.
-- Use emojis only to identify the app/project. The first emoji in each item `title` must be exactly the same as that item's `app.emoji`; do not use different task-specific emojis.
-- Do not repeat the client/app name in client-facing item titles when the `app` badge already shows it. Prefer `🏡 Actualización de estructura y contenidos` over `🏡 Atelia · Actualización de estructura y contenidos`.
+- Use emojis only to identify projects. Single-project titles start with the registered project's emoji; cross-project titles start with the generated `🧩` compatibility badge.
+- Do not repeat the client/project name in client-facing item titles when the dashboard already shows the project badge. Prefer `🏡 Actualización de estructura y contenidos` over `🏡 Atelia · Actualización de estructura y contenidos`.
 - Prefer short client-facing items with a `checklist` over long descriptions. The dashboard should make it easy for clients to see what will happen, not expose internal reasoning.
 - Keep `summary` and `nextStep` short and client-safe when present. They are supporting copy, not a place for uncertainty, implementation notes, or messages to David.
 - Do not store hidden/internal context in this public repo. Anything "for Codex only" or "for David" belongs in `../client-docs/`, even if the Studio Prime dashboard would not render that field.

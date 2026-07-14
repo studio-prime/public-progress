@@ -7,9 +7,16 @@
       "id": "grupo-brand-divider-reinforcement",
       "number": 15,
       "reference": "HUS-15",
+      "projects": [
+        {
+          "key": "husdrommer",
+          "label": "HusDrommer",
+          "emoji": "🏢"
+        }
+      ],
       "app": {
-        "key": "core",
-        "label": "Grupo",
+        "key": "husdrommer",
+        "label": "HusDrommer",
         "emoji": "🏢"
       },
       "title": "🏢 Reforzar separador entre marcas",
@@ -20,6 +27,13 @@
       "id": "atelia-services-label-style",
       "number": 14,
       "reference": "HUS-14",
+      "projects": [
+        {
+          "key": "atelia",
+          "label": "Atelia",
+          "emoji": "🏡"
+        }
+      ],
       "app": {
         "key": "atelia",
         "label": "Atelia",
@@ -33,6 +47,13 @@
       "id": "atelia-group-band-contact",
       "number": 13,
       "reference": "HUS-13",
+      "projects": [
+        {
+          "key": "atelia",
+          "label": "Atelia",
+          "emoji": "🏡"
+        }
+      ],
       "app": {
         "key": "atelia",
         "label": "Atelia",
@@ -46,6 +67,13 @@
       "id": "atelia-contact-block-refinement",
       "number": 12,
       "reference": "HUS-12",
+      "projects": [
+        {
+          "key": "atelia",
+          "label": "Atelia",
+          "emoji": "🏡"
+        }
+      ],
       "app": {
         "key": "atelia",
         "label": "Atelia",
@@ -59,9 +87,16 @@
       "id": "grupo-brand-divider",
       "number": 11,
       "reference": "HUS-11",
+      "projects": [
+        {
+          "key": "husdrommer",
+          "label": "HusDrommer",
+          "emoji": "🏢"
+        }
+      ],
       "app": {
-        "key": "core",
-        "label": "Grupo",
+        "key": "husdrommer",
+        "label": "HusDrommer",
         "emoji": "🏢"
       },
       "title": "🏢 Separador entre marcas",
@@ -72,6 +107,13 @@
       "id": "atelia-projects-process-contact",
       "number": 3,
       "reference": "HUS-3",
+      "projects": [
+        {
+          "key": "atelia",
+          "label": "Atelia",
+          "emoji": "🏡"
+        }
+      ],
       "app": {
         "key": "atelia",
         "label": "Atelia",
@@ -85,6 +127,13 @@
       "id": "atelia-visual-sections",
       "number": 2,
       "reference": "HUS-2",
+      "projects": [
+        {
+          "key": "atelia",
+          "label": "Atelia",
+          "emoji": "🏡"
+        }
+      ],
       "app": {
         "key": "atelia",
         "label": "Atelia",
@@ -98,6 +147,13 @@
       "id": "atelia-structure-content",
       "number": 1,
       "reference": "HUS-1",
+      "projects": [
+        {
+          "key": "atelia",
+          "label": "Atelia",
+          "emoji": "🏡"
+        }
+      ],
       "app": {
         "key": "atelia",
         "label": "Atelia",

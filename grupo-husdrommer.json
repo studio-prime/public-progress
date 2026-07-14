@@ -4,8 +4,55 @@
   "lang": "es",
   "status": "active",
   "taskPrefix": "HUS",
-  "summary": "Las mejoras de Atelia y del grupo están listas para vuestra revisión.",
-  "updatedAt": "2026-07-10",
+  "summary": "Las mejoras de Atelia y HusDrommer están completadas.",
+  "updatedAt": "2026-07-14",
+  "projects": [
+    {
+      "key": "husdrommer",
+      "label": "HusDrommer",
+      "emoji": "🏢"
+    },
+    {
+      "key": "atelia",
+      "label": "Atelia",
+      "emoji": "🏡"
+    },
+    {
+      "key": "husliving",
+      "label": "HusLiving",
+      "emoji": "🏠"
+    },
+    {
+      "key": "klarventanas",
+      "label": "Klar Ventanas",
+      "emoji": "🪟"
+    },
+    {
+      "key": "jodidagloria",
+      "label": "Jodida Gloria",
+      "emoji": "🎤"
+    },
+    {
+      "key": "lafreska",
+      "label": "La Freska",
+      "emoji": "🎵"
+    },
+    {
+      "key": "pascualet",
+      "label": "Licor Pascualet",
+      "emoji": "🥃"
+    },
+    {
+      "key": "tomasalbiol",
+      "label": "Tomás Albiol",
+      "emoji": "🏛️"
+    },
+    {
+      "key": "unitedformusic",
+      "label": "United for Music",
+      "emoji": "🎶"
+    }
+  ],
   "sections": [
     {
       "key": "backlog",
@@ -35,6 +82,13 @@
           "id": "atelia-structure-content",
           "number": 1,
           "reference": "HUS-1",
+          "projects": [
+            {
+              "key": "atelia",
+              "label": "Atelia",
+              "emoji": "🏡"
+            }
+          ],
           "app": {
             "key": "atelia",
             "label": "Atelia",
@@ -80,6 +134,13 @@
           "id": "atelia-visual-sections",
           "number": 2,
           "reference": "HUS-2",
+          "projects": [
+            {
+              "key": "atelia",
+              "label": "Atelia",
+              "emoji": "🏡"
+            }
+          ],
           "app": {
             "key": "atelia",
             "label": "Atelia",
@@ -126,6 +187,13 @@
           "id": "atelia-projects-process-contact",
           "number": 3,
           "reference": "HUS-3",
+          "projects": [
+            {
+              "key": "atelia",
+              "label": "Atelia",
+              "emoji": "🏡"
+            }
+          ],
           "app": {
             "key": "atelia",
             "label": "Atelia",
@@ -175,9 +243,16 @@
           "id": "grupo-brand-divider",
           "number": 11,
           "reference": "HUS-11",
+          "projects": [
+            {
+              "key": "husdrommer",
+              "label": "HusDrommer",
+              "emoji": "🏢"
+            }
+          ],
           "app": {
-            "key": "core",
-            "label": "Grupo",
+            "key": "husdrommer",
+            "label": "HusDrommer",
             "emoji": "🏢"
           },
           "title": "🏢 Separador entre marcas",
@@ -209,6 +284,13 @@
           "id": "atelia-contact-block-refinement",
           "number": 12,
           "reference": "HUS-12",
+          "projects": [
+            {
+              "key": "atelia",
+              "label": "Atelia",
+              "emoji": "🏡"
+            }
+          ],
           "app": {
             "key": "atelia",
             "label": "Atelia",
@@ -243,6 +325,13 @@
           "id": "atelia-group-band-contact",
           "number": 13,
           "reference": "HUS-13",
+          "projects": [
+            {
+              "key": "atelia",
+              "label": "Atelia",
+              "emoji": "🏡"
+            }
+          ],
           "app": {
             "key": "atelia",
             "label": "Atelia",
@@ -277,6 +366,13 @@
           "id": "atelia-services-label-style",
           "number": 14,
           "reference": "HUS-14",
+          "projects": [
+            {
+              "key": "atelia",
+              "label": "Atelia",
+              "emoji": "🏡"
+            }
+          ],
           "app": {
             "key": "atelia",
             "label": "Atelia",
@@ -311,9 +407,16 @@
           "id": "grupo-brand-divider-reinforcement",
           "number": 15,
           "reference": "HUS-15",
+          "projects": [
+            {
+              "key": "husdrommer",
+              "label": "HusDrommer",
+              "emoji": "🏢"
+            }
+          ],
           "app": {
-            "key": "core",
-            "label": "Grupo",
+            "key": "husdrommer",
+            "label": "HusDrommer",
             "emoji": "🏢"
           },
           "title": "🏢 Reforzar separador entre marcas",

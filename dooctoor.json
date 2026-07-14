@@ -4,8 +4,40 @@
   "lang": "es",
   "status": "active",
   "taskPrefix": "DOO",
-  "summary": "Las mejoras de login, registro, identidad, Didit y PWA están en revisión final interna antes de pasarlas a revisión.",
-  "updatedAt": "2026-07-09",
+  "summary": "Las mejoras anteriores están completadas y la revisión de roles y permisos queda registrada como siguiente trabajo.",
+  "updatedAt": "2026-07-14",
+  "projects": [
+    {
+      "key": "personal",
+      "label": "Personal",
+      "emoji": "👤"
+    },
+    {
+      "key": "residences",
+      "label": "Residencias",
+      "emoji": "🏠"
+    },
+    {
+      "key": "schools",
+      "label": "Colegios",
+      "emoji": "🏫"
+    },
+    {
+      "key": "farmacias",
+      "label": "Farmacias",
+      "emoji": "💊"
+    },
+    {
+      "key": "backoffice",
+      "label": "Backoffice",
+      "emoji": "🛠️"
+    },
+    {
+      "key": "marketing",
+      "label": "Web",
+      "emoji": "🌐"
+    }
+  ],
   "sections": [
     {
       "key": "backlog",
@@ -16,12 +48,39 @@
           "number": 11,
           "reference": "DOO-11",
           "kind": "bug",
+          "projects": [
+            {
+              "key": "personal",
+              "label": "Personal",
+              "emoji": "👤"
+            },
+            {
+              "key": "residences",
+              "label": "Residencias",
+              "emoji": "🏠"
+            },
+            {
+              "key": "schools",
+              "label": "Colegios",
+              "emoji": "🏫"
+            },
+            {
+              "key": "farmacias",
+              "label": "Farmacias",
+              "emoji": "💊"
+            },
+            {
+              "key": "backoffice",
+              "label": "Backoffice",
+              "emoji": "🛠️"
+            }
+          ],
           "app": {
-            "key": "core",
-            "label": "Plataforma",
-            "emoji": "🩺"
+            "key": "multiple",
+            "label": "Varios proyectos",
+            "emoji": "🧩"
           },
-          "title": "🩺 Revisar roles y permisos de usuarios personales y centros",
+          "title": "🧩 Revisar roles y permisos de usuarios personales y centros",
           "status": "backlog",
           "createdAt": "2026-07-14",
           "doneAt": null,
@@ -76,6 +135,13 @@
           "number": 4,
           "reference": "DOO-4",
           "kind": "request",
+          "projects": [
+            {
+              "key": "personal",
+              "label": "Personal",
+              "emoji": "👤"
+            }
+          ],
           "app": {
             "key": "personal",
             "label": "Personal",
@@ -111,6 +177,13 @@
           "number": 5,
           "reference": "DOO-5",
           "kind": "request",
+          "projects": [
+            {
+              "key": "personal",
+              "label": "Personal",
+              "emoji": "👤"
+            }
+          ],
           "app": {
             "key": "personal",
             "label": "Personal",
@@ -153,6 +226,13 @@
           "number": 6,
           "reference": "DOO-6",
           "kind": "request",
+          "projects": [
+            {
+              "key": "personal",
+              "label": "Personal",
+              "emoji": "👤"
+            }
+          ],
           "app": {
             "key": "personal",
             "label": "Personal",
@@ -195,6 +275,13 @@
           "number": 7,
           "reference": "DOO-7",
           "kind": "question",
+          "projects": [
+            {
+              "key": "personal",
+              "label": "Personal",
+              "emoji": "👤"
+            }
+          ],
           "app": {
             "key": "personal",
             "label": "Personal",
@@ -222,6 +309,13 @@
           "number": 8,
           "reference": "DOO-8",
           "kind": "question",
+          "projects": [
+            {
+              "key": "personal",
+              "label": "Personal",
+              "emoji": "👤"
+            }
+          ],
           "app": {
             "key": "personal",
             "label": "Personal",
@@ -257,6 +351,13 @@
           "number": 9,
           "reference": "DOO-9",
           "kind": "bug",
+          "projects": [
+            {
+              "key": "personal",
+              "label": "Personal",
+              "emoji": "👤"
+            }
+          ],
           "app": {
             "key": "personal",
             "label": "Personal",
@@ -292,8 +393,15 @@
           "number": 10,
           "reference": "DOO-10",
           "kind": "request",
+          "projects": [
+            {
+              "key": "residences",
+              "label": "Residencias",
+              "emoji": "🏠"
+            }
+          ],
           "app": {
-            "key": "residencias",
+            "key": "residences",
             "label": "Residencias",
             "emoji": "🏠"
           },
