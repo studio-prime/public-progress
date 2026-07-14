@@ -12,6 +12,7 @@ Do not edit JSON feeds, `schema.json`, or copied assets in this repository by ha
 - Keep client-safe content inside the task's explicit `public` frontmatter object.
 - Run `node scripts/generate.mjs` from `../client-docs/` to rebuild this repository.
 - Run `node scripts/generate.mjs --check` before committing.
+- `changelog/<client-slug>.json` is generated from completed public tasks; do not edit it directly.
 
 The rules below define the generated public contract and still apply to source frontmatter.
 

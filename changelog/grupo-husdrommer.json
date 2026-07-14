@@ -1,0 +1,111 @@
+{
+  "slug": "grupo-husdrommer",
+  "name": "Grupo HusDrommer",
+  "lang": "es",
+  "entries": [
+    {
+      "id": "grupo-brand-divider-reinforcement",
+      "number": 15,
+      "reference": "HUS-15",
+      "app": {
+        "key": "core",
+        "label": "Grupo",
+        "emoji": "🏢"
+      },
+      "title": "🏢 Reforzar separador entre marcas",
+      "summary": "Hacer más visible el separador entre KüchenHouse y Atelia en la página del grupo.",
+      "completedAt": "2026-07-14"
+    },
+    {
+      "id": "atelia-services-label-style",
+      "number": 14,
+      "reference": "HUS-14",
+      "app": {
+        "key": "atelia",
+        "label": "Atelia",
+        "emoji": "🏡"
+      },
+      "title": "🏡 Rótulo de Servicios",
+      "summary": "Igualar el rótulo de Servicios al tratamiento visual de Proyectos.",
+      "completedAt": "2026-07-14"
+    },
+    {
+      "id": "atelia-group-band-contact",
+      "number": 13,
+      "reference": "HUS-13",
+      "app": {
+        "key": "atelia",
+        "label": "Atelia",
+        "emoji": "🏡"
+      },
+      "title": "🏡 Mover bloque de grupo a Contacto",
+      "summary": "Mover el bloque Grupo HusDrommer desde la home a Contacto.",
+      "completedAt": "2026-07-14"
+    },
+    {
+      "id": "atelia-contact-block-refinement",
+      "number": 12,
+      "reference": "HUS-12",
+      "app": {
+        "key": "atelia",
+        "label": "Atelia",
+        "emoji": "🏡"
+      },
+      "title": "🏡 Ajuste del bloque de contacto",
+      "summary": "Ajustar la dirección y el tamaño visual del bloque de contacto.",
+      "completedAt": "2026-07-14"
+    },
+    {
+      "id": "grupo-brand-divider",
+      "number": 11,
+      "reference": "HUS-11",
+      "app": {
+        "key": "core",
+        "label": "Grupo",
+        "emoji": "🏢"
+      },
+      "title": "🏢 Separador entre marcas",
+      "summary": "Añadir un separador visual en la página del grupo entre KüchenHouse y Atelia.",
+      "completedAt": "2026-07-14"
+    },
+    {
+      "id": "atelia-projects-process-contact",
+      "number": 3,
+      "reference": "HUS-3",
+      "app": {
+        "key": "atelia",
+        "label": "Atelia",
+        "emoji": "🏡"
+      },
+      "title": "🏡 Textos de proyectos, proceso y contacto",
+      "summary": "Actualizar los textos y bloques de Proyectos, proceso y contacto según el material compartido.",
+      "completedAt": "2026-07-14"
+    },
+    {
+      "id": "atelia-visual-sections",
+      "number": 2,
+      "reference": "HUS-2",
+      "app": {
+        "key": "atelia",
+        "label": "Atelia",
+        "emoji": "🏡"
+      },
+      "title": "🏡 Ajustes visuales de secciones",
+      "summary": "Ajustar los bloques CTA con fondo crema y botón chocolate, siguiendo el kit de marca.",
+      "completedAt": "2026-07-14"
+    },
+    {
+      "id": "atelia-structure-content",
+      "number": 1,
+      "reference": "HUS-1",
+      "app": {
+        "key": "atelia",
+        "label": "Atelia",
+        "emoji": "🏡"
+      },
+      "title": "🏡 Actualización de estructura y contenidos",
+      "summary": "Actualizar la estructura principal de Atelia y los contenidos indicados en el material compartido.",
+      "completedAt": "2026-07-14"
+    }
+  ]
+}

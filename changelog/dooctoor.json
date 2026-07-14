@@ -1,0 +1,98 @@
+{
+  "slug": "dooctoor",
+  "name": "Dooctoor",
+  "lang": "es",
+  "entries": [
+    {
+      "id": "residencias-pwa-installable",
+      "number": 10,
+      "reference": "DOO-10",
+      "app": {
+        "key": "residencias",
+        "label": "Residencias",
+        "emoji": "🏠"
+      },
+      "title": "🏠 Activar instalación como PWA",
+      "summary": "Hacer que el enlace de la app se pueda instalar como PWA desde el navegador.",
+      "completedAt": "2026-07-14"
+    },
+    {
+      "id": "didit-document-data-bug",
+      "number": 9,
+      "reference": "DOO-9",
+      "app": {
+        "key": "personal",
+        "label": "Personal",
+        "emoji": "👤"
+      },
+      "title": "👤 Revisar datos del documento tras validación",
+      "summary": "Verificar el bug reportado sobre tipo y número de documento tras la validación.",
+      "completedAt": "2026-07-14"
+    },
+    {
+      "id": "didit-document-data-review",
+      "number": 8,
+      "reference": "DOO-8",
+      "app": {
+        "key": "personal",
+        "label": "Personal",
+        "emoji": "👤"
+      },
+      "title": "👤 Revisar documentos permitidos y comportamiento en iPad",
+      "summary": "Revisar qué documentos permite la validación de identidad y cómo se comporta en tablet/iPad.",
+      "completedAt": "2026-07-14"
+    },
+    {
+      "id": "identity-cancel-destination",
+      "number": 7,
+      "reference": "DOO-7",
+      "app": {
+        "key": "personal",
+        "label": "Personal",
+        "emoji": "👤"
+      },
+      "title": "👤 Confirmar destino de cancelar validación",
+      "summary": "Confirmar dónde debe volver el usuario si cancela la validación de identidad.",
+      "completedAt": "2026-07-14"
+    },
+    {
+      "id": "identity-validation-screen",
+      "number": 6,
+      "reference": "DOO-6",
+      "app": {
+        "key": "personal",
+        "label": "Personal",
+        "emoji": "👤"
+      },
+      "title": "👤 Ajustar pantalla de validación de identidad",
+      "summary": "Mejorar el texto y las acciones de la pantalla de validación de identidad.",
+      "completedAt": "2026-07-14"
+    },
+    {
+      "id": "signup-username-password-cleanup",
+      "number": 5,
+      "reference": "DOO-5",
+      "app": {
+        "key": "personal",
+        "label": "Personal",
+        "emoji": "👤"
+      },
+      "title": "👤 Simplificar registro con usuario y contraseña",
+      "summary": "Limpiar la pantalla de registro con usuario y contraseña y reforzar el enlace de vuelta al registro por email.",
+      "completedAt": "2026-07-14"
+    },
+    {
+      "id": "login-mode-switch-links",
+      "number": 4,
+      "reference": "DOO-4",
+      "app": {
+        "key": "personal",
+        "label": "Personal",
+        "emoji": "👤"
+      },
+      "title": "👤 Mejorar los enlaces entre formas de acceso",
+      "summary": "Hacer más claros los enlaces para cambiar entre acceso por email y acceso con usuario y contraseña.",
+      "completedAt": "2026-07-14"
+    }
+  ]
+}
