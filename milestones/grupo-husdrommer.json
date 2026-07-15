@@ -135,36 +135,6 @@
           ]
         }
       ]
-    },
-    {
-      "key": "tomasalbiol-site",
-      "title": "Web de Tomás Albiol",
-      "description": "Crear la nueva web institucional de Tomás Albiol y presentar su ecosistema de empresas, proyectos y marcas.",
-      "projects": [
-        {
-          "key": "tomasalbiol",
-          "label": "Tomás Albiol",
-          "emoji": "🏛️"
-        }
-      ],
-      "status": "planned",
-      "progress": 0,
-      "completedTasks": 0,
-      "totalTasks": 1,
-      "tasks": [
-        {
-          "reference": "HUS-16",
-          "title": "🏛️ Nueva web institucional de Tomás Albiol",
-          "status": "backlog",
-          "projects": [
-            {
-              "key": "tomasalbiol",
-              "label": "Tomás Albiol",
-              "emoji": "🏛️"
-            }
-          ]
-        }
-      ]
     }
   ]
 }
