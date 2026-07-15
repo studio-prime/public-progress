@@ -197,7 +197,7 @@
           "emoji": "🏛️"
         }
       ],
-      "status": "planned",
+      "status": "blocked",
       "progress": 0,
       "completedTasks": 0,
       "totalTasks": 1,
@@ -205,7 +205,7 @@
         {
           "reference": "HUS-16",
           "title": "🏛️ Nueva web institucional de Tomás Albiol",
-          "status": "backlog",
+          "status": "needs_client",
           "projects": [
             {
               "key": "tomasalbiol",
@@ -221,6 +221,16 @@
     {
       "key": "backlog",
       "label": "Pendiente",
+      "items": []
+    },
+    {
+      "key": "next",
+      "label": "En progreso",
+      "items": []
+    },
+    {
+      "key": "needs_client",
+      "label": "Necesita ayuda",
       "items": [
         {
           "id": "tomasalbiol-institutional-site",
@@ -244,11 +254,11 @@
             "emoji": "🏛️"
           },
           "title": "🏛️ Nueva web institucional de Tomás Albiol",
-          "status": "backlog",
+          "status": "needs_client",
           "createdAt": "2026-07-15",
           "doneAt": null,
           "summary": "Crear una web institucional para presentar el ecosistema de empresas, proyectos y marcas de Tomás Albiol.",
-          "nextStep": "Validaremos la dirección visual y el alcance antes de comenzar.",
+          "nextStep": "Necesitamos la web oficial de Fatal para completar los enlaces del portfolio.",
           "checklist": [
             {
               "label": "Presentar la identidad y el mensaje principal de Tomás Albiol.",
@@ -287,16 +297,6 @@
           }
         }
       ]
-    },
-    {
-      "key": "next",
-      "label": "En progreso",
-      "items": []
-    },
-    {
-      "key": "needs_client",
-      "label": "Necesita ayuda",
-      "items": []
     },
     {
       "key": "in_review",

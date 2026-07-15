@@ -147,7 +147,7 @@
           "emoji": "🏛️"
         }
       ],
-      "status": "planned",
+      "status": "blocked",
       "progress": 0,
       "completedTasks": 0,
       "totalTasks": 1,
@@ -155,7 +155,7 @@
         {
           "reference": "HUS-16",
           "title": "🏛️ Nueva web institucional de Tomás Albiol",
-          "status": "backlog",
+          "status": "needs_client",
           "projects": [
             {
               "key": "tomasalbiol",
