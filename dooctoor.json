@@ -317,6 +317,15 @@
               "done": false
             }
           ],
+          "reviewGuide": {
+            "title": "Cómo se comprobará",
+            "steps": [
+              "Acceder con un usuario personal sin pertenencia a un centro.",
+              "Probar acciones representativas con los roles viewer, staff, admin y owner.",
+              "Comprobar acciones personales y acciones del centro activo."
+            ],
+            "expectedResult": "Cada usuario conserva únicamente los permisos de su propiedad, rol y centro; nadie se convierte automáticamente en staff."
+          },
           "clientContext": {
             "label": "Problema detectado",
             "body": "Se ha detectado que algunos usuarios personales se resuelven como usuarios staff y que ciertas acciones de centros comprueban la pertenencia, pero no siempre el nivel de permisos. Hay que revisar el modelo completo para evitar bloqueos y accesos incorrectos."
@@ -384,6 +393,14 @@
               "done": true
             }
           ],
+          "reviewGuide": {
+            "title": "Cómo revisarlo",
+            "steps": [
+              "Abre el acceso de Personal con la opción de email.",
+              "Cambia a usuario y contraseña y vuelve de nuevo al acceso por email."
+            ],
+            "expectedResult": "Los dos enlaces se distinguen con claridad y el enlace de vuelta muestra «Volver y usar correo electrónico»."
+          },
           "clientContext": {
             "label": "Pedido original",
             "body": "Mejorar el cambio entre acceso por email y acceso con usuario y contraseña para que los enlaces sean más claros."
@@ -430,6 +447,15 @@
               "done": true
             }
           ],
+          "reviewGuide": {
+            "title": "Cómo revisarlo",
+            "steps": [
+              "Abre el registro de Personal con usuario y contraseña.",
+              "Comprueba que no aparecen Google ni Apple.",
+              "Pulsa «Mejor volver y usar correo electrónico»."
+            ],
+            "expectedResult": "Se abre el registro por email con sus opciones habituales y sin alterar el resto del flujo."
+          },
           "clientContext": {
             "label": "Pedido original",
             "body": "En registro con usuario y contraseña, quitar las opciones de Google y Apple y dejar una forma clara de volver al registro por email."
@@ -483,6 +509,15 @@
               "done": true
             }
           ],
+          "reviewGuide": {
+            "title": "Cómo revisarlo",
+            "steps": [
+              "Accede con una cuenta de Personal que necesite validar su identidad.",
+              "Comprueba las instrucciones de preparación y que no aparece «Actualizar estado».",
+              "Pulsa «Cancelar»."
+            ],
+            "expectedResult": "La sesión se cierra y el navegador vuelve a la pantalla de acceso."
+          },
           "clientContext": {
             "label": "Pedido original",
             "body": "REQ1: cambiar el texto bajo “Prepara tu documento de identidad” por: 1. Necesitarás DNI, NIE o pasaporte en vigor. 2. Te redirigiremos a un proveedor externo de validación de identidad. 3. Necesitarás hacerlo con un dispositivo móvil.\n\nREQ2: eliminar el botón “Actualizar estado”.\n\nREQ3: añadir botón de cancelar y confirmar dónde debería volver."
@@ -528,6 +563,14 @@
               "done": true
             }
           ],
+          "reviewGuide": {
+            "title": "Cómo revisarlo",
+            "steps": [
+              "Abre la pantalla obligatoria de validación de identidad con una sesión iniciada.",
+              "Pulsa «Cancelar»."
+            ],
+            "expectedResult": "La cuenta cierra sesión y vuelve a la pantalla de acceso."
+          },
           "clientContext": {
             "label": "Pedido original",
             "body": "REQ3: añadir botón de cancelar en la validación de identidad y definir dónde debe volver el usuario."
@@ -574,6 +617,14 @@
               "done": true
             }
           ],
+          "reviewGuide": {
+            "title": "Cómo comprobarlo",
+            "steps": [
+              "Inicia la validación de identidad desde Personal.",
+              "Revisa los documentos españoles y el comportamiento ofrecido por Didit en el dispositivo utilizado."
+            ],
+            "expectedResult": "Las opciones de documento y dispositivo dependen del flujo configurado en Didit, no de una restricción visual local de Personal."
+          },
           "clientContext": {
             "label": "Pedido original",
             "body": "REQ4: revisar si se puede restringir la validación en España a DNI, NIE o pasaporte.\n\nDUDA1: comprobar si en iPad también pide escanear un QR."
@@ -620,6 +671,15 @@
               "done": true
             }
           ],
+          "reviewGuide": {
+            "title": "Cómo comprobarlo",
+            "steps": [
+              "Completa una validación de identidad en Didit.",
+              "Abre el perfil resultante en Personal.",
+              "Comprueba el tipo y el número de documento recibidos."
+            ],
+            "expectedResult": "Los datos disponibles se guardan correctamente y los valores que Didit no envía permanecen vacíos."
+          },
           "clientContext": {
             "label": "Pedido original",
             "body": "BUG1: tras la validación, no se ha cogido bien ni el tipo de documento ni el número."
@@ -666,6 +726,15 @@
               "done": false
             }
           ],
+          "reviewGuide": {
+            "title": "Cómo revisarlo",
+            "steps": [
+              "Abre Residencias en un navegador compatible con instalación de aplicaciones web.",
+              "Instala la aplicación desde el navegador.",
+              "Abre de nuevo Residencias desde la aplicación instalada."
+            ],
+            "expectedResult": "Residencias se instala y abre como aplicación sin guardar en caché las páginas médicas autenticadas."
+          },
           "clientContext": {
             "label": "Pedido original",
             "body": "Hacer que el enlace de la app se pueda instalar como PWA desde el navegador."

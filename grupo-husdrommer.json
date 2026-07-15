@@ -256,6 +256,15 @@
               "done": true
             }
           ],
+          "reviewGuide": {
+            "title": "Cómo revisarlo",
+            "steps": [
+              "Abre la home de Atelia y recorre Servicios, Proyectos, Proceso y Contacto.",
+              "Comprueba el menú, el servicio 04 y el bloque de Grupo HusDrommer.",
+              "Repite la revisión en móvil."
+            ],
+            "expectedResult": "La estructura y los contenidos coinciden con el material aprobado en todas las páginas afectadas."
+          },
           "clientContext": {
             "label": "Pedido original",
             "body": "Del material compartido: dejar el menú superior solo con Servicios y Proyectos, quitar el bloque inicial, cambiar el servicio 04 a Central de compras y añadir el bloque de Grupo HusDrommer bajo contacto."
@@ -308,6 +317,14 @@
               "done": true
             }
           ],
+          "reviewGuide": {
+            "title": "Cómo revisarlo",
+            "steps": [
+              "Abre las secciones CTA de Atelia en desktop y móvil.",
+              "Compara los fondos y botones con la paleta de marca compartida."
+            ],
+            "expectedResult": "Los CTA usan fondo crema y botón chocolate de forma coherente, sin alterar las secciones que no son CTA."
+          },
           "clientContext": {
             "label": "Pedido original",
             "body": "Poner Servicios como se muestra en Proyectos, usando las referencias visuales compartidas, e intercalar la paleta arena y chocolate del kit de marca."
@@ -373,6 +390,15 @@
               "done": true
             }
           ],
+          "reviewGuide": {
+            "title": "Cómo revisarlo",
+            "steps": [
+              "Recorre Proyectos, Proceso, Contacto, Nosotros y el pie de página de Atelia.",
+              "Comprueba las cuatro fases del proceso, la dirección y los textos de contacto.",
+              "Repite la revisión en móvil."
+            ],
+            "expectedResult": "Los textos y la estructura coinciden con el PDF, y la sección «¿Qué nos define?» ya no aparece."
+          },
           "clientContext": {
             "label": "Pedido original",
             "body": "Actualizar Proyectos, dejar el proceso en cuatro fases, quitar la sección ¿Qué nos define?, actualizar la dirección y simplificar los textos de contacto y Hablemos según el PDF compartido."
@@ -425,6 +451,14 @@
               "done": true
             }
           ],
+          "reviewGuide": {
+            "title": "Cómo revisarlo",
+            "steps": [
+              "Abre la página Grupo de HusDrommer en desktop y móvil.",
+              "Localiza las tarjetas de KüchenHouse y Atelia."
+            ],
+            "expectedResult": "Un separador claro distingue ambas marcas y mantiene su orden."
+          },
           "clientContext": {
             "label": "Pedido original",
             "body": "En el PDF de Atelia se indica que falta poner la raya divisoria entre KüchenHouse y Atelia en la página del grupo."
@@ -470,6 +504,14 @@
               "done": true
             }
           ],
+          "reviewGuide": {
+            "title": "Cómo revisarlo",
+            "steps": [
+              "Abre Contacto de Atelia en desktop y móvil.",
+              "Revisa el tamaño del bloque y el salto de línea de la dirección."
+            ],
+            "expectedResult": "El bloque se ve más compacto y la dirección queda separada después de «Av. Francia, 56»."
+          },
           "clientContext": {
             "label": "Pedido original",
             "body": "Ajustar el bloque de contacto para que la ubicación quede en una línea inferior y el bloque se vea más pequeño."
@@ -515,6 +557,15 @@
               "done": true
             }
           ],
+          "reviewGuide": {
+            "title": "Cómo revisarlo",
+            "steps": [
+              "Abre la home de Atelia y comprueba que no aparece la franja de grupo.",
+              "Abre Contacto y localiza «Un grupo, varias especialidades».",
+              "Repite la revisión en móvil."
+            ],
+            "expectedResult": "La franja aparece únicamente en Contacto."
+          },
           "clientContext": {
             "label": "Pedido original",
             "body": "El bloque de grupo debe estar en Contacto y no en la home."
@@ -560,6 +611,14 @@
               "done": true
             }
           ],
+          "reviewGuide": {
+            "title": "Cómo revisarlo",
+            "steps": [
+              "Abre Servicios de Atelia en desktop y móvil.",
+              "Compara el rótulo con el tratamiento utilizado en Proyectos."
+            ],
+            "expectedResult": "Servicios utiliza el mismo rótulo en mayúsculas y la misma línea inicial que Proyectos."
+          },
           "clientContext": {
             "label": "Pedido original",
             "body": "Servicios debe tener el mismo tratamiento visual de rótulo que Proyectos."
@@ -605,6 +664,14 @@
               "done": true
             }
           ],
+          "reviewGuide": {
+            "title": "Cómo revisarlo",
+            "steps": [
+              "Abre la página Grupo de HusDrommer en desktop y móvil.",
+              "Revisa la franja superior de logotipos y las tarjetas de KüchenHouse y Atelia."
+            ],
+            "expectedResult": "Los separadores se distinguen inmediatamente en ambos bloques sin desalinear el contenido."
+          },
           "clientContext": {
             "label": "Pedido original",
             "body": "El separador entre KüchenHouse y Atelia todavía no se veía con claridad en la página del grupo."
