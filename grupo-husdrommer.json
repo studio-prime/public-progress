@@ -185,13 +185,108 @@
           ]
         }
       ]
+    },
+    {
+      "key": "tomasalbiol-site",
+      "title": "Web de Tomás Albiol",
+      "description": "Crear la nueva web institucional de Tomás Albiol y presentar su ecosistema de empresas, proyectos y marcas.",
+      "projects": [
+        {
+          "key": "tomasalbiol",
+          "label": "Tomás Albiol",
+          "emoji": "🏛️"
+        }
+      ],
+      "status": "planned",
+      "progress": 0,
+      "completedTasks": 0,
+      "totalTasks": 1,
+      "tasks": [
+        {
+          "reference": "HUS-16",
+          "title": "🏛️ Nueva web institucional de Tomás Albiol",
+          "status": "backlog",
+          "projects": [
+            {
+              "key": "tomasalbiol",
+              "label": "Tomás Albiol",
+              "emoji": "🏛️"
+            }
+          ]
+        }
+      ]
     }
   ],
   "sections": [
     {
       "key": "backlog",
       "label": "Pendiente",
-      "items": []
+      "items": [
+        {
+          "id": "tomasalbiol-institutional-site",
+          "number": 16,
+          "reference": "HUS-16",
+          "kind": "request",
+          "projects": [
+            {
+              "key": "tomasalbiol",
+              "label": "Tomás Albiol",
+              "emoji": "🏛️"
+            }
+          ],
+          "milestone": {
+            "key": "tomasalbiol-site",
+            "title": "Web de Tomás Albiol"
+          },
+          "app": {
+            "key": "tomasalbiol",
+            "label": "Tomás Albiol",
+            "emoji": "🏛️"
+          },
+          "title": "🏛️ Nueva web institucional de Tomás Albiol",
+          "status": "backlog",
+          "createdAt": "2026-07-15",
+          "doneAt": null,
+          "summary": "Crear una web institucional para presentar el ecosistema de empresas, proyectos y marcas de Tomás Albiol.",
+          "nextStep": "Validaremos la dirección visual y el alcance antes de comenzar.",
+          "checklist": [
+            {
+              "label": "Presentar la identidad y el mensaje principal de Tomás Albiol.",
+              "done": false
+            },
+            {
+              "label": "Mostrar el Business Ecosystem con las empresas generales.",
+              "done": false
+            },
+            {
+              "label": "Crear un portfolio filtrable por sector.",
+              "done": false
+            },
+            {
+              "label": "Enlazar cada empresa o marca con su web correspondiente.",
+              "done": false
+            },
+            {
+              "label": "Añadir una sección de contacto con formulario sencillo.",
+              "done": false
+            }
+          ],
+          "reviewGuide": {
+            "title": "Cómo revisarlo",
+            "steps": [
+              "Abre la web de Tomás Albiol en desktop y móvil.",
+              "Recorre el hero, Business Ecosystem, Portfolio y Contacto.",
+              "Prueba los cuatro filtros y abre los enlaces de las marcas.",
+              "Envía o valida el formulario de contacto en un entorno seguro."
+            ],
+            "expectedResult": "La identidad, los textos, las categorías, las marcas, sus enlaces y el contacto coinciden con el material aprobado."
+          },
+          "clientContext": {
+            "label": "Pedido original",
+            "body": "Crear una nueva web institucional de Tomás Albiol siguiendo una plantilla editorial, con identidad de marca, Business Ecosystem, portfolio filtrable por sectores, fichas enlazadas de empresas y un formulario de contacto."
+          }
+        }
+      ]
     },
     {
       "key": "next",
