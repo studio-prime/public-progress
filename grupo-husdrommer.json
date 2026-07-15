@@ -205,7 +205,7 @@
         {
           "reference": "HUS-16",
           "title": "🏛️ Nueva web institucional de Tomás Albiol",
-          "status": "in_review",
+          "status": "next",
           "projects": [
             {
               "key": "tomasalbiol",
@@ -226,16 +226,6 @@
     {
       "key": "next",
       "label": "En progreso",
-      "items": []
-    },
-    {
-      "key": "needs_client",
-      "label": "Necesita ayuda",
-      "items": []
-    },
-    {
-      "key": "in_review",
-      "label": "Listo para revisión",
       "items": [
         {
           "id": "tomasalbiol-institutional-site",
@@ -259,11 +249,11 @@
             "emoji": "🏛️"
           },
           "title": "🏛️ Nueva web institucional de Tomás Albiol",
-          "status": "in_review",
+          "status": "next",
           "createdAt": "2026-07-15",
           "doneAt": null,
           "summary": "Crear una web institucional para presentar el ecosistema de empresas, proyectos y marcas de Tomás Albiol.",
-          "nextStep": "La nueva web está verificada y lista para vuestra revisión.",
+          "nextStep": "Estamos verificando el nuevo diseño visual antes de publicarlo.",
           "checklist": [
             {
               "label": "Presentar la identidad y el mensaje principal de Tomás Albiol.",
@@ -302,6 +292,16 @@
           }
         }
       ]
+    },
+    {
+      "key": "needs_client",
+      "label": "Necesita ayuda",
+      "items": []
+    },
+    {
+      "key": "in_review",
+      "label": "Listo para revisión",
+      "items": []
     },
     {
       "key": "done",
