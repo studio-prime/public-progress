@@ -205,7 +205,7 @@
         {
           "reference": "HUS-16",
           "title": "🏛️ Nueva web institucional de Tomás Albiol",
-          "status": "in_review",
+          "status": "next",
           "projects": [
             {
               "key": "tomasalbiol",
@@ -226,16 +226,6 @@
     {
       "key": "next",
       "label": "En progreso",
-      "items": []
-    },
-    {
-      "key": "needs_client",
-      "label": "Necesita ayuda",
-      "items": []
-    },
-    {
-      "key": "in_review",
-      "label": "Listo para revisión",
       "items": [
         {
           "id": "tomasalbiol-institutional-site",
@@ -259,31 +249,31 @@
             "emoji": "🏛️"
           },
           "title": "🏛️ Nueva web institucional de Tomás Albiol",
-          "status": "in_review",
+          "status": "next",
           "createdAt": "2026-07-15",
           "doneAt": null,
           "summary": "Crear una web institucional para presentar el ecosistema de empresas, proyectos y marcas de Tomás Albiol.",
-          "nextStep": "El nuevo diseño está listo para vuestra revisión.",
+          "nextStep": "Estamos completando el movimiento y las transiciones para reproducir la plantilla.",
           "checklist": [
             {
               "label": "Presentar la identidad y el mensaje principal de Tomás Albiol.",
-              "done": true
+              "done": false
             },
             {
               "label": "Mostrar el Business Ecosystem con las empresas generales.",
-              "done": true
+              "done": false
             },
             {
               "label": "Crear un portfolio filtrable por sector.",
-              "done": true
+              "done": false
             },
             {
               "label": "Enlazar cada empresa o marca con su web correspondiente.",
-              "done": true
+              "done": false
             },
             {
               "label": "Añadir una sección de contacto con formulario sencillo.",
-              "done": true
+              "done": false
             }
           ],
           "reviewGuide": {
@@ -302,6 +292,16 @@
           }
         }
       ]
+    },
+    {
+      "key": "needs_client",
+      "label": "Necesita ayuda",
+      "items": []
+    },
+    {
+      "key": "in_review",
+      "label": "Listo para revisión",
+      "items": []
     },
     {
       "key": "done",
