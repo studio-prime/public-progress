@@ -9,7 +9,7 @@ This repo is a public, client-friendly generated progress feed for Studio Prime 
 Do not edit JSON feeds, `schema.json`, or copied assets in this repository by hand. The private `../client-docs/` repository is the single source of truth:
 
 - Edit `../client-docs/clients/<client-slug>/client.json`, the canonical `projects.json` and `milestones.json`, and private task sources named `tasks/<REFERENCE>-<descriptive-slug>.md`.
-- Keep client-safe content inside the task's explicit `public` frontmatter object.
+- Keep client-safe content inside the task's explicit `public` frontmatter object. Universal task dates belong in the private source `lifecycle` object, not in `public`; the generator derives this repository's `createdAt` and `doneAt` fields.
 - Never copy the task's private `internal` object or Markdown body into this repository.
 - Run `node scripts/generate.mjs` from `../client-docs/` to rebuild this repository.
 - Run `node scripts/generate.mjs --check` before committing.
@@ -36,9 +36,9 @@ The rules below define the generated public contract and still apply to source f
 - Client-safe attachments can be included with an `attachments` array. Use `type: "pdf"`, `"image"`, `"doc"`, `"sheet"`, or `"link"` plus a short `label` and `url`. Store public files under `assets/<client-slug>/...` and reference that relative path. Use external `https://` links only when the linked resource is safe for clients. Attachments should open in browser preview where possible; avoid raw download URLs for PDFs, images, Word, and Excel files.
 - Internal rendered PDF/page review captures belong in `../client-docs/assets/`, not this public repo, unless David explicitly approves them as client-safe and useful for the dashboard.
 - After editing task source frontmatter, run the generator and verify every local attachment URL exists in this repo and that the number of public attachments is the intended client-safe subset from `../client-docs/`. Do not publish screenshots/files containing private notes, PII, credentials, or sensitive client context. If an expected attachment cannot be copied, read, or safely published, record the gap in `../client-docs/` and tell David.
-- Every progress item must include `createdAt` and `doneAt` as `YYYY-MM-DD` dates. Use `doneAt: null` until the item is publicly closed after client/David acceptance.
+- Every generated progress item must include `createdAt` and `doneAt`. They are derived from private `lifecycle.createdAt` and `lifecycle.completedAt`; keep `lifecycle.completedAt: null` until the item is publicly closed after client/David acceptance.
 - Public `in_review` means the work has been internally verified by Codex or David and is ready for the client to review.
-- Public `done` means the work has been accepted/closed after client or David review. Only then fill `doneAt` so dashboards can hide done items older than one month.
+- Public `done` means the work has been accepted/closed after client or David review. Only then set private `lifecycle.completedAt`; the generator fills `doneAt` so dashboards can hide completed items older than one month.
 - Internal `client-docs` `👀 To Review Manually` is not client review. Do not publish those items as `in_review`; keep/move them to `next` with client-safe copy such as "Estamos haciendo una revisión final interna."
 - Use these board sections and statuses: `backlog`, `next`, `needs_client`, `in_review`, `done`. In Spanish, use these labels: `backlog` = "Pendiente", `next` = "En progreso", `needs_client` = "Necesita ayuda", `in_review` = "Listo para revisión", `done` = "Completado".
 - Internal `Blocked by Client` work should only appear publicly as `needs_client` when the client-facing ask is safe, clear, and useful. Otherwise keep it internal in `../client-docs/`.
