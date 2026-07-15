@@ -135,11 +135,24 @@
           "emoji": "🏠"
         }
       ],
-      "status": "planned",
+      "status": "in_progress",
       "progress": 0,
       "completedTasks": 0,
-      "totalTasks": 0,
-      "tasks": []
+      "totalTasks": 1,
+      "tasks": [
+        {
+          "reference": "DOO-12",
+          "title": "🏠 Mejorar la planificación y las hojas de medicación",
+          "status": "next",
+          "projects": [
+            {
+              "key": "residences",
+              "label": "Residencias",
+              "emoji": "🏠"
+            }
+          ]
+        }
+      ]
     },
     {
       "key": "roles-and-permissions",
@@ -172,7 +185,7 @@
           "emoji": "🛠️"
         }
       ],
-      "status": "planned",
+      "status": "in_progress",
       "progress": 0,
       "completedTasks": 0,
       "totalTasks": 1,
@@ -180,7 +193,7 @@
         {
           "reference": "DOO-11",
           "title": "🧩 Revisar roles y permisos de usuarios personales y centros",
-          "status": "backlog",
+          "status": "next",
           "projects": [
             {
               "key": "personal",

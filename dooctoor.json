@@ -170,11 +170,24 @@
           "emoji": "🏠"
         }
       ],
-      "status": "planned",
+      "status": "in_progress",
       "progress": 0,
       "completedTasks": 0,
-      "totalTasks": 0,
-      "tasks": []
+      "totalTasks": 1,
+      "tasks": [
+        {
+          "reference": "DOO-12",
+          "title": "🏠 Mejorar la planificación y las hojas de medicación",
+          "status": "next",
+          "projects": [
+            {
+              "key": "residences",
+              "label": "Residencias",
+              "emoji": "🏠"
+            }
+          ]
+        }
+      ]
     },
     {
       "key": "roles-and-permissions",
@@ -207,7 +220,7 @@
           "emoji": "🛠️"
         }
       ],
-      "status": "planned",
+      "status": "in_progress",
       "progress": 0,
       "completedTasks": 0,
       "totalTasks": 1,
@@ -215,7 +228,7 @@
         {
           "reference": "DOO-11",
           "title": "🧩 Revisar roles y permisos de usuarios personales y centros",
-          "status": "backlog",
+          "status": "next",
           "projects": [
             {
               "key": "personal",
@@ -251,6 +264,11 @@
     {
       "key": "backlog",
       "label": "Pendiente",
+      "items": []
+    },
+    {
+      "key": "next",
+      "label": "En progreso",
       "items": [
         {
           "id": "roles-permissions-audit",
@@ -294,11 +312,11 @@
             "emoji": "🧩"
           },
           "title": "🧩 Revisar roles y permisos de usuarios personales y centros",
-          "status": "backlog",
+          "status": "next",
           "createdAt": "2026-07-14",
           "doneAt": null,
           "summary": "Revisar la separación entre usuarios personales y usuarios de centros para que cada acción respete el rol y la propiedad de los datos.",
-          "nextStep": "Auditar y corregir la resolución de roles y los permisos de las acciones de centros.",
+          "nextStep": "Corregiremos la resolución de contexto y permisos antes de revisar las acciones de cada aplicación.",
           "checklist": [
             {
               "label": "Separar el rol de usuario personal de los roles de centro.",
@@ -330,13 +348,67 @@
             "label": "Problema detectado",
             "body": "Se ha detectado que algunos usuarios personales se resuelven como usuarios staff y que ciertas acciones de centros comprueban la pertenencia, pero no siempre el nivel de permisos. Hay que revisar el modelo completo para evitar bloqueos y accesos incorrectos."
           }
+        },
+        {
+          "id": "residences-medication-workflow-sheet",
+          "number": 12,
+          "reference": "DOO-12",
+          "kind": "request",
+          "projects": [
+            {
+              "key": "residences",
+              "label": "Residencias",
+              "emoji": "🏠"
+            }
+          ],
+          "milestone": {
+            "key": "residences-medication-management",
+            "title": "Gestión de medicación en residencias"
+          },
+          "app": {
+            "key": "residences",
+            "label": "Residencias",
+            "emoji": "🏠"
+          },
+          "title": "🏠 Mejorar la planificación y las hojas de medicación",
+          "status": "next",
+          "createdAt": "2026-07-14",
+          "doneAt": null,
+          "summary": "Ampliar la planificación de tratamientos en Residencias y permitir crear hojas de medicación claras para cada residente.",
+          "nextStep": "Implementaremos los nuevos patrones de administración y la generación de hojas desde la pantalla de Medicación.",
+          "checklist": [
+            {
+              "label": "Añadir pautas alternas, periódicas, mensuales y de tratamiento con descanso.",
+              "done": false
+            },
+            {
+              "label": "Mantener horarios específicos y frecuencias con hora de inicio.",
+              "done": false
+            },
+            {
+              "label": "Crear una hoja de medicación por residente con los tratamientos vigentes.",
+              "done": false
+            },
+            {
+              "label": "Permitir guardar la hoja generada en el historial.",
+              "done": false
+            }
+          ],
+          "reviewGuide": {
+            "title": "Cómo revisarlo",
+            "steps": [
+              "Abre la pantalla de Medicación de una residencia y edita el tratamiento de un residente.",
+              "Prueba cada nueva pauta y comprueba las fechas en las que se generan tomas.",
+              "Genera la hoja de medicación del residente y guárdala en su historial."
+            ],
+            "expectedResult": "Las pautas generan únicamente las tomas correctas y la hoja reúne los tratamientos vigentes sin mostrar información de otros residentes."
+          },
+          "clientContext": {
+            "label": "Mejora solicitada",
+            "body": "Ampliar las opciones de administración usadas en Residencias y crear hojas de medicación a partir de los tratamientos prescritos."
+          }
         }
       ]
-    },
-    {
-      "key": "next",
-      "label": "En progreso",
-      "items": []
     },
     {
       "key": "needs_client",
