@@ -5,7 +5,7 @@
   "status": "active",
   "taskPrefix": "DOO",
   "summary": "Las mejoras anteriores están completadas y la revisión de roles y permisos queda registrada como siguiente trabajo.",
-  "updatedAt": "2026-07-14",
+  "updatedAt": "2026-07-15",
   "projects": [
     {
       "key": "personal",
@@ -36,6 +36,198 @@
       "key": "marketing",
       "label": "Web",
       "emoji": "🌐"
+    }
+  ],
+  "milestones": [
+    {
+      "key": "access-and-identity",
+      "title": "Acceso e identidad",
+      "description": "Mejoras del acceso, registro y validación de identidad para ofrecer una experiencia más clara y fiable.",
+      "projects": [
+        {
+          "key": "personal",
+          "label": "Personal",
+          "emoji": "👤"
+        }
+      ],
+      "status": "completed",
+      "progress": 100,
+      "completedTasks": 6,
+      "totalTasks": 6,
+      "tasks": [
+        {
+          "reference": "DOO-4",
+          "title": "👤 Mejorar los enlaces entre formas de acceso",
+          "status": "done",
+          "projects": [
+            {
+              "key": "personal",
+              "label": "Personal",
+              "emoji": "👤"
+            }
+          ]
+        },
+        {
+          "reference": "DOO-5",
+          "title": "👤 Simplificar registro con usuario y contraseña",
+          "status": "done",
+          "projects": [
+            {
+              "key": "personal",
+              "label": "Personal",
+              "emoji": "👤"
+            }
+          ]
+        },
+        {
+          "reference": "DOO-6",
+          "title": "👤 Ajustar pantalla de validación de identidad",
+          "status": "done",
+          "projects": [
+            {
+              "key": "personal",
+              "label": "Personal",
+              "emoji": "👤"
+            }
+          ]
+        },
+        {
+          "reference": "DOO-7",
+          "title": "👤 Confirmar destino de cancelar validación",
+          "status": "done",
+          "projects": [
+            {
+              "key": "personal",
+              "label": "Personal",
+              "emoji": "👤"
+            }
+          ]
+        },
+        {
+          "reference": "DOO-8",
+          "title": "👤 Revisar documentos permitidos y comportamiento en iPad",
+          "status": "done",
+          "projects": [
+            {
+              "key": "personal",
+              "label": "Personal",
+              "emoji": "👤"
+            }
+          ]
+        },
+        {
+          "reference": "DOO-9",
+          "title": "👤 Revisar datos del documento tras validación",
+          "status": "done",
+          "projects": [
+            {
+              "key": "personal",
+              "label": "Personal",
+              "emoji": "👤"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "residences-pwa",
+      "title": "Residencias instalable",
+      "description": "Preparar la aplicación de Residencias para que pueda instalarse desde navegadores compatibles.",
+      "projects": [
+        {
+          "key": "residences",
+          "label": "Residencias",
+          "emoji": "🏠"
+        }
+      ],
+      "status": "completed",
+      "progress": 100,
+      "completedTasks": 1,
+      "totalTasks": 1,
+      "tasks": [
+        {
+          "reference": "DOO-10",
+          "title": "🏠 Activar instalación como PWA",
+          "status": "done",
+          "projects": [
+            {
+              "key": "residences",
+              "label": "Residencias",
+              "emoji": "🏠"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "roles-and-permissions",
+      "title": "Roles y permisos",
+      "description": "Revisar la separación entre usuarios personales y usuarios de centros, junto con sus permisos efectivos.",
+      "projects": [
+        {
+          "key": "personal",
+          "label": "Personal",
+          "emoji": "👤"
+        },
+        {
+          "key": "residences",
+          "label": "Residencias",
+          "emoji": "🏠"
+        },
+        {
+          "key": "schools",
+          "label": "Colegios",
+          "emoji": "🏫"
+        },
+        {
+          "key": "farmacias",
+          "label": "Farmacias",
+          "emoji": "💊"
+        },
+        {
+          "key": "backoffice",
+          "label": "Backoffice",
+          "emoji": "🛠️"
+        }
+      ],
+      "status": "planned",
+      "progress": 0,
+      "completedTasks": 0,
+      "totalTasks": 1,
+      "tasks": [
+        {
+          "reference": "DOO-11",
+          "title": "🧩 Revisar roles y permisos de usuarios personales y centros",
+          "status": "backlog",
+          "projects": [
+            {
+              "key": "personal",
+              "label": "Personal",
+              "emoji": "👤"
+            },
+            {
+              "key": "residences",
+              "label": "Residencias",
+              "emoji": "🏠"
+            },
+            {
+              "key": "schools",
+              "label": "Colegios",
+              "emoji": "🏫"
+            },
+            {
+              "key": "farmacias",
+              "label": "Farmacias",
+              "emoji": "💊"
+            },
+            {
+              "key": "backoffice",
+              "label": "Backoffice",
+              "emoji": "🛠️"
+            }
+          ]
+        }
+      ]
     }
   ],
   "sections": [
@@ -75,6 +267,10 @@
               "emoji": "🛠️"
             }
           ],
+          "milestone": {
+            "key": "roles-and-permissions",
+            "title": "Roles y permisos"
+          },
           "app": {
             "key": "multiple",
             "label": "Varios proyectos",
@@ -142,6 +338,10 @@
               "emoji": "👤"
             }
           ],
+          "milestone": {
+            "key": "access-and-identity",
+            "title": "Acceso e identidad"
+          },
           "app": {
             "key": "personal",
             "label": "Personal",
@@ -184,6 +384,10 @@
               "emoji": "👤"
             }
           ],
+          "milestone": {
+            "key": "access-and-identity",
+            "title": "Acceso e identidad"
+          },
           "app": {
             "key": "personal",
             "label": "Personal",
@@ -233,6 +437,10 @@
               "emoji": "👤"
             }
           ],
+          "milestone": {
+            "key": "access-and-identity",
+            "title": "Acceso e identidad"
+          },
           "app": {
             "key": "personal",
             "label": "Personal",
@@ -282,6 +490,10 @@
               "emoji": "👤"
             }
           ],
+          "milestone": {
+            "key": "access-and-identity",
+            "title": "Acceso e identidad"
+          },
           "app": {
             "key": "personal",
             "label": "Personal",
@@ -316,6 +528,10 @@
               "emoji": "👤"
             }
           ],
+          "milestone": {
+            "key": "access-and-identity",
+            "title": "Acceso e identidad"
+          },
           "app": {
             "key": "personal",
             "label": "Personal",
@@ -358,6 +574,10 @@
               "emoji": "👤"
             }
           ],
+          "milestone": {
+            "key": "access-and-identity",
+            "title": "Acceso e identidad"
+          },
           "app": {
             "key": "personal",
             "label": "Personal",
@@ -400,6 +620,10 @@
               "emoji": "🏠"
             }
           ],
+          "milestone": {
+            "key": "residences-pwa",
+            "title": "Residencias instalable"
+          },
           "app": {
             "key": "residences",
             "label": "Residencias",

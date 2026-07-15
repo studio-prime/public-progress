@@ -8,13 +8,14 @@ This repo is a public, client-friendly generated progress feed for Studio Prime 
 
 Do not edit JSON feeds, `schema.json`, or copied assets in this repository by hand. The private `../client-docs/` repository is the single source of truth:
 
-- Edit `../client-docs/clients/<client-slug>/client.json`, the canonical `projects.json`, and private task sources named `tasks/<REFERENCE>-<descriptive-slug>.md`.
+- Edit `../client-docs/clients/<client-slug>/client.json`, the canonical `projects.json` and `milestones.json`, and private task sources named `tasks/<REFERENCE>-<descriptive-slug>.md`.
 - Keep client-safe content inside the task's explicit `public` frontmatter object.
 - Never copy the task's private `internal` object or Markdown body into this repository.
 - Run `node scripts/generate.mjs` from `../client-docs/` to rebuild this repository.
 - Run `node scripts/generate.mjs --check` before committing.
 - `changelog/<client-slug>.json` is generated from completed public tasks; do not edit it directly.
 - `projects/<client-slug>.json` is the generated client-safe project catalog; do not edit it directly.
+- `milestones/<client-slug>.json` is the generated client-safe milestone progress feed; do not edit it directly or maintain completion percentages by hand.
 
 The rules below define the generated public contract and still apply to source frontmatter.
 
@@ -31,6 +32,7 @@ The rules below define the generated public contract and still apply to source f
 - Every progress item must include a stable integer `number` plus a `reference` built as `<PREFIX>-<number>`, for example `DOO-23`. Clients and David should use the `reference` when discussing work. Numbers are per client and should increase from the highest existing number; imported GitHub tasks keep their original GitHub issue/task number.
 - Mark task type with optional `kind`: use `"request"` for normal requests, `"bug"` for client-reported broken behavior, and `"question"` for explicit doubts/decision items. `kind: "bug"` means reported bug until Codex reproduces or verifies it; do not write as if confirmed unless evidence/code/testing confirms it. Bug checklists should include reproduction or verification before fix work.
 - Every feed includes its registered client-safe `projects` catalog, and every progress item includes its resolved `projects`. Project identity comes only from private `client-docs` catalogs. Never invent `core`, `grupo`, or a client-level pseudo-project. The generated `app` field is a temporary StudioPrime compatibility field; do not author or edit it here.
+- Every feed includes generated milestones, and every progress item includes its resolved milestone reference. Milestone status, task counts, and completion percentage are derived from public task statuses in `client-docs`.
 - Client-safe attachments can be included with an `attachments` array. Use `type: "pdf"`, `"image"`, `"doc"`, `"sheet"`, or `"link"` plus a short `label` and `url`. Store public files under `assets/<client-slug>/...` and reference that relative path. Use external `https://` links only when the linked resource is safe for clients. Attachments should open in browser preview where possible; avoid raw download URLs for PDFs, images, Word, and Excel files.
 - Internal rendered PDF/page review captures belong in `../client-docs/assets/`, not this public repo, unless David explicitly approves them as client-safe and useful for the dashboard.
 - After editing task source frontmatter, run the generator and verify every local attachment URL exists in this repo and that the number of public attachments is the intended client-safe subset from `../client-docs/`. Do not publish screenshots/files containing private notes, PII, credentials, or sensitive client context. If an expected attachment cannot be copied, read, or safely published, record the gap in `../client-docs/` and tell David.

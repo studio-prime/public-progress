@@ -13,6 +13,7 @@
     "summary",
     "updatedAt",
     "projects",
+    "milestones",
     "sections"
   ],
   "properties": {
@@ -46,6 +47,13 @@
       "type": "array",
       "items": {
         "$ref": "#/$defs/project"
+      },
+      "minItems": 1
+    },
+    "milestones": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/milestone"
       },
       "minItems": 1
     },
@@ -89,6 +97,7 @@
         "number",
         "reference",
         "projects",
+        "milestone",
         "app",
         "title",
         "status",
@@ -117,6 +126,9 @@
             "$ref": "#/$defs/project"
           },
           "minItems": 1
+        },
+        "milestone": {
+          "$ref": "#/$defs/milestoneReference"
         },
         "app": {
           "$ref": "#/$defs/app"
@@ -234,6 +246,106 @@
         "emoji": {
           "type": "string",
           "minLength": 1
+        }
+      }
+    },
+    "milestoneReference": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["key", "title"],
+      "properties": {
+        "key": {
+          "type": "string",
+          "pattern": "^[a-z0-9-]+$"
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "milestoneTask": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["reference", "title", "status", "projects"],
+      "properties": {
+        "reference": {
+          "type": "string",
+          "pattern": "^[A-Z]{3}-\\d+$"
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "status": {
+          "type": "string",
+          "enum": ["backlog", "next", "needs_client", "in_review", "done"]
+        },
+        "projects": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/project"
+          },
+          "minItems": 1
+        }
+      }
+    },
+    "milestone": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "key",
+        "title",
+        "description",
+        "projects",
+        "status",
+        "progress",
+        "completedTasks",
+        "totalTasks",
+        "tasks"
+      ],
+      "properties": {
+        "key": {
+          "type": "string",
+          "pattern": "^[a-z0-9-]+$"
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "description": {
+          "type": "string",
+          "minLength": 1
+        },
+        "projects": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/project"
+          },
+          "minItems": 1
+        },
+        "status": {
+          "type": "string",
+          "enum": ["planned", "in_progress", "blocked", "completed"]
+        },
+        "progress": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "completedTasks": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "totalTasks": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "tasks": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/milestoneTask"
+          }
         }
       }
     },
