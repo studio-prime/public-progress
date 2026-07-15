@@ -220,7 +220,7 @@
           "emoji": "🛠️"
         }
       ],
-      "status": "in_progress",
+      "status": "planned",
       "progress": 0,
       "completedTasks": 0,
       "totalTasks": 1,
@@ -228,7 +228,7 @@
         {
           "reference": "DOO-11",
           "title": "🧩 Revisar roles y permisos de usuarios personales y centros",
-          "status": "next",
+          "status": "backlog",
           "projects": [
             {
               "key": "personal",
@@ -264,11 +264,6 @@
     {
       "key": "backlog",
       "label": "Pendiente",
-      "items": []
-    },
-    {
-      "key": "next",
-      "label": "En progreso",
       "items": [
         {
           "id": "roles-permissions-audit",
@@ -312,11 +307,11 @@
             "emoji": "🧩"
           },
           "title": "🧩 Revisar roles y permisos de usuarios personales y centros",
-          "status": "next",
+          "status": "backlog",
           "createdAt": "2026-07-14",
           "doneAt": null,
           "summary": "Revisar la separación entre usuarios personales y usuarios de centros para que cada acción respete el rol y la propiedad de los datos.",
-          "nextStep": "Corregiremos la resolución de contexto y permisos antes de revisar las acciones de cada aplicación.",
+          "nextStep": "Auditar y corregir la resolución de roles y los permisos de las acciones de centros.",
           "checklist": [
             {
               "label": "Separar el rol de usuario personal de los roles de centro.",
@@ -348,7 +343,13 @@
             "label": "Problema detectado",
             "body": "Se ha detectado que algunos usuarios personales se resuelven como usuarios staff y que ciertas acciones de centros comprueban la pertenencia, pero no siempre el nivel de permisos. Hay que revisar el modelo completo para evitar bloqueos y accesos incorrectos."
           }
-        },
+        }
+      ]
+    },
+    {
+      "key": "next",
+      "label": "En progreso",
+      "items": [
         {
           "id": "residences-medication-workflow-sheet",
           "number": 12,

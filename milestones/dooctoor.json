@@ -185,7 +185,7 @@
           "emoji": "🛠️"
         }
       ],
-      "status": "in_progress",
+      "status": "planned",
       "progress": 0,
       "completedTasks": 0,
       "totalTasks": 1,
@@ -193,7 +193,7 @@
         {
           "reference": "DOO-11",
           "title": "🧩 Revisar roles y permisos de usuarios personales y centros",
-          "status": "next",
+          "status": "backlog",
           "projects": [
             {
               "key": "personal",
