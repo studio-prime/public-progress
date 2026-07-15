@@ -160,6 +160,23 @@
       ]
     },
     {
+      "key": "residences-medication-management",
+      "title": "Gestión de medicación en residencias",
+      "description": "Mejorar la prescripción, planificación, seguimiento y documentación de la medicación en residencias.",
+      "projects": [
+        {
+          "key": "residences",
+          "label": "Residencias",
+          "emoji": "🏠"
+        }
+      ],
+      "status": "planned",
+      "progress": 0,
+      "completedTasks": 0,
+      "totalTasks": 0,
+      "tasks": []
+    },
+    {
       "key": "roles-and-permissions",
       "title": "Roles y permisos",
       "description": "Revisar la separación entre usuarios personales y usuarios de centros, junto con sus permisos efectivos.",
