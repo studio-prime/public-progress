@@ -263,7 +263,7 @@
           "createdAt": "2026-07-15",
           "doneAt": null,
           "summary": "Crear una web institucional para presentar el ecosistema de empresas, proyectos y marcas de Tomás Albiol.",
-          "nextStep": "El diseño animado está listo para vuestra revisión.",
+          "nextStep": "Los últimos ajustes visuales están publicados y listos para revisión.",
           "checklist": [
             {
               "label": "Presentar la identidad y el mensaje principal de Tomás Albiol.",
@@ -274,7 +274,7 @@
               "done": true
             },
             {
-              "label": "Crear un portfolio filtrable por sector.",
+              "label": "Presentar Portfolio con la misma estructura editorial que Business Ecosystem.",
               "done": true
             },
             {
@@ -282,7 +282,11 @@
               "done": true
             },
             {
-              "label": "Añadir una sección de contacto con formulario sencillo.",
+              "label": "Cerrar la página con un contacto minimalista y formulario en diálogo.",
+              "done": true
+            },
+            {
+              "label": "Sustituir las flechas tipográficas por iconos consistentes.",
               "done": true
             }
           ],
@@ -291,10 +295,10 @@
             "steps": [
               "Abre la web de Tomás Albiol en desktop y móvil.",
               "Recorre el hero, Business Ecosystem, Portfolio y Contacto.",
-              "Prueba los cuatro filtros y abre los enlaces de las marcas.",
-              "Envía o valida el formulario de contacto en un entorno seguro."
+              "Abre varios logos de Portfolio y comprueba que sus destinos siguen funcionando.",
+              "Abre el diálogo desde `¿Hablamos?` y valida el formulario en un entorno seguro."
             ],
-            "expectedResult": "La identidad, los textos, las categorías, las marcas, sus enlaces y el contacto coinciden con el material aprobado."
+            "expectedResult": "Los iconos son consistentes, Portfolio mantiene el título aprobado y replica el lenguaje de Business Ecosystem, y el cierre de contacto es mínimo y coherente con el hero."
           },
           "clientContext": {
             "label": "Pedido original",
