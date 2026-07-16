@@ -178,7 +178,7 @@
         {
           "reference": "DOO-12",
           "title": "🏠 Mejorar la planificación y las hojas de medicación",
-          "status": "next",
+          "status": "in_review",
           "projects": [
             {
               "key": "residences",
@@ -349,6 +349,16 @@
     {
       "key": "next",
       "label": "En progreso",
+      "items": []
+    },
+    {
+      "key": "needs_client",
+      "label": "Necesita ayuda",
+      "items": []
+    },
+    {
+      "key": "in_review",
+      "label": "Listo para revisión",
       "items": [
         {
           "id": "residences-medication-workflow-sheet",
@@ -372,27 +382,27 @@
             "emoji": "🏠"
           },
           "title": "🏠 Mejorar la planificación y las hojas de medicación",
-          "status": "next",
+          "status": "in_review",
           "createdAt": "2026-07-14",
           "doneAt": null,
           "summary": "Ampliar la planificación de tratamientos en Residencias y permitir crear hojas de medicación claras para cada residente.",
-          "nextStep": "Estamos ajustando la hoja para reproducir toda la información solicitada.",
+          "nextStep": "La actualización está lista en el entorno de revisión para que podáis comprobarla.",
           "checklist": [
             {
               "label": "Añadir pautas alternas, periódicas, mensuales y de tratamiento con descanso.",
-              "done": false
+              "done": true
             },
             {
               "label": "Mantener horarios específicos y frecuencias con hora de inicio.",
-              "done": false
+              "done": true
             },
             {
               "label": "Crear una hoja de medicación por residente con los tratamientos vigentes.",
-              "done": false
+              "done": true
             },
             {
               "label": "Permitir guardar la hoja generada en el historial.",
-              "done": false
+              "done": true
             }
           ],
           "reviewGuide": {
@@ -410,16 +420,6 @@
           }
         }
       ]
-    },
-    {
-      "key": "needs_client",
-      "label": "Necesita ayuda",
-      "items": []
-    },
-    {
-      "key": "in_review",
-      "label": "Listo para revisión",
-      "items": []
     },
     {
       "key": "done",
