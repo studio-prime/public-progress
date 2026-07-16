@@ -386,7 +386,7 @@
           "createdAt": "2026-07-14",
           "doneAt": null,
           "summary": "Ampliar la planificación de tratamientos en Residencias y permitir crear hojas de medicación claras para cada residente.",
-          "nextStep": "La hoja compacta y su PDF vertical están listos para revisión.",
+          "nextStep": "La hoja simplificada con iconos está lista para revisión.",
           "checklist": [
             {
               "label": "Añadir pautas alternas, periódicas, mensuales y de tratamiento con descanso.",
