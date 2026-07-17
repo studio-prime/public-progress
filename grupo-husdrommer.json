@@ -263,7 +263,7 @@
           "createdAt": "2026-07-15",
           "doneAt": null,
           "summary": "Crear una web institucional para presentar el ecosistema de empresas, proyectos y marcas de Tomás Albiol.",
-          "nextStep": "La persistencia de textos y el cambio de color de Contacto están publicados y listos para revisión.",
+          "nextStep": "El diálogo centrado y los filtros y previews de Portfolio están publicados y listos para revisión.",
           "checklist": [
             {
               "label": "Presentar la identidad y el mensaje principal de Tomás Albiol.",
@@ -275,6 +275,10 @@
             },
             {
               "label": "Presentar Portfolio con la misma estructura editorial que Business Ecosystem.",
+              "done": true
+            },
+            {
+              "label": "Filtrar Portfolio por los cuatro sectores y mostrar la descripción de cada marca al interactuar.",
               "done": true
             },
             {
@@ -295,10 +299,10 @@
             "steps": [
               "Abre la web de Tomás Albiol en desktop y móvil.",
               "Recorre el hero, Business Ecosystem, Portfolio y Contacto.",
-              "Abre varios logos de Portfolio y comprueba que sus destinos siguen funcionando.",
+              "Prueba los cuatro filtros de Portfolio, pasa el cursor por varias cards y comprueba sus descripciones y destinos.",
               "Abre el diálogo desde `¿Hablamos?` y valida el formulario en un entorno seguro."
             ],
-            "expectedResult": "Los iconos son consistentes, Portfolio mantiene el título aprobado y replica el lenguaje de Business Ecosystem, y el cierre de contacto es mínimo y coherente con el hero."
+            "expectedResult": "Portfolio filtra por los cuatro sectores, revela la descripción exacta de cada marca con los colores de Tomás Albiol y el diálogo mantiene toda su composición centrada en desktop y móvil."
           },
           "clientContext": {
             "label": "Pedido original",
