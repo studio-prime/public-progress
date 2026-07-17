@@ -173,12 +173,24 @@
       "status": "in_progress",
       "progress": 0,
       "completedTasks": 0,
-      "totalTasks": 1,
+      "totalTasks": 2,
       "tasks": [
         {
           "reference": "DOO-12",
           "title": "🏠 Mejorar la planificación y las hojas de medicación",
-          "status": "in_review",
+          "status": "next",
+          "projects": [
+            {
+              "key": "residences",
+              "label": "Residencias",
+              "emoji": "🏠"
+            }
+          ]
+        },
+        {
+          "reference": "DOO-13",
+          "title": "🏠 Completar el registro de cada medicamento",
+          "status": "next",
           "projects": [
             {
               "key": "residences",
@@ -349,16 +361,6 @@
     {
       "key": "next",
       "label": "En progreso",
-      "items": []
-    },
-    {
-      "key": "needs_client",
-      "label": "Necesita ayuda",
-      "items": []
-    },
-    {
-      "key": "in_review",
-      "label": "Listo para revisión",
       "items": [
         {
           "id": "residences-medication-workflow-sheet",
@@ -382,11 +384,11 @@
             "emoji": "🏠"
           },
           "title": "🏠 Mejorar la planificación y las hojas de medicación",
-          "status": "in_review",
+          "status": "next",
           "createdAt": "2026-07-14",
           "doneAt": null,
           "summary": "Ampliar la planificación de tratamientos en Residencias y permitir crear hojas de medicación claras para cada residente.",
-          "nextStep": "La hoja simplificada y su guardado en historial están listos para revisión.",
+          "nextStep": "Se está revisando el alcance completo del registro de medicación antes de pedir aprobación final.",
           "checklist": [
             {
               "label": "Añadir pautas alternas, periódicas, mensuales y de tratamiento con descanso.",
@@ -418,8 +420,64 @@
             "label": "Mejora solicitada",
             "body": "Ampliar las opciones de administración usadas en Residencias y crear hojas de medicación a partir de los tratamientos prescritos."
           }
+        },
+        {
+          "id": "residences-medication-record-fidelity",
+          "number": 13,
+          "reference": "DOO-13",
+          "kind": "request",
+          "projects": [
+            {
+              "key": "residences",
+              "label": "Residencias",
+              "emoji": "🏠"
+            }
+          ],
+          "milestone": {
+            "key": "residences-medication-management",
+            "title": "Gestión de medicación en residencias"
+          },
+          "app": {
+            "key": "residences",
+            "label": "Residencias",
+            "emoji": "🏠"
+          },
+          "title": "🏠 Completar el registro de cada medicamento",
+          "status": "next",
+          "createdAt": "2026-07-17",
+          "doneAt": null,
+          "summary": "Revisar y completar todos los datos, pautas y opciones de seguimiento del registro de medicación.",
+          "nextStep": "Estamos contrastando cada requisito del registro con el producto y corrigiendo los casos que falten.",
+          "checklist": [
+            {
+              "label": "Verificar los datos de medicamento, AEMPS, prescripción y dosificación.",
+              "done": false
+            },
+            {
+              "label": "Verificar pautas, horarios, seguimiento de tomas y recordatorios.",
+              "done": false
+            },
+            {
+              "label": "Verificar recomendaciones, indicadores, comentarios y archivos adjuntos.",
+              "done": false
+            }
+          ],
+          "clientContext": {
+            "label": "Mejora solicitada",
+            "body": "Completar el registro de cada medicamento con toda la información de prescripción, administración y seguimiento solicitada."
+          }
         }
       ]
+    },
+    {
+      "key": "needs_client",
+      "label": "Necesita ayuda",
+      "items": []
+    },
+    {
+      "key": "in_review",
+      "label": "Listo para revisión",
+      "items": []
     },
     {
       "key": "done",

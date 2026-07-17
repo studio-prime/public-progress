@@ -138,12 +138,24 @@
       "status": "in_progress",
       "progress": 0,
       "completedTasks": 0,
-      "totalTasks": 1,
+      "totalTasks": 2,
       "tasks": [
         {
           "reference": "DOO-12",
           "title": "🏠 Mejorar la planificación y las hojas de medicación",
-          "status": "in_review",
+          "status": "next",
+          "projects": [
+            {
+              "key": "residences",
+              "label": "Residencias",
+              "emoji": "🏠"
+            }
+          ]
+        },
+        {
+          "reference": "DOO-13",
+          "title": "🏠 Completar el registro de cada medicamento",
+          "status": "next",
           "projects": [
             {
               "key": "residences",
