@@ -447,7 +447,7 @@
           "createdAt": "2026-07-17",
           "doneAt": null,
           "summary": "Revisar y completar todos los datos, pautas y opciones de seguimiento del registro de medicación.",
-          "nextStep": "El candidato completo está publicado en preview; queda la comprobación autenticada de los recordatorios WhatsApp.",
+          "nextStep": "La corrección exacta está publicada en preview para la revisión final.",
           "checklist": [
             {
               "label": "Verificar los datos de medicamento, AEMPS, prescripción y dosificación.",
