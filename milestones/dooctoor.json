@@ -99,24 +99,11 @@
           "emoji": "🏠"
         }
       ],
-      "status": "in_progress",
+      "status": "planned",
       "progress": 0,
       "completedTasks": 0,
-      "totalTasks": 1,
-      "tasks": [
-        {
-          "reference": "DOO-12",
-          "title": "🏠 Completar registro, planificación y hojas de medicación",
-          "status": "in_review",
-          "projects": [
-            {
-              "key": "residences",
-              "label": "Residencias",
-              "emoji": "🏠"
-            }
-          ]
-        }
-      ]
+      "totalTasks": 0,
+      "tasks": []
     },
     {
       "key": "residences-first-requirements-batch",

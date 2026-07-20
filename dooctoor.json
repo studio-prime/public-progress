@@ -134,24 +134,11 @@
           "emoji": "🏠"
         }
       ],
-      "status": "in_progress",
+      "status": "planned",
       "progress": 0,
       "completedTasks": 0,
-      "totalTasks": 1,
-      "tasks": [
-        {
-          "reference": "DOO-12",
-          "title": "🏠 Completar registro, planificación y hojas de medicación",
-          "status": "in_review",
-          "projects": [
-            {
-              "key": "residences",
-              "label": "Residencias",
-              "emoji": "🏠"
-            }
-          ]
-        }
-      ]
+      "totalTasks": 0,
+      "tasks": []
     },
     {
       "key": "residences-first-requirements-batch",
@@ -408,71 +395,7 @@
     {
       "key": "in_review",
       "label": "Listo para revisión",
-      "items": [
-        {
-          "id": "residences-medication-workflow-sheet",
-          "number": 12,
-          "reference": "DOO-12",
-          "kind": "request",
-          "projects": [
-            {
-              "key": "residences",
-              "label": "Residencias",
-              "emoji": "🏠"
-            }
-          ],
-          "milestone": {
-            "key": "residences-medication-management",
-            "title": "Gestión de medicación en residencias"
-          },
-          "app": {
-            "key": "residences",
-            "label": "Residencias",
-            "emoji": "🏠"
-          },
-          "title": "🏠 Completar registro, planificación y hojas de medicación",
-          "status": "in_review",
-          "createdAt": "2026-07-14",
-          "doneAt": null,
-          "summary": "Completar en una sola entrega el registro, la planificación, los recordatorios y las hojas de medicación por residente.",
-          "nextStep": "La actualización aprobada está disponible en preview para revisión.",
-          "checklist": [
-            {
-              "label": "Añadir pautas alternas, periódicas, mensuales y de tratamiento con descanso.",
-              "done": true
-            },
-            {
-              "label": "Mantener horarios específicos y frecuencias con hora de inicio.",
-              "done": true
-            },
-            {
-              "label": "Crear una hoja de medicación por residente con los tratamientos vigentes.",
-              "done": true
-            },
-            {
-              "label": "Permitir guardar la hoja generada en el historial.",
-              "done": true
-            },
-            {
-              "label": "Completar AEMPS, fechas de administración, WhatsApp y cinco periodos SPD.",
-              "done": true
-            }
-          ],
-          "reviewGuide": {
-            "title": "Cómo revisarlo",
-            "steps": [
-              "Abre la pantalla de Medicación de una residencia y edita el tratamiento de un residente.",
-              "Prueba cada nueva pauta y comprueba las fechas en las que se generan tomas.",
-              "Genera la hoja de medicación del residente y guárdala en su historial."
-            ],
-            "expectedResult": "Las pautas generan únicamente las tomas correctas y la hoja reúne los tratamientos vigentes sin mostrar información de otros residentes."
-          },
-          "clientContext": {
-            "label": "Mejora solicitada",
-            "body": "Ampliar las opciones de administración usadas en Residencias y crear hojas de medicación a partir de los tratamientos prescritos."
-          }
-        }
-      ]
+      "items": []
     },
     {
       "key": "done",
