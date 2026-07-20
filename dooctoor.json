@@ -134,11 +134,24 @@
           "emoji": "🏠"
         }
       ],
-      "status": "planned",
+      "status": "in_progress",
       "progress": 0,
       "completedTasks": 0,
-      "totalTasks": 0,
-      "tasks": []
+      "totalTasks": 1,
+      "tasks": [
+        {
+          "reference": "DOO-12",
+          "title": "🏠 Completar registro, planificación y hojas de medicación",
+          "status": "next",
+          "projects": [
+            {
+              "key": "residences",
+              "label": "Residencias",
+              "emoji": "🏠"
+            }
+          ]
+        }
+      ]
     },
     {
       "key": "residences-first-requirements-batch",
@@ -165,6 +178,106 @@
               "key": "residences",
               "label": "Residencias",
               "emoji": "🏠"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "residences-second-requirements-batch",
+      "title": "Segunda tanda de mejoras de Residencias",
+      "description": "Incorporar valoraciones, planes de acción, actividades y reuniones interdisciplinares como un flujo asistencial conectado.",
+      "projects": [
+        {
+          "key": "residences",
+          "label": "Residencias",
+          "emoji": "🏠"
+        }
+      ],
+      "status": "in_progress",
+      "progress": 0,
+      "completedTasks": 0,
+      "totalTasks": 1,
+      "tasks": [
+        {
+          "reference": "DOO-19",
+          "title": "🏠 Completar la segunda tanda de mejoras de Residencias",
+          "status": "next",
+          "projects": [
+            {
+              "key": "residences",
+              "label": "Residencias",
+              "emoji": "🏠"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "shared-medication-aemps-reliability",
+      "title": "Fiabilidad de búsqueda AEMPS",
+      "description": "Asegurar resultados completos y seleccionables de CIMA en todas las aplicaciones que comparten la gestión de medicamentos.",
+      "projects": [
+        {
+          "key": "personal",
+          "label": "Personal",
+          "emoji": "👤"
+        },
+        {
+          "key": "residences",
+          "label": "Residencias",
+          "emoji": "🏠"
+        },
+        {
+          "key": "schools",
+          "label": "Colegios",
+          "emoji": "🏫"
+        },
+        {
+          "key": "farmacias",
+          "label": "Farmacias",
+          "emoji": "💊"
+        },
+        {
+          "key": "backoffice",
+          "label": "Backoffice",
+          "emoji": "🛠️"
+        }
+      ],
+      "status": "in_progress",
+      "progress": 0,
+      "completedTasks": 0,
+      "totalTasks": 1,
+      "tasks": [
+        {
+          "reference": "DOO-20",
+          "title": "🧩 Revisar resultados de búsqueda AEMPS",
+          "status": "next",
+          "projects": [
+            {
+              "key": "personal",
+              "label": "Personal",
+              "emoji": "👤"
+            },
+            {
+              "key": "residences",
+              "label": "Residencias",
+              "emoji": "🏠"
+            },
+            {
+              "key": "schools",
+              "label": "Colegios",
+              "emoji": "🏫"
+            },
+            {
+              "key": "farmacias",
+              "label": "Farmacias",
+              "emoji": "💊"
+            },
+            {
+              "key": "backoffice",
+              "label": "Backoffice",
+              "emoji": "🛠️"
             }
           ]
         }
@@ -332,6 +445,85 @@
       "label": "En progreso",
       "items": [
         {
+          "id": "residences-medication-workflow-sheet",
+          "number": 12,
+          "reference": "DOO-12",
+          "kind": "request",
+          "projects": [
+            {
+              "key": "residences",
+              "label": "Residencias",
+              "emoji": "🏠"
+            }
+          ],
+          "milestone": {
+            "key": "residences-medication-management",
+            "title": "Gestión de medicación en residencias"
+          },
+          "app": {
+            "key": "residences",
+            "label": "Residencias",
+            "emoji": "🏠"
+          },
+          "title": "🏠 Completar registro, planificación y hojas de medicación",
+          "status": "next",
+          "createdAt": "2026-07-14",
+          "doneAt": null,
+          "summary": "Completar el registro, planificación, recordatorios, hojas y nuevo feedback visual de medicación.",
+          "nextStep": "La mejora está desplegada en preview para la revisión manual.",
+          "checklist": [
+            {
+              "label": "Añadir pautas alternas, periódicas, mensuales y de tratamiento con descanso.",
+              "done": true
+            },
+            {
+              "label": "Mantener horarios específicos y frecuencias con hora de inicio.",
+              "done": true
+            },
+            {
+              "label": "Crear una hoja de medicación por residente con los tratamientos vigentes.",
+              "done": true
+            },
+            {
+              "label": "Permitir guardar la hoja generada en el historial.",
+              "done": true
+            },
+            {
+              "label": "Completar AEMPS, fechas de administración, WhatsApp y cinco periodos SPD.",
+              "done": true
+            },
+            {
+              "label": "Renombrar el bloque como Plan de administración.",
+              "done": false
+            },
+            {
+              "label": "Hacer más visual el control de seguimiento de adherencia.",
+              "done": false
+            },
+            {
+              "label": "Mostrar solo medicamentos activos en Notificaciones.",
+              "done": false
+            },
+            {
+              "label": "Mostrar toda la información al visualizar un medicamento.",
+              "done": false
+            }
+          ],
+          "reviewGuide": {
+            "title": "Cómo revisarlo",
+            "steps": [
+              "Abre la pantalla de Medicación de una residencia y edita el tratamiento de un residente.",
+              "Prueba cada nueva pauta y comprueba las fechas en las que se generan tomas.",
+              "Genera la hoja de medicación del residente y guárdala en su historial."
+            ],
+            "expectedResult": "Las pautas generan únicamente las tomas correctas y la hoja reúne los tratamientos vigentes sin mostrar información de otros residentes."
+          },
+          "clientContext": {
+            "label": "Mejora solicitada",
+            "body": "Ampliar las opciones de administración usadas en Residencias y crear hojas de medicación a partir de los tratamientos prescritos."
+          }
+        },
+        {
           "id": "residences-navigation-resident-dossier",
           "number": 14,
           "reference": "DOO-14",
@@ -383,6 +575,126 @@
           "clientContext": {
             "label": "Mejora solicitada",
             "body": "Primera tanda conjunta de requisitos de Residencias: menú, ficha, curas, contenciones y hoja de cuidados."
+          }
+        },
+        {
+          "id": "residences-second-requirements-batch",
+          "number": 19,
+          "reference": "DOO-19",
+          "kind": "request",
+          "projects": [
+            {
+              "key": "residences",
+              "label": "Residencias",
+              "emoji": "🏠"
+            }
+          ],
+          "milestone": {
+            "key": "residences-second-requirements-batch",
+            "title": "Segunda tanda de mejoras de Residencias"
+          },
+          "app": {
+            "key": "residences",
+            "label": "Residencias",
+            "emoji": "🏠"
+          },
+          "title": "🏠 Completar la segunda tanda de mejoras de Residencias",
+          "status": "next",
+          "createdAt": "2026-07-20",
+          "doneAt": null,
+          "summary": "Añadir conjuntamente valoraciones, planes de acción, actividades y reuniones interdisciplinares.",
+          "nextStep": "El bloque está desplegado en preview para la revisión manual.",
+          "checklist": [
+            {
+              "label": "Ampliar el menú con los cuatro nuevos destinos.",
+              "done": false
+            },
+            {
+              "label": "Crear valoraciones con áreas, escalas, resultados y enlaces asistenciales.",
+              "done": false
+            },
+            {
+              "label": "Crear planes de acción con necesidades, objetivos y acciones.",
+              "done": false
+            },
+            {
+              "label": "Crear actividades, calendario y seguimientos.",
+              "done": false
+            },
+            {
+              "label": "Crear reuniones interdisciplinares con participantes, residentes e impresión.",
+              "done": false
+            }
+          ],
+          "clientContext": {
+            "label": "Pedido original",
+            "body": "Segundo bloque de Residencias con valoraciones, planes de acción, actividades y reuniones interdisciplinares, incluyendo sus registros, campos y acciones."
+          }
+        },
+        {
+          "id": "aemps-search-results-bug",
+          "number": 20,
+          "reference": "DOO-20",
+          "kind": "bug",
+          "projects": [
+            {
+              "key": "personal",
+              "label": "Personal",
+              "emoji": "👤"
+            },
+            {
+              "key": "residences",
+              "label": "Residencias",
+              "emoji": "🏠"
+            },
+            {
+              "key": "schools",
+              "label": "Colegios",
+              "emoji": "🏫"
+            },
+            {
+              "key": "farmacias",
+              "label": "Farmacias",
+              "emoji": "💊"
+            },
+            {
+              "key": "backoffice",
+              "label": "Backoffice",
+              "emoji": "🛠️"
+            }
+          ],
+          "milestone": {
+            "key": "shared-medication-aemps-reliability",
+            "title": "Fiabilidad de búsqueda AEMPS"
+          },
+          "app": {
+            "key": "multiple",
+            "label": "Varios proyectos",
+            "emoji": "🧩"
+          },
+          "title": "🧩 Revisar resultados de búsqueda AEMPS",
+          "status": "next",
+          "createdAt": "2026-07-20",
+          "doneAt": null,
+          "summary": "Comprobar por qué la búsqueda de medicamentos no coincide con los resultados disponibles en CIMA.",
+          "nextStep": "La corrección está desplegada en preview para la revisión manual.",
+          "checklist": [
+            {
+              "label": "Reproducir las búsquedas de Apiretal y paracetamol.",
+              "done": false
+            },
+            {
+              "label": "Comparar cantidad, presentaciones y orden con CIMA.",
+              "done": false
+            },
+            {
+              "label": "Corregir cualquier límite o selección incorrecta confirmado.",
+              "done": false
+            }
+          ],
+          "clientContext": {
+            "label": "Bug reportado",
+            "body": "Las búsquedas de Apiretal y paracetamol muestran resultados diferentes o más limitados que los disponibles en CIMA."
           }
         }
       ]
