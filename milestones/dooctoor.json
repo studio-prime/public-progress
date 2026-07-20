@@ -155,7 +155,7 @@
         {
           "reference": "DOO-13",
           "title": "🏠 Completar el registro de cada medicamento",
-          "status": "next",
+          "status": "in_review",
           "projects": [
             {
               "key": "residences",

@@ -190,7 +190,7 @@
         {
           "reference": "DOO-13",
           "title": "🏠 Completar el registro de cada medicamento",
-          "status": "next",
+          "status": "in_review",
           "projects": [
             {
               "key": "residences",
@@ -509,52 +509,6 @@
       "label": "En progreso",
       "items": [
         {
-          "id": "residences-medication-record-fidelity",
-          "number": 13,
-          "reference": "DOO-13",
-          "kind": "request",
-          "projects": [
-            {
-              "key": "residences",
-              "label": "Residencias",
-              "emoji": "🏠"
-            }
-          ],
-          "milestone": {
-            "key": "residences-medication-management",
-            "title": "Gestión de medicación en residencias"
-          },
-          "app": {
-            "key": "residences",
-            "label": "Residencias",
-            "emoji": "🏠"
-          },
-          "title": "🏠 Completar el registro de cada medicamento",
-          "status": "next",
-          "createdAt": "2026-07-17",
-          "doneAt": null,
-          "summary": "Revisar y completar todos los datos, pautas y opciones de seguimiento del registro de medicación.",
-          "nextStep": "Necesitamos confirmar si la hoja debe mantener cinco periodos, incluida Merienda, antes de cerrar la corrección.",
-          "checklist": [
-            {
-              "label": "Verificar los datos de medicamento, AEMPS, prescripción y dosificación.",
-              "done": false
-            },
-            {
-              "label": "Verificar pautas, horarios, seguimiento de tomas y recordatorios.",
-              "done": false
-            },
-            {
-              "label": "Verificar recomendaciones, indicadores, comentarios y archivos adjuntos.",
-              "done": false
-            }
-          ],
-          "clientContext": {
-            "label": "Mejora solicitada",
-            "body": "Completar el registro de cada medicamento con toda la información de prescripción, administración y seguimiento solicitada."
-          }
-        },
-        {
           "id": "residences-navigation-resident-dossier",
           "number": 14,
           "reference": "DOO-14",
@@ -836,6 +790,52 @@
           "clientContext": {
             "label": "Mejora solicitada",
             "body": "Ampliar las opciones de administración usadas en Residencias y crear hojas de medicación a partir de los tratamientos prescritos."
+          }
+        },
+        {
+          "id": "residences-medication-record-fidelity",
+          "number": 13,
+          "reference": "DOO-13",
+          "kind": "request",
+          "projects": [
+            {
+              "key": "residences",
+              "label": "Residencias",
+              "emoji": "🏠"
+            }
+          ],
+          "milestone": {
+            "key": "residences-medication-management",
+            "title": "Gestión de medicación en residencias"
+          },
+          "app": {
+            "key": "residences",
+            "label": "Residencias",
+            "emoji": "🏠"
+          },
+          "title": "🏠 Completar el registro de cada medicamento",
+          "status": "in_review",
+          "createdAt": "2026-07-17",
+          "doneAt": null,
+          "summary": "Revisar y completar todos los datos, pautas y opciones de seguimiento del registro de medicación.",
+          "nextStep": "La actualización aprobada está disponible en preview para revisión.",
+          "checklist": [
+            {
+              "label": "Verificar los datos de medicamento, AEMPS, prescripción y dosificación.",
+              "done": true
+            },
+            {
+              "label": "Verificar pautas, horarios, seguimiento de tomas y recordatorios.",
+              "done": true
+            },
+            {
+              "label": "Verificar recomendaciones, indicadores, comentarios y archivos adjuntos.",
+              "done": true
+            }
+          ],
+          "clientContext": {
+            "label": "Mejora solicitada",
+            "body": "Completar el registro de cada medicamento con toda la información de prescripción, administración y seguimiento solicitada."
           }
         }
       ]
