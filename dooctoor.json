@@ -357,7 +357,7 @@
           "createdAt": "2026-07-20",
           "doneAt": null,
           "summary": "Aplicar conjuntamente la navegación, ficha del residente, curas, contenciones y hoja de cuidados solicitadas.",
-          "nextStep": "La implementación está lista para aprobación final antes de publicarla.",
+          "nextStep": "La implementación está desplegada en preview para la revisión final interna.",
           "checklist": [
             {
               "label": "Organizar el menú y completar la ficha del residente.",
