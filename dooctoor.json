@@ -178,7 +178,7 @@
         {
           "reference": "DOO-12",
           "title": "🏠 Mejorar la planificación y las hojas de medicación",
-          "status": "next",
+          "status": "in_review",
           "projects": [
             {
               "key": "residences",
@@ -190,6 +190,102 @@
         {
           "reference": "DOO-13",
           "title": "🏠 Completar el registro de cada medicamento",
+          "status": "next",
+          "projects": [
+            {
+              "key": "residences",
+              "label": "Residencias",
+              "emoji": "🏠"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "residences-care-operations",
+      "title": "Operaciones asistenciales de residencias",
+      "description": "Mejorar la organización, edición y consulta de curas y contenciones dentro del trabajo asistencial.",
+      "projects": [
+        {
+          "key": "residences",
+          "label": "Residencias",
+          "emoji": "🏠"
+        }
+      ],
+      "status": "in_progress",
+      "progress": 0,
+      "completedTasks": 0,
+      "totalTasks": 3,
+      "tasks": [
+        {
+          "reference": "DOO-15",
+          "title": "🏠 Mejorar la edición y consulta de curas",
+          "status": "next",
+          "projects": [
+            {
+              "key": "residences",
+              "label": "Residencias",
+              "emoji": "🏠"
+            }
+          ]
+        },
+        {
+          "reference": "DOO-16",
+          "title": "🏠 Seguimiento operativo de curas",
+          "status": "backlog",
+          "projects": [
+            {
+              "key": "residences",
+              "label": "Residencias",
+              "emoji": "🏠"
+            }
+          ]
+        },
+        {
+          "reference": "DOO-17",
+          "title": "🏠 Completar la gestión de contenciones",
+          "status": "next",
+          "projects": [
+            {
+              "key": "residences",
+              "label": "Residencias",
+              "emoji": "🏠"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "residences-resident-record-and-care-plan",
+      "title": "Expediente y plan de cuidados del residente",
+      "description": "Completar la ficha y la hoja de cuidados del residente con información estructurada, historial e impresión.",
+      "projects": [
+        {
+          "key": "residences",
+          "label": "Residencias",
+          "emoji": "🏠"
+        }
+      ],
+      "status": "in_progress",
+      "progress": 0,
+      "completedTasks": 0,
+      "totalTasks": 2,
+      "tasks": [
+        {
+          "reference": "DOO-14",
+          "title": "🏠 Organizar el menú y completar la ficha del residente",
+          "status": "next",
+          "projects": [
+            {
+              "key": "residences",
+              "label": "Residencias",
+              "emoji": "🏠"
+            }
+          ]
+        },
+        {
+          "reference": "DOO-18",
+          "title": "🏠 Crear la hoja de cuidados del residente",
           "status": "next",
           "projects": [
             {
@@ -355,12 +451,333 @@
             "label": "Problema detectado",
             "body": "Se ha detectado que algunos usuarios personales se resuelven como usuarios staff y que ciertas acciones de centros comprueban la pertenencia, pero no siempre el nivel de permisos. Hay que revisar el modelo completo para evitar bloqueos y accesos incorrectos."
           }
+        },
+        {
+          "id": "residences-cure-tracking-operations",
+          "number": 16,
+          "reference": "DOO-16",
+          "kind": "request",
+          "projects": [
+            {
+              "key": "residences",
+              "label": "Residencias",
+              "emoji": "🏠"
+            }
+          ],
+          "milestone": {
+            "key": "residences-care-operations",
+            "title": "Operaciones asistenciales de residencias"
+          },
+          "app": {
+            "key": "residences",
+            "label": "Residencias",
+            "emoji": "🏠"
+          },
+          "title": "🏠 Seguimiento operativo de curas",
+          "status": "backlog",
+          "createdAt": "2026-07-20",
+          "doneAt": null,
+          "summary": "Preparar una fase posterior para generar, realizar y cancelar seguimientos de curas.",
+          "nextStep": "Mantener esta fase separada hasta abordar el seguimiento operativo.",
+          "checklist": [
+            {
+              "label": "Generar un calendario independiente de curas.",
+              "done": false
+            },
+            {
+              "label": "Eliminar las citas posteriores cuando se indique una fecha fin.",
+              "done": false
+            },
+            {
+              "label": "Registrar curas realizadas con resultado y responsable.",
+              "done": false
+            },
+            {
+              "label": "Crear la cola `OP. Curas` con acciones realizado y cancelada.",
+              "done": false
+            }
+          ],
+          "clientContext": {
+            "label": "Fase posterior",
+            "body": "La solicitud reserva para una fase posterior el calendario y seguimiento operativo de las curas."
+          }
         }
       ]
     },
     {
       "key": "next",
       "label": "En progreso",
+      "items": [
+        {
+          "id": "residences-medication-record-fidelity",
+          "number": 13,
+          "reference": "DOO-13",
+          "kind": "request",
+          "projects": [
+            {
+              "key": "residences",
+              "label": "Residencias",
+              "emoji": "🏠"
+            }
+          ],
+          "milestone": {
+            "key": "residences-medication-management",
+            "title": "Gestión de medicación en residencias"
+          },
+          "app": {
+            "key": "residences",
+            "label": "Residencias",
+            "emoji": "🏠"
+          },
+          "title": "🏠 Completar el registro de cada medicamento",
+          "status": "next",
+          "createdAt": "2026-07-17",
+          "doneAt": null,
+          "summary": "Revisar y completar todos los datos, pautas y opciones de seguimiento del registro de medicación.",
+          "nextStep": "Necesitamos confirmar si la hoja debe mantener cinco periodos, incluida Merienda, antes de cerrar la corrección.",
+          "checklist": [
+            {
+              "label": "Verificar los datos de medicamento, AEMPS, prescripción y dosificación.",
+              "done": false
+            },
+            {
+              "label": "Verificar pautas, horarios, seguimiento de tomas y recordatorios.",
+              "done": false
+            },
+            {
+              "label": "Verificar recomendaciones, indicadores, comentarios y archivos adjuntos.",
+              "done": false
+            }
+          ],
+          "clientContext": {
+            "label": "Mejora solicitada",
+            "body": "Completar el registro de cada medicamento con toda la información de prescripción, administración y seguimiento solicitada."
+          }
+        },
+        {
+          "id": "residences-navigation-resident-dossier",
+          "number": 14,
+          "reference": "DOO-14",
+          "kind": "request",
+          "projects": [
+            {
+              "key": "residences",
+              "label": "Residencias",
+              "emoji": "🏠"
+            }
+          ],
+          "milestone": {
+            "key": "residences-resident-record-and-care-plan",
+            "title": "Expediente y plan de cuidados del residente"
+          },
+          "app": {
+            "key": "residences",
+            "label": "Residencias",
+            "emoji": "🏠"
+          },
+          "title": "🏠 Organizar el menú y completar la ficha del residente",
+          "status": "next",
+          "createdAt": "2026-07-20",
+          "doneAt": null,
+          "summary": "Reordenar la navegación de Residencias y completar el expediente de cada residente.",
+          "nextStep": "La implementación está lista para aprobación final antes de publicarla.",
+          "checklist": [
+            {
+              "label": "Organizar Personas, Residentes, Residencia y Coordinación en el orden solicitado.",
+              "done": false
+            },
+            {
+              "label": "Conectar cada opción con su pantalla correspondiente.",
+              "done": false
+            },
+            {
+              "label": "Mostrar únicamente los datos solicitados en la ficha del residente.",
+              "done": false
+            },
+            {
+              "label": "Completar estancia, seguros, contactos de emergencia y familiares.",
+              "done": false
+            }
+          ],
+          "clientContext": {
+            "label": "Mejora solicitada",
+            "body": "Organizar las principales áreas de Residencias y dejar una ficha del residente clara con todos los datos administrativos y familiares necesarios."
+          }
+        },
+        {
+          "id": "residences-cures-current-phase",
+          "number": 15,
+          "reference": "DOO-15",
+          "kind": "request",
+          "projects": [
+            {
+              "key": "residences",
+              "label": "Residencias",
+              "emoji": "🏠"
+            }
+          ],
+          "milestone": {
+            "key": "residences-care-operations",
+            "title": "Operaciones asistenciales de residencias"
+          },
+          "app": {
+            "key": "residences",
+            "label": "Residencias",
+            "emoji": "🏠"
+          },
+          "title": "🏠 Mejorar la edición y consulta de curas",
+          "status": "next",
+          "createdAt": "2026-07-20",
+          "doneAt": null,
+          "summary": "Permitir editar la planificación de curas y consultarlas desde cada residente.",
+          "nextStep": "La implementación está lista para aprobación final antes de publicarla.",
+          "checklist": [
+            {
+              "label": "Permitir editar una cura completa.",
+              "done": false
+            },
+            {
+              "label": "Añadir frecuencia, días de cura y varios horarios.",
+              "done": false
+            },
+            {
+              "label": "Mostrar las curas activas y anteriores de cada residente.",
+              "done": false
+            },
+            {
+              "label": "Mantener separados los requisitos operativos previstos para más adelante.",
+              "done": false
+            }
+          ],
+          "clientContext": {
+            "label": "Mejora solicitada",
+            "body": "Completar la edición y planificación de curas y poder consultarlas directamente desde la ficha de cada residente."
+          }
+        },
+        {
+          "id": "residences-restraints-documentation",
+          "number": 17,
+          "reference": "DOO-17",
+          "kind": "request",
+          "projects": [
+            {
+              "key": "residences",
+              "label": "Residencias",
+              "emoji": "🏠"
+            }
+          ],
+          "milestone": {
+            "key": "residences-care-operations",
+            "title": "Operaciones asistenciales de residencias"
+          },
+          "app": {
+            "key": "residences",
+            "label": "Residencias",
+            "emoji": "🏠"
+          },
+          "title": "🏠 Completar la gestión de contenciones",
+          "status": "next",
+          "createdAt": "2026-07-20",
+          "doneAt": null,
+          "summary": "Mejorar la edición, documentación y consulta de sujeciones y contenciones.",
+          "nextStep": "La implementación está lista para aprobación final antes de publicarla.",
+          "checklist": [
+            {
+              "label": "Permitir editar una contención completa.",
+              "done": false
+            },
+            {
+              "label": "Adjuntar y exigir prescripción médica y consentimiento informado.",
+              "done": false
+            },
+            {
+              "label": "Unificar el tratamiento de Sujeciones y Contenciones.",
+              "done": false
+            },
+            {
+              "label": "Mostrar las contenciones de cada residente.",
+              "done": false
+            }
+          ],
+          "clientContext": {
+            "label": "Mejora solicitada",
+            "body": "Completar la gestión de sujeciones y contenciones con la documentación requerida y una consulta clara desde cada residente."
+          }
+        },
+        {
+          "id": "residences-resident-care-sheet",
+          "number": 18,
+          "reference": "DOO-18",
+          "kind": "request",
+          "projects": [
+            {
+              "key": "residences",
+              "label": "Residencias",
+              "emoji": "🏠"
+            }
+          ],
+          "milestone": {
+            "key": "residences-resident-record-and-care-plan",
+            "title": "Expediente y plan de cuidados del residente"
+          },
+          "app": {
+            "key": "residences",
+            "label": "Residencias",
+            "emoji": "🏠"
+          },
+          "title": "🏠 Crear la hoja de cuidados del residente",
+          "status": "next",
+          "createdAt": "2026-07-20",
+          "doneAt": null,
+          "summary": "Completar una ficha estructurada con las necesidades asistenciales de cada residente.",
+          "nextStep": "La implementación está lista para aprobación final antes de publicarla.",
+          "checklist": [
+            {
+              "label": "Añadir fecha de modificación, impresión y consulta de registros anteriores.",
+              "done": false
+            },
+            {
+              "label": "Completar alimentación, respiración, higiene, piel y vestido.",
+              "done": false
+            },
+            {
+              "label": "Completar eliminación, movilidad, ayudas técnicas y contenciones.",
+              "done": false
+            },
+            {
+              "label": "Completar sueño, comunicación, relaciones, ocio y observaciones.",
+              "done": false
+            },
+            {
+              "label": "Guardar cada ficha por residente y conservar su historial.",
+              "done": false
+            }
+          ],
+          "reviewGuide": {
+            "title": "Cómo revisarlo",
+            "steps": [
+              "Selecciona un residente y abre su hoja de cuidados.",
+              "Revisa todos los apartados y completa distintos tipos de campos y opciones.",
+              "Guarda la ficha, vuelve a abrirla y consulta el registro anterior.",
+              "Imprime la ficha y comprueba que refleja los datos guardados."
+            ],
+            "expectedResult": "Todos los apartados quedan disponibles con sus opciones exactas, los datos persisten por residente y pueden consultarse e imprimirse sin mezclar información de otros centros."
+          },
+          "clientContext": {
+            "label": "Mejora solicitada",
+            "body": "Crear una hoja de cuidados completa para registrar y consultar de forma clara las necesidades asistenciales de cada residente."
+          }
+        }
+      ]
+    },
+    {
+      "key": "needs_client",
+      "label": "Necesita ayuda",
+      "items": []
+    },
+    {
+      "key": "in_review",
+      "label": "Listo para revisión",
       "items": [
         {
           "id": "residences-medication-workflow-sheet",
@@ -384,11 +801,11 @@
             "emoji": "🏠"
           },
           "title": "🏠 Mejorar la planificación y las hojas de medicación",
-          "status": "next",
+          "status": "in_review",
           "createdAt": "2026-07-14",
           "doneAt": null,
           "summary": "Ampliar la planificación de tratamientos en Residencias y permitir crear hojas de medicación claras para cada residente.",
-          "nextStep": "Se está revisando el alcance completo del registro de medicación antes de pedir aprobación final.",
+          "nextStep": "La actualización aprobada está disponible en preview para revisión.",
           "checklist": [
             {
               "label": "Añadir pautas alternas, periódicas, mensuales y de tratamiento con descanso.",
@@ -420,64 +837,8 @@
             "label": "Mejora solicitada",
             "body": "Ampliar las opciones de administración usadas en Residencias y crear hojas de medicación a partir de los tratamientos prescritos."
           }
-        },
-        {
-          "id": "residences-medication-record-fidelity",
-          "number": 13,
-          "reference": "DOO-13",
-          "kind": "request",
-          "projects": [
-            {
-              "key": "residences",
-              "label": "Residencias",
-              "emoji": "🏠"
-            }
-          ],
-          "milestone": {
-            "key": "residences-medication-management",
-            "title": "Gestión de medicación en residencias"
-          },
-          "app": {
-            "key": "residences",
-            "label": "Residencias",
-            "emoji": "🏠"
-          },
-          "title": "🏠 Completar el registro de cada medicamento",
-          "status": "next",
-          "createdAt": "2026-07-17",
-          "doneAt": null,
-          "summary": "Revisar y completar todos los datos, pautas y opciones de seguimiento del registro de medicación.",
-          "nextStep": "La corrección exacta está publicada en preview; queda la revisión final de David.",
-          "checklist": [
-            {
-              "label": "Verificar los datos de medicamento, AEMPS, prescripción y dosificación.",
-              "done": false
-            },
-            {
-              "label": "Verificar pautas, horarios, seguimiento de tomas y recordatorios.",
-              "done": false
-            },
-            {
-              "label": "Verificar recomendaciones, indicadores, comentarios y archivos adjuntos.",
-              "done": false
-            }
-          ],
-          "clientContext": {
-            "label": "Mejora solicitada",
-            "body": "Completar el registro de cada medicamento con toda la información de prescripción, administración y seguimiento solicitada."
-          }
         }
       ]
-    },
-    {
-      "key": "needs_client",
-      "label": "Necesita ayuda",
-      "items": []
-    },
-    {
-      "key": "in_review",
-      "label": "Listo para revisión",
-      "items": []
     },
     {
       "key": "done",

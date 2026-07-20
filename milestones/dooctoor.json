@@ -143,7 +143,7 @@
         {
           "reference": "DOO-12",
           "title": "🏠 Mejorar la planificación y las hojas de medicación",
-          "status": "next",
+          "status": "in_review",
           "projects": [
             {
               "key": "residences",
@@ -155,6 +155,102 @@
         {
           "reference": "DOO-13",
           "title": "🏠 Completar el registro de cada medicamento",
+          "status": "next",
+          "projects": [
+            {
+              "key": "residences",
+              "label": "Residencias",
+              "emoji": "🏠"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "residences-care-operations",
+      "title": "Operaciones asistenciales de residencias",
+      "description": "Mejorar la organización, edición y consulta de curas y contenciones dentro del trabajo asistencial.",
+      "projects": [
+        {
+          "key": "residences",
+          "label": "Residencias",
+          "emoji": "🏠"
+        }
+      ],
+      "status": "in_progress",
+      "progress": 0,
+      "completedTasks": 0,
+      "totalTasks": 3,
+      "tasks": [
+        {
+          "reference": "DOO-15",
+          "title": "🏠 Mejorar la edición y consulta de curas",
+          "status": "next",
+          "projects": [
+            {
+              "key": "residences",
+              "label": "Residencias",
+              "emoji": "🏠"
+            }
+          ]
+        },
+        {
+          "reference": "DOO-16",
+          "title": "🏠 Seguimiento operativo de curas",
+          "status": "backlog",
+          "projects": [
+            {
+              "key": "residences",
+              "label": "Residencias",
+              "emoji": "🏠"
+            }
+          ]
+        },
+        {
+          "reference": "DOO-17",
+          "title": "🏠 Completar la gestión de contenciones",
+          "status": "next",
+          "projects": [
+            {
+              "key": "residences",
+              "label": "Residencias",
+              "emoji": "🏠"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "residences-resident-record-and-care-plan",
+      "title": "Expediente y plan de cuidados del residente",
+      "description": "Completar la ficha y la hoja de cuidados del residente con información estructurada, historial e impresión.",
+      "projects": [
+        {
+          "key": "residences",
+          "label": "Residencias",
+          "emoji": "🏠"
+        }
+      ],
+      "status": "in_progress",
+      "progress": 0,
+      "completedTasks": 0,
+      "totalTasks": 2,
+      "tasks": [
+        {
+          "reference": "DOO-14",
+          "title": "🏠 Organizar el menú y completar la ficha del residente",
+          "status": "next",
+          "projects": [
+            {
+              "key": "residences",
+              "label": "Residencias",
+              "emoji": "🏠"
+            }
+          ]
+        },
+        {
+          "reference": "DOO-18",
+          "title": "🏠 Crear la hoja de cuidados del residente",
           "status": "next",
           "projects": [
             {
