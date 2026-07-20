@@ -17,8 +17,8 @@
       ],
       "status": "completed",
       "progress": 100,
-      "completedTasks": 6,
-      "totalTasks": 6,
+      "completedTasks": 3,
+      "totalTasks": 3,
       "tasks": [
         {
           "reference": "DOO-4",
@@ -46,43 +46,7 @@
         },
         {
           "reference": "DOO-6",
-          "title": "👤 Ajustar pantalla de validación de identidad",
-          "status": "done",
-          "projects": [
-            {
-              "key": "personal",
-              "label": "Personal",
-              "emoji": "👤"
-            }
-          ]
-        },
-        {
-          "reference": "DOO-7",
-          "title": "👤 Confirmar destino de cancelar validación",
-          "status": "done",
-          "projects": [
-            {
-              "key": "personal",
-              "label": "Personal",
-              "emoji": "👤"
-            }
-          ]
-        },
-        {
-          "reference": "DOO-8",
-          "title": "👤 Revisar documentos permitidos y comportamiento en iPad",
-          "status": "done",
-          "projects": [
-            {
-              "key": "personal",
-              "label": "Personal",
-              "emoji": "👤"
-            }
-          ]
-        },
-        {
-          "reference": "DOO-9",
-          "title": "👤 Revisar datos del documento tras validación",
+          "title": "👤 Completar el feedback de validación de identidad",
           "status": "done",
           "projects": [
             {
@@ -138,23 +102,11 @@
       "status": "in_progress",
       "progress": 0,
       "completedTasks": 0,
-      "totalTasks": 2,
+      "totalTasks": 1,
       "tasks": [
         {
           "reference": "DOO-12",
-          "title": "🏠 Mejorar la planificación y las hojas de medicación",
-          "status": "in_review",
-          "projects": [
-            {
-              "key": "residences",
-              "label": "Residencias",
-              "emoji": "🏠"
-            }
-          ]
-        },
-        {
-          "reference": "DOO-13",
-          "title": "🏠 Completar el registro de cada medicamento",
+          "title": "🏠 Completar registro, planificación y hojas de medicación",
           "status": "in_review",
           "projects": [
             {
@@ -167,9 +119,9 @@
       ]
     },
     {
-      "key": "residences-care-operations",
-      "title": "Operaciones asistenciales de residencias",
-      "description": "Mejorar la organización, edición y consulta de curas y contenciones dentro del trabajo asistencial.",
+      "key": "residences-first-requirements-batch",
+      "title": "Primera tanda de mejoras de Residencias",
+      "description": "Completar en una sola entrega la navegación, ficha del residente, curas, contenciones y hoja de cuidados solicitadas conjuntamente.",
       "projects": [
         {
           "key": "residences",
@@ -180,77 +132,11 @@
       "status": "in_progress",
       "progress": 0,
       "completedTasks": 0,
-      "totalTasks": 3,
-      "tasks": [
-        {
-          "reference": "DOO-15",
-          "title": "🏠 Mejorar la edición y consulta de curas",
-          "status": "next",
-          "projects": [
-            {
-              "key": "residences",
-              "label": "Residencias",
-              "emoji": "🏠"
-            }
-          ]
-        },
-        {
-          "reference": "DOO-16",
-          "title": "🏠 Seguimiento operativo de curas",
-          "status": "backlog",
-          "projects": [
-            {
-              "key": "residences",
-              "label": "Residencias",
-              "emoji": "🏠"
-            }
-          ]
-        },
-        {
-          "reference": "DOO-17",
-          "title": "🏠 Completar la gestión de contenciones",
-          "status": "next",
-          "projects": [
-            {
-              "key": "residences",
-              "label": "Residencias",
-              "emoji": "🏠"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "residences-resident-record-and-care-plan",
-      "title": "Expediente y plan de cuidados del residente",
-      "description": "Completar la ficha y la hoja de cuidados del residente con información estructurada, historial e impresión.",
-      "projects": [
-        {
-          "key": "residences",
-          "label": "Residencias",
-          "emoji": "🏠"
-        }
-      ],
-      "status": "in_progress",
-      "progress": 0,
-      "completedTasks": 0,
-      "totalTasks": 2,
+      "totalTasks": 1,
       "tasks": [
         {
           "reference": "DOO-14",
-          "title": "🏠 Organizar el menú y completar la ficha del residente",
-          "status": "next",
-          "projects": [
-            {
-              "key": "residences",
-              "label": "Residencias",
-              "emoji": "🏠"
-            }
-          ]
-        },
-        {
-          "reference": "DOO-18",
-          "title": "🏠 Crear la hoja de cuidados del residente",
+          "title": "🏠 Completar la primera tanda de mejoras de Residencias",
           "status": "next",
           "projects": [
             {

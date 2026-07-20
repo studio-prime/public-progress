@@ -13,22 +13,32 @@
           "key": "atelia",
           "label": "Atelia",
           "emoji": "🏡"
+        },
+        {
+          "key": "husdrommer",
+          "label": "HusDrommer",
+          "emoji": "🏢"
         }
       ],
       "status": "completed",
       "progress": 100,
-      "completedTasks": 6,
-      "totalTasks": 6,
+      "completedTasks": 3,
+      "totalTasks": 3,
       "tasks": [
         {
           "reference": "HUS-1",
-          "title": "🏡 Actualización de estructura y contenidos",
+          "title": "🧩 Aplicar la solicitud completa del PDF de Atelia",
           "status": "done",
           "projects": [
             {
               "key": "atelia",
               "label": "Atelia",
               "emoji": "🏡"
+            },
+            {
+              "key": "husdrommer",
+              "label": "HusDrommer",
+              "emoji": "🏢"
             }
           ]
         },
@@ -45,92 +55,14 @@
           ]
         },
         {
-          "reference": "HUS-3",
-          "title": "🏡 Textos de proyectos, proceso y contacto",
-          "status": "done",
-          "projects": [
-            {
-              "key": "atelia",
-              "label": "Atelia",
-              "emoji": "🏡"
-            }
-          ]
-        },
-        {
           "reference": "HUS-12",
-          "title": "🏡 Ajuste del bloque de contacto",
+          "title": "🏡 Aplicar la tanda de ajustes de Atelia",
           "status": "done",
           "projects": [
             {
               "key": "atelia",
               "label": "Atelia",
               "emoji": "🏡"
-            }
-          ]
-        },
-        {
-          "reference": "HUS-13",
-          "title": "🏡 Mover bloque de grupo a Contacto",
-          "status": "done",
-          "projects": [
-            {
-              "key": "atelia",
-              "label": "Atelia",
-              "emoji": "🏡"
-            }
-          ]
-        },
-        {
-          "reference": "HUS-14",
-          "title": "🏡 Rótulo de Servicios",
-          "status": "done",
-          "projects": [
-            {
-              "key": "atelia",
-              "label": "Atelia",
-              "emoji": "🏡"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "husdrommer-brand-clarity",
-      "title": "Claridad entre marcas",
-      "description": "Mejorar la separación visual entre las marcas presentadas en la página de Grupo HusDrommer.",
-      "projects": [
-        {
-          "key": "husdrommer",
-          "label": "HusDrommer",
-          "emoji": "🏢"
-        }
-      ],
-      "status": "completed",
-      "progress": 100,
-      "completedTasks": 2,
-      "totalTasks": 2,
-      "tasks": [
-        {
-          "reference": "HUS-11",
-          "title": "🏢 Separador entre marcas",
-          "status": "done",
-          "projects": [
-            {
-              "key": "husdrommer",
-              "label": "HusDrommer",
-              "emoji": "🏢"
-            }
-          ]
-        },
-        {
-          "reference": "HUS-15",
-          "title": "🏢 Reforzar separador entre marcas",
-          "status": "done",
-          "projects": [
-            {
-              "key": "husdrommer",
-              "label": "HusDrommer",
-              "emoji": "🏢"
             }
           ]
         }

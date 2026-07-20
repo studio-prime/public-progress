@@ -52,8 +52,8 @@
       ],
       "status": "completed",
       "progress": 100,
-      "completedTasks": 6,
-      "totalTasks": 6,
+      "completedTasks": 3,
+      "totalTasks": 3,
       "tasks": [
         {
           "reference": "DOO-4",
@@ -81,43 +81,7 @@
         },
         {
           "reference": "DOO-6",
-          "title": "👤 Ajustar pantalla de validación de identidad",
-          "status": "done",
-          "projects": [
-            {
-              "key": "personal",
-              "label": "Personal",
-              "emoji": "👤"
-            }
-          ]
-        },
-        {
-          "reference": "DOO-7",
-          "title": "👤 Confirmar destino de cancelar validación",
-          "status": "done",
-          "projects": [
-            {
-              "key": "personal",
-              "label": "Personal",
-              "emoji": "👤"
-            }
-          ]
-        },
-        {
-          "reference": "DOO-8",
-          "title": "👤 Revisar documentos permitidos y comportamiento en iPad",
-          "status": "done",
-          "projects": [
-            {
-              "key": "personal",
-              "label": "Personal",
-              "emoji": "👤"
-            }
-          ]
-        },
-        {
-          "reference": "DOO-9",
-          "title": "👤 Revisar datos del documento tras validación",
+          "title": "👤 Completar el feedback de validación de identidad",
           "status": "done",
           "projects": [
             {
@@ -173,23 +137,11 @@
       "status": "in_progress",
       "progress": 0,
       "completedTasks": 0,
-      "totalTasks": 2,
+      "totalTasks": 1,
       "tasks": [
         {
           "reference": "DOO-12",
-          "title": "🏠 Mejorar la planificación y las hojas de medicación",
-          "status": "in_review",
-          "projects": [
-            {
-              "key": "residences",
-              "label": "Residencias",
-              "emoji": "🏠"
-            }
-          ]
-        },
-        {
-          "reference": "DOO-13",
-          "title": "🏠 Completar el registro de cada medicamento",
+          "title": "🏠 Completar registro, planificación y hojas de medicación",
           "status": "in_review",
           "projects": [
             {
@@ -202,9 +154,9 @@
       ]
     },
     {
-      "key": "residences-care-operations",
-      "title": "Operaciones asistenciales de residencias",
-      "description": "Mejorar la organización, edición y consulta de curas y contenciones dentro del trabajo asistencial.",
+      "key": "residences-first-requirements-batch",
+      "title": "Primera tanda de mejoras de Residencias",
+      "description": "Completar en una sola entrega la navegación, ficha del residente, curas, contenciones y hoja de cuidados solicitadas conjuntamente.",
       "projects": [
         {
           "key": "residences",
@@ -215,77 +167,11 @@
       "status": "in_progress",
       "progress": 0,
       "completedTasks": 0,
-      "totalTasks": 3,
-      "tasks": [
-        {
-          "reference": "DOO-15",
-          "title": "🏠 Mejorar la edición y consulta de curas",
-          "status": "next",
-          "projects": [
-            {
-              "key": "residences",
-              "label": "Residencias",
-              "emoji": "🏠"
-            }
-          ]
-        },
-        {
-          "reference": "DOO-16",
-          "title": "🏠 Seguimiento operativo de curas",
-          "status": "backlog",
-          "projects": [
-            {
-              "key": "residences",
-              "label": "Residencias",
-              "emoji": "🏠"
-            }
-          ]
-        },
-        {
-          "reference": "DOO-17",
-          "title": "🏠 Completar la gestión de contenciones",
-          "status": "next",
-          "projects": [
-            {
-              "key": "residences",
-              "label": "Residencias",
-              "emoji": "🏠"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "residences-resident-record-and-care-plan",
-      "title": "Expediente y plan de cuidados del residente",
-      "description": "Completar la ficha y la hoja de cuidados del residente con información estructurada, historial e impresión.",
-      "projects": [
-        {
-          "key": "residences",
-          "label": "Residencias",
-          "emoji": "🏠"
-        }
-      ],
-      "status": "in_progress",
-      "progress": 0,
-      "completedTasks": 0,
-      "totalTasks": 2,
+      "totalTasks": 1,
       "tasks": [
         {
           "reference": "DOO-14",
-          "title": "🏠 Organizar el menú y completar la ficha del residente",
-          "status": "next",
-          "projects": [
-            {
-              "key": "residences",
-              "label": "Residencias",
-              "emoji": "🏠"
-            }
-          ]
-        },
-        {
-          "reference": "DOO-18",
-          "title": "🏠 Crear la hoja de cuidados del residente",
+          "title": "🏠 Completar la primera tanda de mejoras de Residencias",
           "status": "next",
           "projects": [
             {
@@ -451,56 +337,6 @@
             "label": "Problema detectado",
             "body": "Se ha detectado que algunos usuarios personales se resuelven como usuarios staff y que ciertas acciones de centros comprueban la pertenencia, pero no siempre el nivel de permisos. Hay que revisar el modelo completo para evitar bloqueos y accesos incorrectos."
           }
-        },
-        {
-          "id": "residences-cure-tracking-operations",
-          "number": 16,
-          "reference": "DOO-16",
-          "kind": "request",
-          "projects": [
-            {
-              "key": "residences",
-              "label": "Residencias",
-              "emoji": "🏠"
-            }
-          ],
-          "milestone": {
-            "key": "residences-care-operations",
-            "title": "Operaciones asistenciales de residencias"
-          },
-          "app": {
-            "key": "residences",
-            "label": "Residencias",
-            "emoji": "🏠"
-          },
-          "title": "🏠 Seguimiento operativo de curas",
-          "status": "backlog",
-          "createdAt": "2026-07-20",
-          "doneAt": null,
-          "summary": "Preparar una fase posterior para generar, realizar y cancelar seguimientos de curas.",
-          "nextStep": "Mantener esta fase separada hasta abordar el seguimiento operativo.",
-          "checklist": [
-            {
-              "label": "Generar un calendario independiente de curas.",
-              "done": false
-            },
-            {
-              "label": "Eliminar las citas posteriores cuando se indique una fecha fin.",
-              "done": false
-            },
-            {
-              "label": "Registrar curas realizadas con resultado y responsable.",
-              "done": false
-            },
-            {
-              "label": "Crear la cola `OP. Curas` con acciones realizado y cancelada.",
-              "done": false
-            }
-          ],
-          "clientContext": {
-            "label": "Fase posterior",
-            "body": "La solicitud reserva para una fase posterior el calendario y seguimiento operativo de las curas."
-          }
         }
       ]
     },
@@ -521,205 +357,45 @@
             }
           ],
           "milestone": {
-            "key": "residences-resident-record-and-care-plan",
-            "title": "Expediente y plan de cuidados del residente"
+            "key": "residences-first-requirements-batch",
+            "title": "Primera tanda de mejoras de Residencias"
           },
           "app": {
             "key": "residences",
             "label": "Residencias",
             "emoji": "🏠"
           },
-          "title": "🏠 Organizar el menú y completar la ficha del residente",
+          "title": "🏠 Completar la primera tanda de mejoras de Residencias",
           "status": "next",
           "createdAt": "2026-07-20",
           "doneAt": null,
-          "summary": "Reordenar la navegación de Residencias y completar el expediente de cada residente.",
+          "summary": "Aplicar conjuntamente la navegación, ficha del residente, curas, contenciones y hoja de cuidados solicitadas.",
           "nextStep": "La implementación está lista para aprobación final antes de publicarla.",
           "checklist": [
             {
-              "label": "Organizar Personas, Residentes, Residencia y Coordinación en el orden solicitado.",
+              "label": "Organizar el menú y completar la ficha del residente.",
               "done": false
             },
             {
-              "label": "Conectar cada opción con su pantalla correspondiente.",
+              "label": "Permitir editar y consultar las curas del residente.",
               "done": false
             },
             {
-              "label": "Mostrar únicamente los datos solicitados en la ficha del residente.",
+              "label": "Completar contenciones, documentos obligatorios y vista por residente.",
               "done": false
             },
             {
-              "label": "Completar estancia, seguros, contactos de emergencia y familiares.",
+              "label": "Crear la hoja de cuidados completa con historial e impresión.",
+              "done": false
+            },
+            {
+              "label": "Conservar como fase posterior las operaciones de curas marcadas en azul.",
               "done": false
             }
           ],
           "clientContext": {
             "label": "Mejora solicitada",
-            "body": "Organizar las principales áreas de Residencias y dejar una ficha del residente clara con todos los datos administrativos y familiares necesarios."
-          }
-        },
-        {
-          "id": "residences-cures-current-phase",
-          "number": 15,
-          "reference": "DOO-15",
-          "kind": "request",
-          "projects": [
-            {
-              "key": "residences",
-              "label": "Residencias",
-              "emoji": "🏠"
-            }
-          ],
-          "milestone": {
-            "key": "residences-care-operations",
-            "title": "Operaciones asistenciales de residencias"
-          },
-          "app": {
-            "key": "residences",
-            "label": "Residencias",
-            "emoji": "🏠"
-          },
-          "title": "🏠 Mejorar la edición y consulta de curas",
-          "status": "next",
-          "createdAt": "2026-07-20",
-          "doneAt": null,
-          "summary": "Permitir editar la planificación de curas y consultarlas desde cada residente.",
-          "nextStep": "La implementación está lista para aprobación final antes de publicarla.",
-          "checklist": [
-            {
-              "label": "Permitir editar una cura completa.",
-              "done": false
-            },
-            {
-              "label": "Añadir frecuencia, días de cura y varios horarios.",
-              "done": false
-            },
-            {
-              "label": "Mostrar las curas activas y anteriores de cada residente.",
-              "done": false
-            },
-            {
-              "label": "Mantener separados los requisitos operativos previstos para más adelante.",
-              "done": false
-            }
-          ],
-          "clientContext": {
-            "label": "Mejora solicitada",
-            "body": "Completar la edición y planificación de curas y poder consultarlas directamente desde la ficha de cada residente."
-          }
-        },
-        {
-          "id": "residences-restraints-documentation",
-          "number": 17,
-          "reference": "DOO-17",
-          "kind": "request",
-          "projects": [
-            {
-              "key": "residences",
-              "label": "Residencias",
-              "emoji": "🏠"
-            }
-          ],
-          "milestone": {
-            "key": "residences-care-operations",
-            "title": "Operaciones asistenciales de residencias"
-          },
-          "app": {
-            "key": "residences",
-            "label": "Residencias",
-            "emoji": "🏠"
-          },
-          "title": "🏠 Completar la gestión de contenciones",
-          "status": "next",
-          "createdAt": "2026-07-20",
-          "doneAt": null,
-          "summary": "Mejorar la edición, documentación y consulta de sujeciones y contenciones.",
-          "nextStep": "La implementación está lista para aprobación final antes de publicarla.",
-          "checklist": [
-            {
-              "label": "Permitir editar una contención completa.",
-              "done": false
-            },
-            {
-              "label": "Adjuntar y exigir prescripción médica y consentimiento informado.",
-              "done": false
-            },
-            {
-              "label": "Unificar el tratamiento de Sujeciones y Contenciones.",
-              "done": false
-            },
-            {
-              "label": "Mostrar las contenciones de cada residente.",
-              "done": false
-            }
-          ],
-          "clientContext": {
-            "label": "Mejora solicitada",
-            "body": "Completar la gestión de sujeciones y contenciones con la documentación requerida y una consulta clara desde cada residente."
-          }
-        },
-        {
-          "id": "residences-resident-care-sheet",
-          "number": 18,
-          "reference": "DOO-18",
-          "kind": "request",
-          "projects": [
-            {
-              "key": "residences",
-              "label": "Residencias",
-              "emoji": "🏠"
-            }
-          ],
-          "milestone": {
-            "key": "residences-resident-record-and-care-plan",
-            "title": "Expediente y plan de cuidados del residente"
-          },
-          "app": {
-            "key": "residences",
-            "label": "Residencias",
-            "emoji": "🏠"
-          },
-          "title": "🏠 Crear la hoja de cuidados del residente",
-          "status": "next",
-          "createdAt": "2026-07-20",
-          "doneAt": null,
-          "summary": "Completar una ficha estructurada con las necesidades asistenciales de cada residente.",
-          "nextStep": "La implementación está lista para aprobación final antes de publicarla.",
-          "checklist": [
-            {
-              "label": "Añadir fecha de modificación, impresión y consulta de registros anteriores.",
-              "done": false
-            },
-            {
-              "label": "Completar alimentación, respiración, higiene, piel y vestido.",
-              "done": false
-            },
-            {
-              "label": "Completar eliminación, movilidad, ayudas técnicas y contenciones.",
-              "done": false
-            },
-            {
-              "label": "Completar sueño, comunicación, relaciones, ocio y observaciones.",
-              "done": false
-            },
-            {
-              "label": "Guardar cada ficha por residente y conservar su historial.",
-              "done": false
-            }
-          ],
-          "reviewGuide": {
-            "title": "Cómo revisarlo",
-            "steps": [
-              "Selecciona un residente y abre su hoja de cuidados.",
-              "Revisa todos los apartados y completa distintos tipos de campos y opciones.",
-              "Guarda la ficha, vuelve a abrirla y consulta el registro anterior.",
-              "Imprime la ficha y comprueba que refleja los datos guardados."
-            ],
-            "expectedResult": "Todos los apartados quedan disponibles con sus opciones exactas, los datos persisten por residente y pueden consultarse e imprimirse sin mezclar información de otros centros."
-          },
-          "clientContext": {
-            "label": "Mejora solicitada",
-            "body": "Crear una hoja de cuidados completa para registrar y consultar de forma clara las necesidades asistenciales de cada residente."
+            "body": "Primera tanda conjunta de requisitos de Residencias: menú, ficha, curas, contenciones y hoja de cuidados."
           }
         }
       ]
@@ -754,11 +430,11 @@
             "label": "Residencias",
             "emoji": "🏠"
           },
-          "title": "🏠 Mejorar la planificación y las hojas de medicación",
+          "title": "🏠 Completar registro, planificación y hojas de medicación",
           "status": "in_review",
           "createdAt": "2026-07-14",
           "doneAt": null,
-          "summary": "Ampliar la planificación de tratamientos en Residencias y permitir crear hojas de medicación claras para cada residente.",
+          "summary": "Completar en una sola entrega el registro, la planificación, los recordatorios y las hojas de medicación por residente.",
           "nextStep": "La actualización aprobada está disponible en preview para revisión.",
           "checklist": [
             {
@@ -776,6 +452,10 @@
             {
               "label": "Permitir guardar la hoja generada en el historial.",
               "done": true
+            },
+            {
+              "label": "Completar AEMPS, fechas de administración, WhatsApp y cinco periodos SPD.",
+              "done": true
             }
           ],
           "reviewGuide": {
@@ -790,52 +470,6 @@
           "clientContext": {
             "label": "Mejora solicitada",
             "body": "Ampliar las opciones de administración usadas en Residencias y crear hojas de medicación a partir de los tratamientos prescritos."
-          }
-        },
-        {
-          "id": "residences-medication-record-fidelity",
-          "number": 13,
-          "reference": "DOO-13",
-          "kind": "request",
-          "projects": [
-            {
-              "key": "residences",
-              "label": "Residencias",
-              "emoji": "🏠"
-            }
-          ],
-          "milestone": {
-            "key": "residences-medication-management",
-            "title": "Gestión de medicación en residencias"
-          },
-          "app": {
-            "key": "residences",
-            "label": "Residencias",
-            "emoji": "🏠"
-          },
-          "title": "🏠 Completar el registro de cada medicamento",
-          "status": "in_review",
-          "createdAt": "2026-07-17",
-          "doneAt": null,
-          "summary": "Revisar y completar todos los datos, pautas y opciones de seguimiento del registro de medicación.",
-          "nextStep": "La actualización aprobada está disponible en preview para revisión.",
-          "checklist": [
-            {
-              "label": "Verificar los datos de medicamento, AEMPS, prescripción y dosificación.",
-              "done": true
-            },
-            {
-              "label": "Verificar pautas, horarios, seguimiento de tomas y recordatorios.",
-              "done": true
-            },
-            {
-              "label": "Verificar recomendaciones, indicadores, comentarios y archivos adjuntos.",
-              "done": true
-            }
-          ],
-          "clientContext": {
-            "label": "Mejora solicitada",
-            "body": "Completar el registro de cada medicamento con toda la información de prescripción, administración y seguimiento solicitada."
           }
         }
       ]
@@ -981,11 +615,11 @@
             "label": "Personal",
             "emoji": "👤"
           },
-          "title": "👤 Ajustar pantalla de validación de identidad",
+          "title": "👤 Completar el feedback de validación de identidad",
           "status": "done",
           "createdAt": "2026-07-09",
           "doneAt": "2026-07-14",
-          "summary": "Mejorar el texto y las acciones de la pantalla de validación de identidad.",
+          "summary": "Aplicar y verificar en conjunto todo el feedback recibido sobre la validación de identidad.",
           "nextStep": "Completado.",
           "checklist": [
             {
@@ -999,20 +633,28 @@
             {
               "label": "Añadir la acción de cancelar cuando se confirme el destino.",
               "done": true
+            },
+            {
+              "label": "Revisar documentos admitidos y comportamiento en iPad/tablet.",
+              "done": true
+            },
+            {
+              "label": "Corregir la captura del tipo y número de documento.",
+              "done": true
             }
           ],
           "reviewGuide": {
             "title": "Cómo revisarlo",
             "steps": [
-              "Accede con una cuenta de Personal que necesite validar su identidad.",
-              "Comprueba las instrucciones de preparación y que no aparece «Actualizar estado».",
-              "Pulsa «Cancelar»."
+              "Comprueba el texto, la ausencia de «Actualizar estado» y que «Cancelar» cierre sesión y vuelva al acceso.",
+              "Verifica en Didit los documentos admitidos en España y el comportamiento real en iPad/tablet.",
+              "Completa una validación y comprueba que el perfil recibe correctamente el tipo y número de documento."
             ],
-            "expectedResult": "La sesión se cierra y el navegador vuelve a la pantalla de acceso."
+            "expectedResult": "Toda la pantalla y el flujo responden al único email de feedback, incluido el mapeo correcto de los datos del documento."
           },
           "clientContext": {
             "label": "Pedido original",
-            "body": "REQ1: cambiar el texto bajo “Prepara tu documento de identidad” por: 1. Necesitarás DNI, NIE o pasaporte en vigor. 2. Te redirigiremos a un proveedor externo de validación de identidad. 3. Necesitarás hacerlo con un dispositivo móvil.\n\nREQ2: eliminar el botón “Actualizar estado”.\n\nREQ3: añadir botón de cancelar y confirmar dónde debería volver."
+            "body": "Email «feedback proceso validación», Maria Lafuente, 9 de julio de 2026.\n\nREQ1: cambiar el texto bajo “Prepara tu documento de identidad” por: 1. Necesitarás DNI, NIE o pasaporte en vigor. 2. Te redirigiremos a un proveedor externo de validación de identidad. 3. Necesitarás hacerlo con un dispositivo móvil.\n\nREQ2: eliminar el botón “Actualizar estado”.\n\nREQ3: añadir botón de cancelar y confirmar dónde debería volver.\n\nREQ4: revisar si se puede restringir la validación en España a DNI, NIE o pasaporte.\n\nDUDA1: comprobar si en iPad también pide escanear un QR.\n\nBUG1: tras la validación, no se ha cogido bien ni el tipo de documento ni el número."
           },
           "attachments": [
             {
@@ -1021,161 +663,6 @@
               "url": "assets/dooctoor/20260709-didit-identity-required.png"
             }
           ]
-        },
-        {
-          "id": "identity-cancel-destination",
-          "number": 7,
-          "reference": "DOO-7",
-          "kind": "question",
-          "projects": [
-            {
-              "key": "personal",
-              "label": "Personal",
-              "emoji": "👤"
-            }
-          ],
-          "milestone": {
-            "key": "access-and-identity",
-            "title": "Acceso e identidad"
-          },
-          "app": {
-            "key": "personal",
-            "label": "Personal",
-            "emoji": "👤"
-          },
-          "title": "👤 Confirmar destino de cancelar validación",
-          "status": "done",
-          "createdAt": "2026-07-09",
-          "doneAt": "2026-07-14",
-          "summary": "Confirmar dónde debe volver el usuario si cancela la validación de identidad.",
-          "nextStep": "Completado.",
-          "checklist": [
-            {
-              "label": "Confirmar si cancelar vuelve a login, dashboard limitado o cierre de sesión.",
-              "done": true
-            }
-          ],
-          "reviewGuide": {
-            "title": "Cómo revisarlo",
-            "steps": [
-              "Abre la pantalla obligatoria de validación de identidad con una sesión iniciada.",
-              "Pulsa «Cancelar»."
-            ],
-            "expectedResult": "La cuenta cierra sesión y vuelve a la pantalla de acceso."
-          },
-          "clientContext": {
-            "label": "Pedido original",
-            "body": "REQ3: añadir botón de cancelar en la validación de identidad y definir dónde debe volver el usuario."
-          }
-        },
-        {
-          "id": "didit-document-data-review",
-          "number": 8,
-          "reference": "DOO-8",
-          "kind": "question",
-          "projects": [
-            {
-              "key": "personal",
-              "label": "Personal",
-              "emoji": "👤"
-            }
-          ],
-          "milestone": {
-            "key": "access-and-identity",
-            "title": "Acceso e identidad"
-          },
-          "app": {
-            "key": "personal",
-            "label": "Personal",
-            "emoji": "👤"
-          },
-          "title": "👤 Revisar documentos permitidos y comportamiento en iPad",
-          "status": "done",
-          "createdAt": "2026-07-09",
-          "doneAt": "2026-07-14",
-          "summary": "Revisar qué documentos permite la validación de identidad y cómo se comporta en tablet/iPad.",
-          "nextStep": "Completado.",
-          "checklist": [
-            {
-              "label": "Revisar qué documentos admite la validación para España.",
-              "done": true
-            },
-            {
-              "label": "Comprobar el comportamiento en tablet/iPad.",
-              "done": false
-            },
-            {
-              "label": "Escalarlo si depende de configuración del proveedor.",
-              "done": true
-            }
-          ],
-          "reviewGuide": {
-            "title": "Cómo comprobarlo",
-            "steps": [
-              "Inicia la validación de identidad desde Personal.",
-              "Revisa los documentos españoles y el comportamiento ofrecido por Didit en el dispositivo utilizado."
-            ],
-            "expectedResult": "Las opciones de documento y dispositivo dependen del flujo configurado en Didit, no de una restricción visual local de Personal."
-          },
-          "clientContext": {
-            "label": "Pedido original",
-            "body": "REQ4: revisar si se puede restringir la validación en España a DNI, NIE o pasaporte.\n\nDUDA1: comprobar si en iPad también pide escanear un QR."
-          }
-        },
-        {
-          "id": "didit-document-data-bug",
-          "number": 9,
-          "reference": "DOO-9",
-          "kind": "bug",
-          "projects": [
-            {
-              "key": "personal",
-              "label": "Personal",
-              "emoji": "👤"
-            }
-          ],
-          "milestone": {
-            "key": "access-and-identity",
-            "title": "Acceso e identidad"
-          },
-          "app": {
-            "key": "personal",
-            "label": "Personal",
-            "emoji": "👤"
-          },
-          "title": "👤 Revisar datos del documento tras validación",
-          "status": "done",
-          "createdAt": "2026-07-09",
-          "doneAt": "2026-07-14",
-          "summary": "Verificar el bug reportado sobre tipo y número de documento tras la validación.",
-          "nextStep": "Completado.",
-          "checklist": [
-            {
-              "label": "Reproducir o revisar el caso donde el tipo de documento queda vacío/incorrecto.",
-              "done": false
-            },
-            {
-              "label": "Revisar el mapeo de tipo y número de documento desde la validación.",
-              "done": true
-            },
-            {
-              "label": "Corregir el mapeo o dejar evidencia si el dato llega mal desde el proveedor.",
-              "done": true
-            }
-          ],
-          "reviewGuide": {
-            "title": "Cómo comprobarlo",
-            "steps": [
-              "Completa una validación de identidad en Didit.",
-              "Abre el perfil resultante en Personal.",
-              "Comprueba el tipo y el número de documento recibidos."
-            ],
-            "expectedResult": "Los datos disponibles se guardan correctamente y los valores que Didit no envía permanecen vacíos."
-          },
-          "clientContext": {
-            "label": "Pedido original",
-            "body": "BUG1: tras la validación, no se ha cogido bien ni el tipo de documento ni el número."
-          }
         },
         {
           "id": "residencias-pwa-installable",

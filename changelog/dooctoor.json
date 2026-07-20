@@ -28,78 +28,6 @@
       "completedAt": "2026-07-14"
     },
     {
-      "id": "didit-document-data-bug",
-      "number": 9,
-      "reference": "DOO-9",
-      "projects": [
-        {
-          "key": "personal",
-          "label": "Personal",
-          "emoji": "👤"
-        }
-      ],
-      "milestone": {
-        "key": "access-and-identity",
-        "title": "Acceso e identidad"
-      },
-      "app": {
-        "key": "personal",
-        "label": "Personal",
-        "emoji": "👤"
-      },
-      "title": "👤 Revisar datos del documento tras validación",
-      "summary": "Verificar el bug reportado sobre tipo y número de documento tras la validación.",
-      "completedAt": "2026-07-14"
-    },
-    {
-      "id": "didit-document-data-review",
-      "number": 8,
-      "reference": "DOO-8",
-      "projects": [
-        {
-          "key": "personal",
-          "label": "Personal",
-          "emoji": "👤"
-        }
-      ],
-      "milestone": {
-        "key": "access-and-identity",
-        "title": "Acceso e identidad"
-      },
-      "app": {
-        "key": "personal",
-        "label": "Personal",
-        "emoji": "👤"
-      },
-      "title": "👤 Revisar documentos permitidos y comportamiento en iPad",
-      "summary": "Revisar qué documentos permite la validación de identidad y cómo se comporta en tablet/iPad.",
-      "completedAt": "2026-07-14"
-    },
-    {
-      "id": "identity-cancel-destination",
-      "number": 7,
-      "reference": "DOO-7",
-      "projects": [
-        {
-          "key": "personal",
-          "label": "Personal",
-          "emoji": "👤"
-        }
-      ],
-      "milestone": {
-        "key": "access-and-identity",
-        "title": "Acceso e identidad"
-      },
-      "app": {
-        "key": "personal",
-        "label": "Personal",
-        "emoji": "👤"
-      },
-      "title": "👤 Confirmar destino de cancelar validación",
-      "summary": "Confirmar dónde debe volver el usuario si cancela la validación de identidad.",
-      "completedAt": "2026-07-14"
-    },
-    {
       "id": "identity-validation-screen",
       "number": 6,
       "reference": "DOO-6",
@@ -119,8 +47,8 @@
         "label": "Personal",
         "emoji": "👤"
       },
-      "title": "👤 Ajustar pantalla de validación de identidad",
-      "summary": "Mejorar el texto y las acciones de la pantalla de validación de identidad.",
+      "title": "👤 Completar el feedback de validación de identidad",
+      "summary": "Aplicar y verificar en conjunto todo el feedback recibido sobre la validación de identidad.",
       "completedAt": "2026-07-14"
     },
     {

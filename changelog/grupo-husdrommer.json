@@ -4,78 +4,6 @@
   "lang": "es",
   "entries": [
     {
-      "id": "grupo-brand-divider-reinforcement",
-      "number": 15,
-      "reference": "HUS-15",
-      "projects": [
-        {
-          "key": "husdrommer",
-          "label": "HusDrommer",
-          "emoji": "🏢"
-        }
-      ],
-      "milestone": {
-        "key": "husdrommer-brand-clarity",
-        "title": "Claridad entre marcas"
-      },
-      "app": {
-        "key": "husdrommer",
-        "label": "HusDrommer",
-        "emoji": "🏢"
-      },
-      "title": "🏢 Reforzar separador entre marcas",
-      "summary": "Hacer más visible el separador entre KüchenHouse y Atelia en la página del grupo.",
-      "completedAt": "2026-07-14"
-    },
-    {
-      "id": "atelia-services-label-style",
-      "number": 14,
-      "reference": "HUS-14",
-      "projects": [
-        {
-          "key": "atelia",
-          "label": "Atelia",
-          "emoji": "🏡"
-        }
-      ],
-      "milestone": {
-        "key": "atelia-site-update",
-        "title": "Actualización de Atelia"
-      },
-      "app": {
-        "key": "atelia",
-        "label": "Atelia",
-        "emoji": "🏡"
-      },
-      "title": "🏡 Rótulo de Servicios",
-      "summary": "Igualar el rótulo de Servicios al tratamiento visual de Proyectos.",
-      "completedAt": "2026-07-14"
-    },
-    {
-      "id": "atelia-group-band-contact",
-      "number": 13,
-      "reference": "HUS-13",
-      "projects": [
-        {
-          "key": "atelia",
-          "label": "Atelia",
-          "emoji": "🏡"
-        }
-      ],
-      "milestone": {
-        "key": "atelia-site-update",
-        "title": "Actualización de Atelia"
-      },
-      "app": {
-        "key": "atelia",
-        "label": "Atelia",
-        "emoji": "🏡"
-      },
-      "title": "🏡 Mover bloque de grupo a Contacto",
-      "summary": "Mover el bloque Grupo HusDrommer desde la home a Contacto.",
-      "completedAt": "2026-07-14"
-    },
-    {
       "id": "atelia-contact-block-refinement",
       "number": 12,
       "reference": "HUS-12",
@@ -95,56 +23,8 @@
         "label": "Atelia",
         "emoji": "🏡"
       },
-      "title": "🏡 Ajuste del bloque de contacto",
-      "summary": "Ajustar la dirección y el tamaño visual del bloque de contacto.",
-      "completedAt": "2026-07-14"
-    },
-    {
-      "id": "grupo-brand-divider",
-      "number": 11,
-      "reference": "HUS-11",
-      "projects": [
-        {
-          "key": "husdrommer",
-          "label": "HusDrommer",
-          "emoji": "🏢"
-        }
-      ],
-      "milestone": {
-        "key": "husdrommer-brand-clarity",
-        "title": "Claridad entre marcas"
-      },
-      "app": {
-        "key": "husdrommer",
-        "label": "HusDrommer",
-        "emoji": "🏢"
-      },
-      "title": "🏢 Separador entre marcas",
-      "summary": "Añadir un separador visual en la página del grupo entre KüchenHouse y Atelia.",
-      "completedAt": "2026-07-14"
-    },
-    {
-      "id": "atelia-projects-process-contact",
-      "number": 3,
-      "reference": "HUS-3",
-      "projects": [
-        {
-          "key": "atelia",
-          "label": "Atelia",
-          "emoji": "🏡"
-        }
-      ],
-      "milestone": {
-        "key": "atelia-site-update",
-        "title": "Actualización de Atelia"
-      },
-      "app": {
-        "key": "atelia",
-        "label": "Atelia",
-        "emoji": "🏡"
-      },
-      "title": "🏡 Textos de proyectos, proceso y contacto",
-      "summary": "Actualizar los textos y bloques de Proyectos, proceso y contacto según el material compartido.",
+      "title": "🏡 Aplicar la tanda de ajustes de Atelia",
+      "summary": "Aplicar como una sola tarea los ajustes de Contacto, la franja de grupo y el rótulo de Servicios.",
       "completedAt": "2026-07-14"
     },
     {
@@ -180,6 +60,11 @@
           "key": "atelia",
           "label": "Atelia",
           "emoji": "🏡"
+        },
+        {
+          "key": "husdrommer",
+          "label": "HusDrommer",
+          "emoji": "🏢"
         }
       ],
       "milestone": {
@@ -187,12 +72,12 @@
         "title": "Actualización de Atelia"
       },
       "app": {
-        "key": "atelia",
-        "label": "Atelia",
-        "emoji": "🏡"
+        "key": "multiple",
+        "label": "Varios proyectos",
+        "emoji": "🧩"
       },
-      "title": "🏡 Actualización de estructura y contenidos",
-      "summary": "Actualizar la estructura principal de Atelia y los contenidos indicados en el material compartido.",
+      "title": "🧩 Aplicar la solicitud completa del PDF de Atelia",
+      "summary": "Aplicar como una sola solicitud todos los cambios de Atelia y Grupo HusDrommer incluidos en el PDF compartido.",
       "completedAt": "2026-07-14"
     }
   ]
