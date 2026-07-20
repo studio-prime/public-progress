@@ -11,7 +11,7 @@ Do not edit JSON feeds, `schema.json`, or copied assets in this repository by ha
 - Edit `../client-docs/clients/<client-slug>/client.json`, the canonical `projects.json` and `milestones.json`, and private task sources named `tasks/<REFERENCE>-<descriptive-slug>.md`.
 - Keep client-safe content inside the task's explicit `public` frontmatter object. Universal task dates belong in the private source `lifecycle` object, not in `public`; the generator derives this repository's `createdAt` and `doneAt` fields.
 - Never copy the task's private `internal`, technical-English `controlPanel`, or Markdown body into this repository. Public copy is authored separately in the configured client language.
-- Private `Inbox / Triage` tasks are never generated into this repository, even when their source contains drafted client-safe metadata. The first publishable stage is `Backlog & Ideas` after Product Lead triage and milestone assignment.
+- Private `Inbox / Specification` tasks are never generated into this repository, including draft/awaiting-approval requirements, wireframes, and approval metadata. The first publishable stage is `Backlog & Ideas` or David-approved `Ready to Work` after Product Lead assigns a milestone.
 - Run `node scripts/generate.mjs` from `../client-docs/` to rebuild this repository.
 - Run `node scripts/generate.mjs --check` before committing.
 - `changelog/<client-slug>.json` is generated from completed public tasks; do not edit it directly.
