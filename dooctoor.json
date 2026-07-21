@@ -244,11 +244,44 @@
           "emoji": "🛠️"
         }
       ],
-      "status": "planned",
+      "status": "in_progress",
       "progress": 0,
       "completedTasks": 0,
-      "totalTasks": 0,
-      "tasks": []
+      "totalTasks": 1,
+      "tasks": [
+        {
+          "reference": "DOO-20",
+          "title": "🧩 Revisar resultados de búsqueda AEMPS",
+          "status": "next",
+          "projects": [
+            {
+              "key": "personal",
+              "label": "Personal",
+              "emoji": "👤"
+            },
+            {
+              "key": "residences",
+              "label": "Residencias",
+              "emoji": "🏠"
+            },
+            {
+              "key": "schools",
+              "label": "Colegios",
+              "emoji": "🏫"
+            },
+            {
+              "key": "farmacias",
+              "label": "Farmacias",
+              "emoji": "💊"
+            },
+            {
+              "key": "backoffice",
+              "label": "Backoffice",
+              "emoji": "🛠️"
+            }
+          ]
+        }
+      ]
     },
     {
       "key": "roles-and-permissions",
@@ -596,6 +629,76 @@
           "clientContext": {
             "label": "Pedido original",
             "body": "Segundo bloque de Residencias con valoraciones, planes de acción, actividades y reuniones interdisciplinares, incluyendo sus registros, campos y acciones."
+          }
+        },
+        {
+          "id": "aemps-search-results-bug",
+          "number": 20,
+          "reference": "DOO-20",
+          "kind": "bug",
+          "projects": [
+            {
+              "key": "personal",
+              "label": "Personal",
+              "emoji": "👤"
+            },
+            {
+              "key": "residences",
+              "label": "Residencias",
+              "emoji": "🏠"
+            },
+            {
+              "key": "schools",
+              "label": "Colegios",
+              "emoji": "🏫"
+            },
+            {
+              "key": "farmacias",
+              "label": "Farmacias",
+              "emoji": "💊"
+            },
+            {
+              "key": "backoffice",
+              "label": "Backoffice",
+              "emoji": "🛠️"
+            }
+          ],
+          "milestone": {
+            "key": "shared-medication-aemps-reliability",
+            "title": "Fiabilidad de búsqueda AEMPS"
+          },
+          "app": {
+            "key": "multiple",
+            "label": "Varios proyectos",
+            "emoji": "🧩"
+          },
+          "title": "🧩 Revisar resultados de búsqueda AEMPS",
+          "status": "next",
+          "createdAt": "2026-07-20",
+          "doneAt": null,
+          "summary": "Comprobar por qué la búsqueda de medicamentos no coincide con los resultados disponibles en CIMA.",
+          "nextStep": "Estamos alineando la búsqueda con los filtros predeterminados de CIMA.",
+          "checklist": [
+            {
+              "label": "Reproducir las búsquedas de Apiretal y paracetamol.",
+              "done": false
+            },
+            {
+              "label": "Comparar cantidad, presentaciones y orden con CIMA.",
+              "done": false
+            },
+            {
+              "label": "Corregir cualquier límite o selección incorrecta confirmado.",
+              "done": false
+            },
+            {
+              "label": "Aplicar Comercializado = Sí e Importaciones paralelas = No.",
+              "done": false
+            }
+          ],
+          "clientContext": {
+            "label": "Bug reportado",
+            "body": "Las búsquedas de Apiretal y paracetamol muestran resultados diferentes o más limitados que los disponibles en CIMA."
           }
         }
       ]
