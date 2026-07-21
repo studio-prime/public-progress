@@ -129,24 +129,11 @@
           "emoji": "🏠"
         }
       ],
-      "status": "in_progress",
+      "status": "planned",
       "progress": 0,
       "completedTasks": 0,
-      "totalTasks": 1,
-      "tasks": [
-        {
-          "reference": "DOO-14",
-          "title": "🏠 Completar la primera tanda de mejoras de Residencias",
-          "status": "next",
-          "projects": [
-            {
-              "key": "residences",
-              "label": "Residencias",
-              "emoji": "🏠"
-            }
-          ]
-        }
-      ]
+      "totalTasks": 0,
+      "tasks": []
     },
     {
       "key": "residences-second-requirements-batch",
