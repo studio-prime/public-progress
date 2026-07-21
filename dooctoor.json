@@ -739,19 +739,19 @@
           "createdAt": "2026-07-21",
           "doneAt": null,
           "summary": "Revisar conjuntamente la selección de residentes, las valoraciones, los planes de acción, las actividades y sus seguimientos.",
-          "nextStep": "La especificación está aprobada y preparada para implementación.",
+          "nextStep": "La implementación está desplegada en preview para la revisión manual final.",
           "checklist": [
             {
               "label": "Unificar la selección obligatoria del residente en los flujos correspondientes.",
-              "done": false
+              "done": true
             },
             {
               "label": "Mejorar valoraciones, escalas y relaciones con otros registros asistenciales.",
-              "done": false
+              "done": true
             },
             {
               "label": "Revisar planes de acción, actividades, participantes, seguimientos y calendario.",
-              "done": false
+              "done": true
             }
           ],
           "clientContext": {
