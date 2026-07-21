@@ -164,11 +164,24 @@
           "emoji": "🏠"
         }
       ],
-      "status": "planned",
+      "status": "in_progress",
       "progress": 0,
       "completedTasks": 0,
-      "totalTasks": 0,
-      "tasks": []
+      "totalTasks": 1,
+      "tasks": [
+        {
+          "reference": "DOO-14",
+          "title": "🏠 Completar la primera tanda de mejoras de Residencias",
+          "status": "next",
+          "projects": [
+            {
+              "key": "residences",
+              "label": "Residencias",
+              "emoji": "🏠"
+            }
+          ]
+        }
+      ]
     },
     {
       "key": "residences-second-requirements-batch",
@@ -508,6 +521,60 @@
           "clientContext": {
             "label": "Mejora solicitada",
             "body": "Ampliar las opciones de administración usadas en Residencias y crear hojas de medicación a partir de los tratamientos prescritos."
+          }
+        },
+        {
+          "id": "residences-navigation-resident-dossier",
+          "number": 14,
+          "reference": "DOO-14",
+          "kind": "request",
+          "projects": [
+            {
+              "key": "residences",
+              "label": "Residencias",
+              "emoji": "🏠"
+            }
+          ],
+          "milestone": {
+            "key": "residences-first-requirements-batch",
+            "title": "Primera tanda de mejoras de Residencias"
+          },
+          "app": {
+            "key": "residences",
+            "label": "Residencias",
+            "emoji": "🏠"
+          },
+          "title": "🏠 Completar la primera tanda de mejoras de Residencias",
+          "status": "next",
+          "createdAt": "2026-07-20",
+          "doneAt": null,
+          "summary": "Corregir la navegación para que los recursos del residente sólo aparezcan dentro de su ficha seleccionada.",
+          "nextStep": "La corrección de navegación está aprobada y preparada para implementación.",
+          "checklist": [
+            {
+              "label": "Mover ficha, hoja de cuidados, curas y contenciones dentro del residente seleccionado.",
+              "done": false
+            },
+            {
+              "label": "Permitir editar y consultar las curas del residente.",
+              "done": false
+            },
+            {
+              "label": "Completar contenciones, documentos obligatorios y vista por residente.",
+              "done": false
+            },
+            {
+              "label": "Crear la hoja de cuidados completa con historial e impresión.",
+              "done": false
+            },
+            {
+              "label": "Conservar como fase posterior las operaciones de curas marcadas en azul.",
+              "done": false
+            }
+          ],
+          "clientContext": {
+            "label": "Mejora solicitada",
+            "body": "Primera tanda conjunta de requisitos de Residencias: menú, ficha, curas, contenciones y hoja de cuidados."
           }
         },
         {
