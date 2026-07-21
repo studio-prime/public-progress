@@ -197,24 +197,12 @@
       "status": "in_progress",
       "progress": 0,
       "completedTasks": 0,
-      "totalTasks": 2,
+      "totalTasks": 1,
       "tasks": [
         {
           "reference": "DOO-19",
           "title": "🏠 Completar la segunda tanda de mejoras de Residencias",
           "status": "next",
-          "projects": [
-            {
-              "key": "residences",
-              "label": "Residencias",
-              "emoji": "🏠"
-            }
-          ]
-        },
-        {
-          "reference": "DOO-21",
-          "title": "🏠 Ajustar flujos asistenciales y escalas de Residencias",
-          "status": "backlog",
           "projects": [
             {
               "key": "residences",
@@ -449,52 +437,6 @@
             "label": "Problema detectado",
             "body": "Se ha detectado que algunos usuarios personales se resuelven como usuarios staff y que ciertas acciones de centros comprueban la pertenencia, pero no siempre el nivel de permisos. Hay que revisar el modelo completo para evitar bloqueos y accesos incorrectos."
           }
-        },
-        {
-          "id": "residences-workflow-feedback-and-scales",
-          "number": 21,
-          "reference": "DOO-21",
-          "kind": "request",
-          "projects": [
-            {
-              "key": "residences",
-              "label": "Residencias",
-              "emoji": "🏠"
-            }
-          ],
-          "milestone": {
-            "key": "residences-second-requirements-batch",
-            "title": "Segunda tanda de mejoras de Residencias"
-          },
-          "app": {
-            "key": "residences",
-            "label": "Residencias",
-            "emoji": "🏠"
-          },
-          "title": "🏠 Ajustar flujos asistenciales y escalas de Residencias",
-          "status": "backlog",
-          "createdAt": "2026-07-21",
-          "doneAt": null,
-          "summary": "Revisar conjuntamente la selección de residentes, las valoraciones, los planes de acción, las actividades y sus seguimientos.",
-          "nextStep": "Estamos revisando el feedback y las referencias aportadas para preparar la solución.",
-          "checklist": [
-            {
-              "label": "Unificar la selección obligatoria del residente en los flujos correspondientes.",
-              "done": false
-            },
-            {
-              "label": "Mejorar valoraciones, escalas y relaciones con otros registros asistenciales.",
-              "done": false
-            },
-            {
-              "label": "Revisar planes de acción, actividades, participantes, seguimientos y calendario.",
-              "done": false
-            }
-          ],
-          "clientContext": {
-            "label": "Feedback recibido",
-            "body": "Revisión conjunta de varios flujos de Residencias acompañada de ejemplos visuales y una escala nutricional completa."
-          }
         }
       ]
     },
@@ -607,7 +549,7 @@
           "createdAt": "2026-07-20",
           "doneAt": null,
           "summary": "Corregir la navegación para que los recursos del residente sólo aparezcan dentro de su ficha seleccionada.",
-          "nextStep": "La corrección está publicada en preview para una comprobación manual excepcional.",
+          "nextStep": "La corrección está desplegada en preview para la revisión manual final.",
           "checklist": [
             {
               "label": "Mover ficha, hoja de cuidados, curas y contenciones dentro del residente seleccionado.",
