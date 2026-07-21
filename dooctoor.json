@@ -549,7 +549,7 @@
           "createdAt": "2026-07-20",
           "doneAt": null,
           "summary": "Corregir la navegación para que los recursos del residente sólo aparezcan dentro de su ficha seleccionada.",
-          "nextStep": "La corrección de navegación está aprobada y preparada para implementación.",
+          "nextStep": "La corrección está implementada localmente y pendiente de la validación visual autenticada.",
           "checklist": [
             {
               "label": "Mover ficha, hoja de cuidados, curas y contenciones dentro del residente seleccionado.",
