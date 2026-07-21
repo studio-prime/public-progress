@@ -99,24 +99,11 @@
           "emoji": "🏠"
         }
       ],
-      "status": "in_progress",
+      "status": "planned",
       "progress": 0,
       "completedTasks": 0,
-      "totalTasks": 1,
-      "tasks": [
-        {
-          "reference": "DOO-12",
-          "title": "🏠 Completar registro, planificación y hojas de medicación",
-          "status": "next",
-          "projects": [
-            {
-              "key": "residences",
-              "label": "Residencias",
-              "emoji": "🏠"
-            }
-          ]
-        }
-      ]
+      "totalTasks": 0,
+      "tasks": []
     },
     {
       "key": "residences-first-requirements-batch",
@@ -162,23 +149,11 @@
       "status": "in_progress",
       "progress": 0,
       "completedTasks": 0,
-      "totalTasks": 2,
+      "totalTasks": 1,
       "tasks": [
         {
           "reference": "DOO-19",
           "title": "🏠 Completar la segunda tanda de mejoras de Residencias",
-          "status": "next",
-          "projects": [
-            {
-              "key": "residences",
-              "label": "Residencias",
-              "emoji": "🏠"
-            }
-          ]
-        },
-        {
-          "reference": "DOO-21",
-          "title": "🏠 Ajustar flujos asistenciales y escalas de Residencias",
           "status": "next",
           "projects": [
             {
