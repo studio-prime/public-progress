@@ -677,23 +677,23 @@
           "createdAt": "2026-07-20",
           "doneAt": null,
           "summary": "Comprobar por qué la búsqueda de medicamentos no coincide con los resultados disponibles en CIMA.",
-          "nextStep": "Estamos alineando la búsqueda con los filtros predeterminados de CIMA.",
+          "nextStep": "La corrección está desplegada en preview para la revisión manual.",
           "checklist": [
             {
               "label": "Reproducir las búsquedas de Apiretal y paracetamol.",
-              "done": false
+              "done": true
             },
             {
               "label": "Comparar cantidad, presentaciones y orden con CIMA.",
-              "done": false
+              "done": true
             },
             {
               "label": "Corregir cualquier límite o selección incorrecta confirmado.",
-              "done": false
+              "done": true
             },
             {
               "label": "Aplicar Comercializado = Sí e Importaciones paralelas = No.",
-              "done": false
+              "done": true
             }
           ],
           "clientContext": {
