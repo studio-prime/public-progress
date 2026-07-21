@@ -209,44 +209,11 @@
           "emoji": "🛠️"
         }
       ],
-      "status": "in_progress",
+      "status": "planned",
       "progress": 0,
       "completedTasks": 0,
-      "totalTasks": 1,
-      "tasks": [
-        {
-          "reference": "DOO-20",
-          "title": "🧩 Revisar resultados de búsqueda AEMPS",
-          "status": "next",
-          "projects": [
-            {
-              "key": "personal",
-              "label": "Personal",
-              "emoji": "👤"
-            },
-            {
-              "key": "residences",
-              "label": "Residencias",
-              "emoji": "🏠"
-            },
-            {
-              "key": "schools",
-              "label": "Colegios",
-              "emoji": "🏫"
-            },
-            {
-              "key": "farmacias",
-              "label": "Farmacias",
-              "emoji": "💊"
-            },
-            {
-              "key": "backoffice",
-              "label": "Backoffice",
-              "emoji": "🛠️"
-            }
-          ]
-        }
-      ]
+      "totalTasks": 0,
+      "tasks": []
     },
     {
       "key": "roles-and-permissions",
