@@ -329,6 +329,106 @@
           ]
         }
       ]
+    },
+    {
+      "key": "desktop-distribution",
+      "title": "Aplicación de escritorio",
+      "description": "Preparar una distribución de escritorio segura de las aplicaciones operativas de Dooctoor.",
+      "projects": [
+        {
+          "key": "personal",
+          "label": "Personal",
+          "emoji": "👤"
+        },
+        {
+          "key": "residences",
+          "label": "Residencias",
+          "emoji": "🏠"
+        },
+        {
+          "key": "schools",
+          "label": "Colegios",
+          "emoji": "🏫"
+        },
+        {
+          "key": "farmacias",
+          "label": "Farmacias",
+          "emoji": "💊"
+        },
+        {
+          "key": "backoffice",
+          "label": "Backoffice",
+          "emoji": "🛠️"
+        }
+      ],
+      "status": "planned",
+      "progress": 0,
+      "completedTasks": 0,
+      "totalTasks": 1,
+      "tasks": [
+        {
+          "reference": "DOO-22",
+          "title": "🧩 Crear una aplicación de escritorio",
+          "status": "backlog",
+          "projects": [
+            {
+              "key": "personal",
+              "label": "Personal",
+              "emoji": "👤"
+            },
+            {
+              "key": "residences",
+              "label": "Residencias",
+              "emoji": "🏠"
+            },
+            {
+              "key": "schools",
+              "label": "Colegios",
+              "emoji": "🏫"
+            },
+            {
+              "key": "farmacias",
+              "label": "Farmacias",
+              "emoji": "💊"
+            },
+            {
+              "key": "backoffice",
+              "label": "Backoffice",
+              "emoji": "🛠️"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "personal-native-mobile",
+      "title": "Apps móviles nativas de Personal",
+      "description": "Llevar la aplicación Personal a iOS y Android con una experiencia móvil nativa.",
+      "projects": [
+        {
+          "key": "personal",
+          "label": "Personal",
+          "emoji": "👤"
+        }
+      ],
+      "status": "planned",
+      "progress": 0,
+      "completedTasks": 0,
+      "totalTasks": 1,
+      "tasks": [
+        {
+          "reference": "DOO-23",
+          "title": "👤 Crear apps nativas para iOS y Android",
+          "status": "backlog",
+          "projects": [
+            {
+              "key": "personal",
+              "label": "Personal",
+              "emoji": "👤"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

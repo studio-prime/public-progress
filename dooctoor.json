@@ -364,6 +364,106 @@
           ]
         }
       ]
+    },
+    {
+      "key": "desktop-distribution",
+      "title": "Aplicación de escritorio",
+      "description": "Preparar una distribución de escritorio segura de las aplicaciones operativas de Dooctoor.",
+      "projects": [
+        {
+          "key": "personal",
+          "label": "Personal",
+          "emoji": "👤"
+        },
+        {
+          "key": "residences",
+          "label": "Residencias",
+          "emoji": "🏠"
+        },
+        {
+          "key": "schools",
+          "label": "Colegios",
+          "emoji": "🏫"
+        },
+        {
+          "key": "farmacias",
+          "label": "Farmacias",
+          "emoji": "💊"
+        },
+        {
+          "key": "backoffice",
+          "label": "Backoffice",
+          "emoji": "🛠️"
+        }
+      ],
+      "status": "planned",
+      "progress": 0,
+      "completedTasks": 0,
+      "totalTasks": 1,
+      "tasks": [
+        {
+          "reference": "DOO-22",
+          "title": "🧩 Crear una aplicación de escritorio",
+          "status": "backlog",
+          "projects": [
+            {
+              "key": "personal",
+              "label": "Personal",
+              "emoji": "👤"
+            },
+            {
+              "key": "residences",
+              "label": "Residencias",
+              "emoji": "🏠"
+            },
+            {
+              "key": "schools",
+              "label": "Colegios",
+              "emoji": "🏫"
+            },
+            {
+              "key": "farmacias",
+              "label": "Farmacias",
+              "emoji": "💊"
+            },
+            {
+              "key": "backoffice",
+              "label": "Backoffice",
+              "emoji": "🛠️"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "personal-native-mobile",
+      "title": "Apps móviles nativas de Personal",
+      "description": "Llevar la aplicación Personal a iOS y Android con una experiencia móvil nativa.",
+      "projects": [
+        {
+          "key": "personal",
+          "label": "Personal",
+          "emoji": "👤"
+        }
+      ],
+      "status": "planned",
+      "progress": 0,
+      "completedTasks": 0,
+      "totalTasks": 1,
+      "tasks": [
+        {
+          "reference": "DOO-23",
+          "title": "👤 Crear apps nativas para iOS y Android",
+          "status": "backlog",
+          "projects": [
+            {
+              "key": "personal",
+              "label": "Personal",
+              "emoji": "👤"
+            }
+          ]
+        }
+      ]
     }
   ],
   "sections": [
@@ -448,6 +548,118 @@
           "clientContext": {
             "label": "Problema detectado",
             "body": "Se ha detectado que algunos usuarios personales se resuelven como usuarios staff y que ciertas acciones de centros comprueban la pertenencia, pero no siempre el nivel de permisos. Hay que revisar el modelo completo para evitar bloqueos y accesos incorrectos."
+          }
+        },
+        {
+          "id": "desktop-app-wrapper",
+          "number": 22,
+          "reference": "DOO-22",
+          "kind": "request",
+          "projects": [
+            {
+              "key": "personal",
+              "label": "Personal",
+              "emoji": "👤"
+            },
+            {
+              "key": "residences",
+              "label": "Residencias",
+              "emoji": "🏠"
+            },
+            {
+              "key": "schools",
+              "label": "Colegios",
+              "emoji": "🏫"
+            },
+            {
+              "key": "farmacias",
+              "label": "Farmacias",
+              "emoji": "💊"
+            },
+            {
+              "key": "backoffice",
+              "label": "Backoffice",
+              "emoji": "🛠️"
+            }
+          ],
+          "milestone": {
+            "key": "desktop-distribution",
+            "title": "Aplicación de escritorio"
+          },
+          "app": {
+            "key": "multiple",
+            "label": "Varios proyectos",
+            "emoji": "🧩"
+          },
+          "title": "🧩 Crear una aplicación de escritorio",
+          "status": "backlog",
+          "createdAt": "2026-07-21",
+          "doneAt": null,
+          "summary": "Preparar una versión instalable de escritorio mediante un contenedor ligero como Tauri.",
+          "nextStep": "Definir alcance, sistemas compatibles y estrategia de distribución.",
+          "checklist": [
+            {
+              "label": "Definir qué aplicaciones y sistemas operativos incluirá la versión de escritorio.",
+              "done": false
+            },
+            {
+              "label": "Evaluar el contenedor desktop y su integración con autenticación, enlaces y actualizaciones.",
+              "done": false
+            },
+            {
+              "label": "Preparar instaladores firmados y un proceso seguro de publicación.",
+              "done": false
+            }
+          ],
+          "clientContext": {
+            "label": "Idea para el backlog",
+            "body": "Crear una aplicación de escritorio de Dooctoor mediante un wrapper ligero como Tauri."
+          }
+        },
+        {
+          "id": "personal-native-ios-android",
+          "number": 23,
+          "reference": "DOO-23",
+          "kind": "request",
+          "projects": [
+            {
+              "key": "personal",
+              "label": "Personal",
+              "emoji": "👤"
+            }
+          ],
+          "milestone": {
+            "key": "personal-native-mobile",
+            "title": "Apps móviles nativas de Personal"
+          },
+          "app": {
+            "key": "personal",
+            "label": "Personal",
+            "emoji": "👤"
+          },
+          "title": "👤 Crear apps nativas para iOS y Android",
+          "status": "backlog",
+          "createdAt": "2026-07-21",
+          "doneAt": null,
+          "summary": "Crear aplicaciones móviles nativas exclusivamente para la experiencia Personal.",
+          "nextStep": "Definir arquitectura, alcance funcional y publicación en las tiendas.",
+          "checklist": [
+            {
+              "label": "Definir la primera versión móvil de Personal y su paridad con la web.",
+              "done": false
+            },
+            {
+              "label": "Preparar la arquitectura compartida para iOS y Android.",
+              "done": false
+            },
+            {
+              "label": "Configurar pruebas, firma y publicación en App Store y Google Play.",
+              "done": false
+            }
+          ],
+          "clientContext": {
+            "label": "Idea para el backlog",
+            "body": "Crear aplicaciones nativas para iOS y Android limitadas a la aplicación Personal."
           }
         }
       ]
