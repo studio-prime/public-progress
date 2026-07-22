@@ -166,6 +166,46 @@
       ]
     },
     {
+      "key": "personal-residences-navigation",
+      "title": "Navegación de Personal y Residencias",
+      "description": "Alinear los menús y los contextos de navegación entre la aplicación Personal y Residencias.",
+      "projects": [
+        {
+          "key": "personal",
+          "label": "Personal",
+          "emoji": "👤"
+        },
+        {
+          "key": "residences",
+          "label": "Residencias",
+          "emoji": "🏠"
+        }
+      ],
+      "status": "in_progress",
+      "progress": 0,
+      "completedTasks": 0,
+      "totalTasks": 1,
+      "tasks": [
+        {
+          "reference": "DOO-24",
+          "title": "🧩 Revisar la relación entre Personal y Residencias",
+          "status": "next",
+          "projects": [
+            {
+              "key": "personal",
+              "label": "Personal",
+              "emoji": "👤"
+            },
+            {
+              "key": "residences",
+              "label": "Residencias",
+              "emoji": "🏠"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "key": "shared-medication-aemps-reliability",
       "title": "Fiabilidad de búsqueda AEMPS",
       "description": "Asegurar resultados completos y seleccionables de CIMA en todas las aplicaciones que comparten la gestión de medicamentos.",
