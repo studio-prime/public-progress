@@ -892,7 +892,7 @@
           "createdAt": "2026-07-22",
           "doneAt": null,
           "summary": "Definir cómo se comparten, muestran y protegen los registros entre las aplicaciones.",
-          "nextStep": "Esperamos la aprobación de la revisión de menús antes de aplicarla.",
+          "nextStep": "La actualización está publicada en Preview para revisión manual.",
           "checklist": [
             {
               "label": "Actualizar el menú de Residencias.",
