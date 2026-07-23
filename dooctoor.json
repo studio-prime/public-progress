@@ -134,11 +134,24 @@
           "emoji": "🏠"
         }
       ],
-      "status": "planned",
+      "status": "in_progress",
       "progress": 0,
       "completedTasks": 0,
-      "totalTasks": 0,
-      "tasks": []
+      "totalTasks": 1,
+      "tasks": [
+        {
+          "reference": "DOO-12",
+          "title": "🏠 Completar registro, planificación y hojas de medicación",
+          "status": "next",
+          "projects": [
+            {
+              "key": "residences",
+              "label": "Residencias",
+              "emoji": "🏠"
+            }
+          ]
+        }
+      ]
     },
     {
       "key": "residences-first-requirements-batch",
@@ -184,12 +197,24 @@
       "status": "in_progress",
       "progress": 0,
       "completedTasks": 0,
-      "totalTasks": 1,
+      "totalTasks": 2,
       "tasks": [
         {
           "reference": "DOO-19",
           "title": "🏠 Completar la segunda tanda de mejoras de Residencias",
           "status": "in_review",
+          "projects": [
+            {
+              "key": "residences",
+              "label": "Residencias",
+              "emoji": "🏠"
+            }
+          ]
+        },
+        {
+          "reference": "DOO-21",
+          "title": "🏠 Ajustar flujos asistenciales y escalas de Residencias",
+          "status": "next",
           "projects": [
             {
               "key": "residences",
@@ -682,7 +707,133 @@
     {
       "key": "next",
       "label": "En progreso",
-      "items": []
+      "items": [
+        {
+          "id": "residences-medication-workflow-sheet",
+          "number": 12,
+          "reference": "DOO-12",
+          "kind": "request",
+          "projects": [
+            {
+              "key": "residences",
+              "label": "Residencias",
+              "emoji": "🏠"
+            }
+          ],
+          "milestone": {
+            "key": "residences-medication-management",
+            "title": "Gestión de medicación en residencias"
+          },
+          "app": {
+            "key": "residences",
+            "label": "Residencias",
+            "emoji": "🏠"
+          },
+          "title": "🏠 Completar registro, planificación y hojas de medicación",
+          "status": "next",
+          "createdAt": "2026-07-14",
+          "doneAt": null,
+          "summary": "Completar el registro, planificación, recordatorios, hojas y nuevo feedback visual de medicación.",
+          "nextStep": "La mejora está desplegada en preview para la revisión manual.",
+          "checklist": [
+            {
+              "label": "Añadir pautas alternas, periódicas, mensuales y de tratamiento con descanso.",
+              "done": true
+            },
+            {
+              "label": "Mantener horarios específicos y frecuencias con hora de inicio.",
+              "done": true
+            },
+            {
+              "label": "Crear una hoja de medicación por residente con los tratamientos vigentes.",
+              "done": true
+            },
+            {
+              "label": "Permitir guardar la hoja generada en el historial.",
+              "done": true
+            },
+            {
+              "label": "Completar AEMPS, fechas de administración, WhatsApp y cinco periodos SPD.",
+              "done": true
+            },
+            {
+              "label": "Renombrar el bloque como Plan de administración.",
+              "done": false
+            },
+            {
+              "label": "Hacer más visual el control de seguimiento de adherencia.",
+              "done": false
+            },
+            {
+              "label": "Mostrar solo medicamentos activos en Notificaciones.",
+              "done": false
+            },
+            {
+              "label": "Mostrar toda la información al visualizar un medicamento.",
+              "done": false
+            }
+          ],
+          "reviewGuide": {
+            "title": "Cómo revisarlo",
+            "steps": [
+              "Abre la pantalla de Medicación de una residencia y edita el tratamiento de un residente.",
+              "Prueba cada nueva pauta y comprueba las fechas en las que se generan tomas.",
+              "Genera la hoja de medicación del residente y guárdala en su historial."
+            ],
+            "expectedResult": "Las pautas generan únicamente las tomas correctas y la hoja reúne los tratamientos vigentes sin mostrar información de otros residentes."
+          },
+          "clientContext": {
+            "label": "Mejora solicitada",
+            "body": "Ampliar las opciones de administración usadas en Residencias y crear hojas de medicación a partir de los tratamientos prescritos."
+          }
+        },
+        {
+          "id": "residences-workflow-feedback-and-scales",
+          "number": 21,
+          "reference": "DOO-21",
+          "kind": "request",
+          "projects": [
+            {
+              "key": "residences",
+              "label": "Residencias",
+              "emoji": "🏠"
+            }
+          ],
+          "milestone": {
+            "key": "residences-second-requirements-batch",
+            "title": "Segunda tanda de mejoras de Residencias"
+          },
+          "app": {
+            "key": "residences",
+            "label": "Residencias",
+            "emoji": "🏠"
+          },
+          "title": "🏠 Ajustar flujos asistenciales y escalas de Residencias",
+          "status": "next",
+          "createdAt": "2026-07-21",
+          "doneAt": null,
+          "summary": "Revisar conjuntamente la selección de residentes, las valoraciones, los planes de acción, las actividades y sus seguimientos.",
+          "nextStep": "La implementación está desplegada en preview para la revisión manual final.",
+          "checklist": [
+            {
+              "label": "Unificar la selección obligatoria del residente en los flujos correspondientes.",
+              "done": true
+            },
+            {
+              "label": "Mejorar valoraciones, escalas y relaciones con otros registros asistenciales.",
+              "done": true
+            },
+            {
+              "label": "Revisar planes de acción, actividades, participantes, seguimientos y calendario.",
+              "done": true
+            }
+          ],
+          "clientContext": {
+            "label": "Feedback recibido",
+            "body": "Revisión conjunta de varios flujos de Residencias acompañada de ejemplos visuales y una escala nutricional completa."
+          }
+        }
+      ]
     },
     {
       "key": "needs_client",
