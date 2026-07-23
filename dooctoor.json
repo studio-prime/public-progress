@@ -159,7 +159,7 @@
         {
           "reference": "DOO-14",
           "title": "🏠 Completar la primera tanda de mejoras de Residencias",
-          "status": "next",
+          "status": "in_review",
           "projects": [
             {
               "key": "residences",
@@ -189,7 +189,7 @@
         {
           "reference": "DOO-19",
           "title": "🏠 Completar la segunda tanda de mejoras de Residencias",
-          "status": "next",
+          "status": "in_review",
           "projects": [
             {
               "key": "residences",
@@ -224,7 +224,7 @@
         {
           "reference": "DOO-24",
           "title": "🧩 Revisar la relación entre Personal y Residencias",
-          "status": "next",
+          "status": "in_review",
           "projects": [
             {
               "key": "personal",
@@ -279,7 +279,7 @@
         {
           "reference": "DOO-20",
           "title": "🧩 Revisar resultados de búsqueda AEMPS",
-          "status": "next",
+          "status": "in_review",
           "projects": [
             {
               "key": "personal",
@@ -682,6 +682,16 @@
     {
       "key": "next",
       "label": "En progreso",
+      "items": []
+    },
+    {
+      "key": "needs_client",
+      "label": "Necesita ayuda",
+      "items": []
+    },
+    {
+      "key": "in_review",
+      "label": "Listo para revisión",
       "items": [
         {
           "id": "residences-navigation-resident-dossier",
@@ -705,7 +715,7 @@
             "emoji": "🏠"
           },
           "title": "🏠 Completar la primera tanda de mejoras de Residencias",
-          "status": "next",
+          "status": "in_review",
           "createdAt": "2026-07-20",
           "doneAt": null,
           "summary": "Corregir la navegación para que los recursos del residente sólo aparezcan dentro de su ficha seleccionada.",
@@ -759,7 +769,7 @@
             "emoji": "🏠"
           },
           "title": "🏠 Completar la segunda tanda de mejoras de Residencias",
-          "status": "next",
+          "status": "in_review",
           "createdAt": "2026-07-20",
           "doneAt": null,
           "summary": "Añadir conjuntamente valoraciones, planes de acción, actividades y reuniones interdisciplinares.",
@@ -833,7 +843,7 @@
             "emoji": "🧩"
           },
           "title": "🧩 Revisar resultados de búsqueda AEMPS",
-          "status": "next",
+          "status": "in_review",
           "createdAt": "2026-07-20",
           "doneAt": null,
           "summary": "Comprobar por qué la búsqueda de medicamentos no coincide con los resultados disponibles en CIMA.",
@@ -888,7 +898,7 @@
             "emoji": "🧩"
           },
           "title": "🧩 Revisar la relación entre Personal y Residencias",
-          "status": "next",
+          "status": "in_review",
           "createdAt": "2026-07-22",
           "doneAt": null,
           "summary": "Definir cómo se comparten, muestran y protegen los registros entre las aplicaciones.",
@@ -922,16 +932,6 @@
           }
         }
       ]
-    },
-    {
-      "key": "needs_client",
-      "label": "Necesita ayuda",
-      "items": []
-    },
-    {
-      "key": "in_review",
-      "label": "Listo para revisión",
-      "items": []
     },
     {
       "key": "done",

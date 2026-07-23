@@ -124,7 +124,7 @@
         {
           "reference": "DOO-14",
           "title": "🏠 Completar la primera tanda de mejoras de Residencias",
-          "status": "next",
+          "status": "in_review",
           "projects": [
             {
               "key": "residences",
@@ -154,7 +154,7 @@
         {
           "reference": "DOO-19",
           "title": "🏠 Completar la segunda tanda de mejoras de Residencias",
-          "status": "next",
+          "status": "in_review",
           "projects": [
             {
               "key": "residences",
@@ -189,7 +189,7 @@
         {
           "reference": "DOO-24",
           "title": "🧩 Revisar la relación entre Personal y Residencias",
-          "status": "next",
+          "status": "in_review",
           "projects": [
             {
               "key": "personal",
@@ -244,7 +244,7 @@
         {
           "reference": "DOO-20",
           "title": "🧩 Revisar resultados de búsqueda AEMPS",
-          "status": "next",
+          "status": "in_review",
           "projects": [
             {
               "key": "personal",
