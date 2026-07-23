@@ -274,7 +274,7 @@
       "status": "in_progress",
       "progress": 0,
       "completedTasks": 0,
-      "totalTasks": 1,
+      "totalTasks": 2,
       "tasks": [
         {
           "reference": "DOO-24",
@@ -290,6 +290,23 @@
               "key": "residences",
               "label": "Residencias",
               "emoji": "🏠"
+            }
+          ]
+        },
+        {
+          "reference": "DOO-26",
+          "title": "🧩 Completar la consistencia y operativa de Residencias",
+          "status": "next",
+          "projects": [
+            {
+              "key": "residences",
+              "label": "Residencias",
+              "emoji": "🏠"
+            },
+            {
+              "key": "personal",
+              "label": "Personal",
+              "emoji": "👤"
             }
           ]
         }
@@ -980,6 +997,70 @@
           "clientContext": {
             "label": "Mejora solicitada",
             "body": "Revisión y mejora conjunta de la experiencia visual de Residencias para mantener consistencia entre páginas."
+          }
+        },
+        {
+          "id": "residences-consistency-operations",
+          "number": 26,
+          "reference": "DOO-26",
+          "kind": "request",
+          "projects": [
+            {
+              "key": "residences",
+              "label": "Residencias",
+              "emoji": "🏠"
+            },
+            {
+              "key": "personal",
+              "label": "Personal",
+              "emoji": "👤"
+            }
+          ],
+          "milestone": {
+            "key": "personal-residences-navigation",
+            "title": "Navegación de Personal y Residencias"
+          },
+          "app": {
+            "key": "multiple",
+            "label": "Varios proyectos",
+            "emoji": "🧩"
+          },
+          "title": "🧩 Completar la consistencia y operativa de Residencias",
+          "status": "next",
+          "createdAt": "2026-07-23",
+          "doneAt": null,
+          "summary": "Unificar patrones, completar Curas y Adherencia, mejorar Actividades y restaurar Personal.",
+          "nextStep": "El candidato está disponible en Preview para revisión de David.",
+          "checklist": [
+            {
+              "label": "Unificar diálogos, tarjetas, acciones, filtros y estados.",
+              "done": true
+            },
+            {
+              "label": "Completar Hoja de cuidados, OP Curas y OP Adherencia.",
+              "done": true
+            },
+            {
+              "label": "Reordenar Actividades según las referencias.",
+              "done": true
+            },
+            {
+              "label": "Restaurar la experiencia de Personal y Tomas.",
+              "done": true
+            }
+          ],
+          "reviewGuide": {
+            "title": "Cómo revisarlo",
+            "steps": [
+              "Comparar tarjetas, filtros y diálogos en varias pantallas de Residencias.",
+              "Probar Hoja de cuidados, OP Curas, OP Adherencia y Actividades.",
+              "Comprobar la ficha de una persona desde la app Personal."
+            ],
+            "expectedResult": "Residencias usa patrones coherentes, las operativas muestran toda la información y Personal conserva su experiencia propia."
+          },
+          "clientContext": {
+            "label": "Mejora aprobada",
+            "body": "Revisión completa de consistencia y de los flujos operativos tras la última publicación de Residencias."
           }
         }
       ]

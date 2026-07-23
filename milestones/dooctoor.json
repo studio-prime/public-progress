@@ -239,7 +239,7 @@
       "status": "in_progress",
       "progress": 0,
       "completedTasks": 0,
-      "totalTasks": 1,
+      "totalTasks": 2,
       "tasks": [
         {
           "reference": "DOO-24",
@@ -255,6 +255,23 @@
               "key": "residences",
               "label": "Residencias",
               "emoji": "🏠"
+            }
+          ]
+        },
+        {
+          "reference": "DOO-26",
+          "title": "🧩 Completar la consistencia y operativa de Residencias",
+          "status": "next",
+          "projects": [
+            {
+              "key": "residences",
+              "label": "Residencias",
+              "emoji": "🏠"
+            },
+            {
+              "key": "personal",
+              "label": "Personal",
+              "emoji": "👤"
             }
           ]
         }
