@@ -226,6 +226,36 @@
       ]
     },
     {
+      "key": "residences-ui-consistency",
+      "title": "Consistencia visual de Residencias",
+      "description": "Unificar la estructura, los estados y los patrones de interacción de las pantallas de Residencias.",
+      "projects": [
+        {
+          "key": "residences",
+          "label": "Residencias",
+          "emoji": "🏠"
+        }
+      ],
+      "status": "in_progress",
+      "progress": 0,
+      "completedTasks": 0,
+      "totalTasks": 1,
+      "tasks": [
+        {
+          "reference": "DOO-25",
+          "title": "🏠 Unificar el diseño de Residencias",
+          "status": "next",
+          "projects": [
+            {
+              "key": "residences",
+              "label": "Residencias",
+              "emoji": "🏠"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "key": "personal-residences-navigation",
       "title": "Navegación de Personal y Residencias",
       "description": "Alinear los menús y los contextos de navegación entre la aplicación Personal y Residencias.",
@@ -249,7 +279,7 @@
         {
           "reference": "DOO-24",
           "title": "🧩 Revisar la relación entre Personal y Residencias",
-          "status": "in_review",
+          "status": "next",
           "projects": [
             {
               "key": "personal",
@@ -832,6 +862,125 @@
             "label": "Feedback recibido",
             "body": "Revisión conjunta de varios flujos de Residencias acompañada de ejemplos visuales y una escala nutricional completa."
           }
+        },
+        {
+          "id": "personal-residences-record-ownership",
+          "number": 24,
+          "reference": "DOO-24",
+          "kind": "request",
+          "projects": [
+            {
+              "key": "personal",
+              "label": "Personal",
+              "emoji": "👤"
+            },
+            {
+              "key": "residences",
+              "label": "Residencias",
+              "emoji": "🏠"
+            }
+          ],
+          "milestone": {
+            "key": "personal-residences-navigation",
+            "title": "Navegación de Personal y Residencias"
+          },
+          "app": {
+            "key": "multiple",
+            "label": "Varios proyectos",
+            "emoji": "🧩"
+          },
+          "title": "🧩 Revisar la relación entre Personal y Residencias",
+          "status": "next",
+          "createdAt": "2026-07-22",
+          "doneAt": null,
+          "summary": "Reordenar la experiencia del residente y aplicar propiedad, visualización y papelera coherentes.",
+          "nextStep": "La actualización ya está publicada en Preview para revisión manual.",
+          "checklist": [
+            {
+              "label": "Reordenar los menús y abrir Hoja de cuidados por defecto.",
+              "done": true
+            },
+            {
+              "label": "Mejorar los selectores de Hoja de cuidados.",
+              "done": true
+            },
+            {
+              "label": "Separar visualización, edición y borrado con papelera.",
+              "done": true
+            },
+            {
+              "label": "Aplicar origen, propietario y permisos de compartición.",
+              "done": true
+            }
+          ],
+          "reviewGuide": {
+            "title": "Cómo revisarlo",
+            "steps": [
+              "Seleccionar un residente y comprobar que abre su Hoja de cuidados sin mostrar datos de otros residentes.",
+              "Comparar los dos menús del residente en escritorio y móvil.",
+              "Abrir tarjetas, editar registros propios y enviar registros eliminados a la Papelera."
+            ],
+            "expectedResult": "La experiencia queda centrada en un residente, con navegación consistente, lectura y edición separadas y permisos según el propietario del registro."
+          },
+          "clientContext": {
+            "label": "Solicitud recibida",
+            "body": "Revisión completa de la navegación del residente, la Hoja de cuidados y la propiedad y gestión de sus registros."
+          }
+        },
+        {
+          "id": "residences-ui-consistency",
+          "number": 25,
+          "reference": "DOO-25",
+          "kind": "request",
+          "projects": [
+            {
+              "key": "residences",
+              "label": "Residencias",
+              "emoji": "🏠"
+            }
+          ],
+          "milestone": {
+            "key": "residences-ui-consistency",
+            "title": "Consistencia visual de Residencias"
+          },
+          "app": {
+            "key": "residences",
+            "label": "Residencias",
+            "emoji": "🏠"
+          },
+          "title": "🏠 Unificar el diseño de Residencias",
+          "status": "next",
+          "createdAt": "2026-07-23",
+          "doneAt": null,
+          "summary": "Alinear la estructura visual y los patrones de uso de todas las pantallas principales.",
+          "nextStep": "La mejora está verificada y se está desplegando en Preview.",
+          "checklist": [
+            {
+              "label": "Unificar cabeceras, acciones, espaciado y estados.",
+              "done": true
+            },
+            {
+              "label": "Mejorar los flujos largos y formularios clínicos.",
+              "done": true
+            },
+            {
+              "label": "Comprobar la consistencia en escritorio y móvil.",
+              "done": true
+            }
+          ],
+          "reviewGuide": {
+            "title": "Cómo revisarlo",
+            "steps": [
+              "Abrir varias páginas principales de Residencias y comparar cabeceras, acciones, filtros y estados.",
+              "Abrir un formulario largo de Valoraciones, Planes, Actividades o Reuniones.",
+              "Repetir la revisión desde un teléfono o una ventana estrecha."
+            ],
+            "expectedResult": "Las páginas comparten una estructura clara y los formularios mantienen visibles el contexto y las acciones principales."
+          },
+          "clientContext": {
+            "label": "Mejora solicitada",
+            "body": "Revisión y mejora conjunta de la experiencia visual de Residencias para mantener consistencia entre páginas."
+          }
         }
       ]
     },
@@ -1020,66 +1169,6 @@
           "clientContext": {
             "label": "Bug reportado",
             "body": "Las búsquedas de Apiretal y paracetamol muestran resultados diferentes o más limitados que los disponibles en CIMA."
-          }
-        },
-        {
-          "id": "personal-residences-record-ownership",
-          "number": 24,
-          "reference": "DOO-24",
-          "kind": "request",
-          "projects": [
-            {
-              "key": "personal",
-              "label": "Personal",
-              "emoji": "👤"
-            },
-            {
-              "key": "residences",
-              "label": "Residencias",
-              "emoji": "🏠"
-            }
-          ],
-          "milestone": {
-            "key": "personal-residences-navigation",
-            "title": "Navegación de Personal y Residencias"
-          },
-          "app": {
-            "key": "multiple",
-            "label": "Varios proyectos",
-            "emoji": "🧩"
-          },
-          "title": "🧩 Revisar la relación entre Personal y Residencias",
-          "status": "in_review",
-          "createdAt": "2026-07-22",
-          "doneAt": null,
-          "summary": "Definir cómo se comparten, muestran y protegen los registros entre las aplicaciones.",
-          "nextStep": "La actualización está publicada en Preview para revisión manual.",
-          "checklist": [
-            {
-              "label": "Actualizar el menú de Residencias.",
-              "done": false
-            },
-            {
-              "label": "Actualizar el menú de la App Personas.",
-              "done": false
-            },
-            {
-              "label": "Mantener separada la navegación del residente seleccionado.",
-              "done": false
-            }
-          ],
-          "reviewGuide": {
-            "title": "Cómo revisarlo",
-            "steps": [
-              "Abrir el menú de Residencias y comprobar sus grupos y destinos.",
-              "Seleccionar un residente y comprobar que sus cuatro recursos aparecen dentro de su contexto.",
-              "Abrir la App Personas y comprobar sus grupos de navegación."
-            ],
-            "expectedResult": "Los menús coinciden con la estructura solicitada y no se modifican los flujos internos de las pantallas."
-          },
-          "clientContext": {
-            "label": "Solicitud recibida",
-            "body": "Actualización de los menús de Personal y Residencias según la estructura solicitada."
           }
         }
       ]

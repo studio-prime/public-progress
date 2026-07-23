@@ -191,6 +191,36 @@
       ]
     },
     {
+      "key": "residences-ui-consistency",
+      "title": "Consistencia visual de Residencias",
+      "description": "Unificar la estructura, los estados y los patrones de interacción de las pantallas de Residencias.",
+      "projects": [
+        {
+          "key": "residences",
+          "label": "Residencias",
+          "emoji": "🏠"
+        }
+      ],
+      "status": "in_progress",
+      "progress": 0,
+      "completedTasks": 0,
+      "totalTasks": 1,
+      "tasks": [
+        {
+          "reference": "DOO-25",
+          "title": "🏠 Unificar el diseño de Residencias",
+          "status": "next",
+          "projects": [
+            {
+              "key": "residences",
+              "label": "Residencias",
+              "emoji": "🏠"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "key": "personal-residences-navigation",
       "title": "Navegación de Personal y Residencias",
       "description": "Alinear los menús y los contextos de navegación entre la aplicación Personal y Residencias.",
@@ -214,7 +244,7 @@
         {
           "reference": "DOO-24",
           "title": "🧩 Revisar la relación entre Personal y Residencias",
-          "status": "in_review",
+          "status": "next",
           "projects": [
             {
               "key": "personal",
